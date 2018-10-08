@@ -1,0 +1,59 @@
+:root {
+    --font-primary: "Source Sans Pro";
+    --font-secondary: "Noto Serif";
+    --color-dark-gray: #707070;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-primary);
+}
+
+.hero-banner {
+    background-image: url("https://via.placeholder.com/1000x800");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.my-name {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work-section {
+    padding: 6em 0;
+}
+
+/* Project 1 Case Study */
+
+.project-header {
+    background-image: url("https://via.placeholder.com/1000x800");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-title {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-family: var(--font-primray);
+}
+
+.intro-text {
+    font-family: var(--font-primary);
+    padding: 6em 0;
+    margin-bottom: 0;
+    color: var(--color-dark-gray);
+}
+
+.cs-text {
+    font-family: var(--font-secondary);
+    color: var(--color-dark-gray);
+    padding: 6em 0;
+    margin-bottom: 0;
+}
