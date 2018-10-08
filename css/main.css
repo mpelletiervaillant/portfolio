@@ -2,6 +2,7 @@
     --font-primary: "Source Sans Pro";
     --font-secondary: "Noto Serif";
     --color-dark-gray: #707070;
+    --color-dark-blue: #383841;
 }
 
 h1,
@@ -10,9 +11,23 @@ h3 {
     font-family: var(--font-primary);
 }
 
+.button {
+  background-color: #e2e2e2;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  font-family: var(--font-primary);
+  text-decoration: none;
+  color: #fff;
+  padding: .4em 2.5em;
+}
+
+.btn-blue {
+  background-color: var(--color-dark-blue);
+}
+
 .hero-banner {
     background-image: url("https://via.placeholder.com/1000x800");
-    height: 100vh;
+    height: 95vh;
     background-size: cover;
     background-position: center;
 }
@@ -23,7 +38,7 @@ h3 {
     transform: translate(-50%, -50%);
 }
 
-.arrow {
+/*.arrow {
   height: 50px;
   width: 50px;
   border: 1px solid white;
@@ -32,10 +47,59 @@ h3 {
   left: 50%;
   bottom: 10%;
   transform: translateX(-50%);
-}
+}*/
 
 .work-section {
     padding: 6em 0;
+}
+
+.project-card-container {
+  text-decoration: none;
+  transition: all .35s ease-in-out;
+}
+
+.project-card-container:hover {
+  transform: scale(1.015);
+  cursor: pointer;
+}
+
+.project-card-container:hover .project-card-button {
+  background-color: #277CD1;
+}
+
+.project-card {
+  background-color: #e2e2e2;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .16);
+}
+
+.project-card h2 {
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, .16);
+}
+
+.project-card-pbl {
+  background-color: #48A3FF;
+}
+
+.project-card-button {
+  font-family: var(--font-primary);
+  color: #fff;
+  background-color: #98CBFF;
+  transition: all .35s ease-in-out;
+}
+
+.card-text {
+  font-family: var(--font-primary);
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, .16);
+}
+
+.more {
+  background-color: #F4F5F7;
 }
 
 /* Project 1 Case Study */
