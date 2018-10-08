@@ -98,8 +98,34 @@ h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, .16);
 }
 
-.more {
+.section-more {
   background-color: #F4F5F7;
+  padding: 6em 0;
+}
+
+.more-header {
+  font-weight: 400;
+}
+
+.more-text {
+  font-family: var(--font-primary);
+  color: var(--color-dark-blue);
+}
+
+.social-media-link {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: #8D8D9B;
+  transition: all .15s ease-in-out;
+}
+
+.social-media-link:hover {
+  color: #BFBFBF;
+}
+
+footer {
+  background-color: var(--color-dark-blue);
+  border-top: 1px solid #000;
 }
 
 /* Project 1 Case Study */
