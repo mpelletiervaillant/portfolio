@@ -2,7 +2,7 @@
     --font-primary: "Source Sans Pro";
     --font-secondary: "Noto Serif";
     --color-dark-gray: #707070;
-    --color-dark-blue: #383841;
+    --color-dark-blue: #343450;
 }
 
 h1,
@@ -51,6 +51,15 @@ h3 {
 
 .work-section {
     padding: 6em 0;
+}
+
+.work-section h2 {
+  color: var(--color-dark-blue);
+}
+
+.work-section h3 {
+  font-weight: 400;
+  max-width: 25em;
 }
 
 .project-card-container {
@@ -124,8 +133,16 @@ h3 {
 }
 
 footer {
-  background-color: var(--color-dark-blue);
-  border-top: 1px solid #000;
+
+}
+
+.footer-copyright {
+  background-color: #1A1A2E;
+}
+
+.copyright {
+  font-family: var(--font-primary);
+  color: #393955;
 }
 
 /* Project 1 Case Study */
@@ -149,12 +166,38 @@ footer {
     font-family: var(--font-primary);
     padding: 6em 0;
     margin-bottom: 0;
-    color: var(--color-dark-gray);
+    color: var(--color-dark-blue);
 }
 
 .cs-text {
     font-family: var(--font-secondary);
-    color: var(--color-dark-gray);
+    color: var(--color-dark-blue);
     padding: 6em 0;
     margin-bottom: 0;
+    line-height: 1.6rem;
+}
+
+.no-space {
+  padding-bottom: 6em;
+  font-family: var(--font-secondary);
+  color: var(--color-dark-blue);
+  margin-bottom: 0;
+  line-height: 1.6rem;
+}
+
+.section-final {
+  padding: 6em 0;
+}
+
+.next-project-btn {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--color-dark-blue);
+}
+
+@media only screen and (min-width:60em ) {
+
+  .no-space {
+    padding-top: 6em;
+  }
 }
