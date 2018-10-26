@@ -1,8 +1,12 @@
 :root {
-    --font-primary: "Source Sans Pro";
+    --font-primary: "Niveau Grotesk";
     --font-secondary: "Noto Serif";
-    --color-dark-gray: #707070;
-    --color-dark-blue: #343450;
+    --color-light-gray: #F5F4F2;
+    --color-dark-blue: #2A374D;
+}
+
+html {
+  font-family: "Niveau-Grotesk";
 }
 
 h1,
@@ -26,16 +30,23 @@ h3 {
 }
 
 .hero-banner {
-    background-image: url("https://via.placeholder.com/1000x800");
-    height: 95vh;
-    background-size: cover;
-    background-position: center;
+    background: url("../images/banner.png");
+    height: 82vh;
+    background-color: #F5F4F2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .my-name {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    color: var(--dark-blue);
+}
+
+nav {
+
 }
 
 /*.arrow {
