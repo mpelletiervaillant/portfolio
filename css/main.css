@@ -1,8 +1,12 @@
 :root {
-    --font-primary: "Niveau Grotesk";
-    --font-secondary: "Noto Serif";
-    --color-light-gray: #F5F4F2;
-    --color-dark-blue: #2A374D;
+  --font-primary: "Niveau Grotesk";
+  --font-secondary: "Noto Serif";
+  --color-light-gray: #F5F4F2;
+  --color-dark-blue: #2A374D;
+  --color-blue: #24D1C4;
+  --color-yellow: #FAB00A;
+  --color-pink: #ED5270;
+  --color-purple: #3E4E72;
 }
 
 html {
@@ -13,6 +17,21 @@ h1,
 h2,
 h3 {
     font-family: var(--font-primary);
+}
+
+.navigation {
+  padding: 1.3rem
+}
+
+nav a, .logo {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+  font-weight: 500;
+    transition: color .2s ease;
+}
+
+nav a:hover, .logo:hover {
+  color: var(--color-blue);
 }
 
 .button {
@@ -31,22 +50,19 @@ h3 {
 
 .hero-banner {
     background: url("../images/banner.png");
-    height: 82vh;
+    height: 400px;
     background-color: #F5F4F2;
-    background-size: contain;
+    background-size: 900px;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
 
 .my-name {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--dark-blue);
-}
-
-nav {
-
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-dark-blue);
+  width: 100%;
 }
 
 /*.arrow {
@@ -60,11 +76,16 @@ nav {
   transform: translateX(-50%);
 }*/
 
-.work-section {
-    padding: 6em 0;
+.about-section {
+    padding: 8em 0;
 }
 
-.work-section h2 {
+.intro-text {
+  color: var(--color-dark-blue);
+  font-weight: 300;
+}
+
+.work-section h2, .about-section h2 {
   color: var(--color-dark-blue);
 }
 
@@ -73,49 +94,64 @@ nav {
   max-width: 25em;
 }
 
-.project-card-container {
+.front-cards a {
   text-decoration: none;
-  transition: all .35s ease-in-out;
 }
 
-.project-card-container:hover {
-  transform: scale(1.015);
-  cursor: pointer;
-}
-
-.project-card-container:hover .project-card-button {
-  background-color: #277CD1;
-}
-
-.project-card {
-  background-color: #e2e2e2;
-  border: 1px solid #e2e2e2;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, .16);
-}
-
-.project-card h2 {
+.front-cards h3, .front-cards p {
   color: #fff;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, .16);
 }
 
-.project-card-pbl {
-  background-color: #48A3FF;
+.front-cards h3, .read-btn {
+  font-weight: 500;
 }
 
-.project-card-button {
-  font-family: var(--font-primary);
-  color: #fff;
-  background-color: #98CBFF;
-  transition: all .35s ease-in-out;
+.front-cards p:first-of-type {
+  font-weight: 300;
 }
 
-.card-text {
-  font-family: var(--font-primary);
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, .16);
+.card {
+  height: 350px;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.pbl-card {
+  background-color: var(--color-blue);
+  transition: background-color .5s ease;
+}
+
+.pbl-card:hover {
+  background-color: #19B4A8;
+}
+
+.quilt-card {
+  background-color: var(--color-purple);
+  transition: background-color .5s ease;
+}
+
+.quilt-card:hover {
+  background-color: #213050;
+}
+
+.parkinsons-card {
+  background-color: var(--color-yellow);
+  transition: background-color .5s ease;
+}
+
+.parkinsons-card:hover {
+  background-color: #E09D06;
+}
+
+.bruyere-card {
+  background-color: var(--color-pink);
+  transition: background-color .5s ease;
+}
+
+.bruyere-card:hover {
+  background-color: #D53554;
 }
 
 .section-more {
@@ -132,52 +168,98 @@ nav {
   color: var(--color-dark-blue);
 }
 
+.enter-here-btn {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-dark-blue);
+  transition: color .3s ease;
+}
+
+.btn-underline {
+  background-color: var(--color-dark-blue);
+  height: 2px;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.enter-here-btn:hover .btn-underline {
+  width: 60px;
+}
+
+
+.enter-here-btn:hover{
+  color: var(--color-blue);
+}
+
+.social-media-links {
+  background-color: var(--color-light-gray);
+}
+
 .social-media-link {
   text-decoration: none;
   font-family: var(--font-primary);
-  color: #8D8D9B;
+  color: #ACACAC;
   transition: all .15s ease-in-out;
 }
 
 .social-media-link:hover {
-  color: #BFBFBF;
-}
-
-footer {
-
-}
-
-.footer-copyright {
-  background-color: #1A1A2E;
+  color: var(--color-dark-blue);
 }
 
 .copyright {
   font-family: var(--font-primary);
-  color: #393955;
+  color: #ACACAC;
+  font-weight: 300;
 }
 
 /* Project 1 Case Study */
 
 .project-header {
-    background-image: url("https://via.placeholder.com/1000x800");
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
+  background-color: var(--color-blue);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .project-title {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    font-family: var(--font-primray);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-family: var(--font-primray);
+  color: #fff;
 }
 
-.intro-text {
-    font-family: var(--font-primary);
-    padding: 6em 0;
-    margin-bottom: 0;
-    color: var(--color-dark-blue);
+.project-side-title {
+  font-weight: 500;
+  color: var(--color-dark-blue);
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.project-details {
+  font-weight: 300;
+}
+
+.project-description {
+  font-family: var(--font-primary);
+  color: #434343;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.pbl-website {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+  font-weight: 500;
+  transition: color .2s ease;
+}
+
+.pbl-website:hover {
+  color: var(--color-blue);
+}
+
+.cs-main {
+  padding-left: 4em;
 }
 
 .cs-text {
@@ -188,27 +270,69 @@ footer {
     line-height: 1.6rem;
 }
 
-.no-space {
-  padding-bottom: 6em;
-  font-family: var(--font-secondary);
-  color: var(--color-dark-blue);
-  margin-bottom: 0;
-  line-height: 1.6rem;
+/*Parkinsons Network Case Study*/
+
+.parkinsons-header {
+  background-color: var(--color-yellow);
 }
 
-.section-final {
-  padding: 6em 0;
-}
-
-.next-project-btn {
+.next-project-btn, .previous-project-btn {
   text-decoration: none;
-  font-family: var(--font-primary);
-  color: var(--color-dark-blue);
+}
+
+.previous-project, .next-project {
+  opacity: 0;
+  display: none;
+  color: #fff;
+  transition: opacity .4s ease;
+}
+
+.previous-project-btn:hover .previous-project {
+  opacity: 1;
+  display: inline-block;
+}
+
+.next-arrow {
+  transform: rotate(180deg);
+}
+
+.next-project-btn:hover .next-project {
+  opacity: 1;
+  display: inline-block;
+}
+
+/*QUILT*/
+.quilt-header {
+  background-color: var(--color-purple);
+}
+
+/*Bruyere Digital*/
+.bruyere-header {
+  background-color: var(--color-pink);
+}
+
+/*Play*/
+.play-header {
+  background-color: #26BF81;
 }
 
 @media only screen and (min-width:60em ) {
 
   .no-space {
     padding-top: 6em;
+  }
+
+  .hero-banner {
+    background: url("../images/banner.png");
+    height: 82vh;
+    background-color: #F5F4F2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+  .intro-text {
+    max-width: 25em;
+    margin: 0 auto;
   }
 }
