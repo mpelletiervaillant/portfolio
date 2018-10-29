@@ -263,11 +263,11 @@ nav a:hover, .logo:hover {
 }
 
 .cs-text {
-    font-family: var(--font-secondary);
-    color: var(--color-dark-blue);
-    padding: 6em 0;
-    margin-bottom: 0;
-    line-height: 1.6rem;
+  font-weight: 300;
+  font-family: var(--font-secondary);
+  color: var(--color-dark-blue);
+  margin-bottom: 0;
+  line-height: 1.4rem;
 }
 
 /*Parkinsons Network Case Study*/
@@ -314,6 +314,10 @@ nav a:hover, .logo:hover {
 /*Play*/
 .play-header {
   background-color: #26BF81;
+}
+
+.img-border {
+  border: 1px solid #e2e2e2;
 }
 
 @media only screen and (min-width:60em ) {
