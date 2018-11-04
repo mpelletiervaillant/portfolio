@@ -1,0 +1,47 @@
+- headerColor: pbl-header
+  previousUrl: /bruyere-digital
+  previousProject: Bruyère Digital
+  projectTitle: Project Big Life
+  nextUrl: /quilt
+  nextProject: QUILT
+  projectType: Illustration
+  projectDate: July 2018 - Ongoing
+  projectDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectUrl: https://projectbiglife.ca
+  projectWebsite: www.projectbiglife.ca
+
+
+- headerColor: quilt-header
+  previousUrl: /project-big-life
+  previousProject: Project Big Life
+  projectTitle: QUILT
+  nextUrl: /parkinsons-network
+  nextProject: Parkinson's Network
+  projectType: Branding
+  projectDate: May 2018
+  projectDescription: Branding for Individuals who require Long-Term Support
+  projectUrl:
+  projectWebsite:
+
+
+- headerColor: parkinsons-header
+  previousUrl: /project-big-life
+  previousProject: Project Big Life
+  projectTitle: QUILT
+  nextUrl: /parkinsons-network
+  nextProject: Parkinson's Network
+  projectType: Branding
+  projectDate: May 2018
+  projectDescription: Branding for Individuals who require Long-Term Support
+  projectUrl:
+  projectWebsite:
+
+      - headerColor: quilt-header
+        previousUrl: /project-big-life
+        previousProject: Project Big Life
+        projectTitle: QUILT
+        nextUrl: /parkinsons-network
+        nextProject: Parkinson's Network
+        projectType: Branding
+        projectDate: May 2018
+        projectDescription: Branding for Individuals who require Long-Term Support

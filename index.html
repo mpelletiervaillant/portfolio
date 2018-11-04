@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 <div class="hero-banner relative">
   <h1 class="absolute my-name nina text-center"> Hello There</h1>
 </div>
@@ -20,57 +19,18 @@ layout: default
 
     <section class="">
       <div class="front-cards grid grid-middle">
-        <div class="card pbl-card unit xs-1 s-1 m-1 l-1-2 text-center">
-          <a href="{{baseurl}}project-big-life">
-            <div class="relative card">
-              <div class="gutter absolute pin-c width-80">
-                <h3 class="push-0">Project Big Life</h3>
-                <p class="push-1-2">Illustrations for online health calculators</p>
-                <p class="milli read-btn push-0">Read Case Study</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="quilt-card unit xs-1 s-1 m-1 l-1-2 text-center">
-          <a href="{{baseurl}}quilt">
-            <div class="relative card">
-              <div class="gutter absolute pin-c width-80">
-                <h3 class="push-0">QUILT</h3>
-                <p class="push-1-2">Branding for QUality for Individuals who require Long-Term support.</p>
-                <p class="milli read-btn push-0">Read Case Study</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="parkinsons-card unit xs-1 s-1 m-1 l-1-2 text-center">
-          <a class="" href="{{baseurl}}parkinsons-network">
-            <div class="relative card">
-              <div class="gutter absolute pin-c width-80">
-                <h3 class="push-0">Parkinsons Network</h3>
-                <p class="push-1-2">A digital platform for Parkinsons patients and physicians.</p>
-                <p class="milli read-btn push-0">Read Case Study</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="bruyere-card unit xs-1 s-1 m-1 l-1-2 text-center">
-          <a href="{{baseurl}}bruyere-digital">
-            <div class="relative card">
-              <div class="absolut pin-c width-80 gutter">
-                <h3 class="push-0">Bruyere Digital</h3>
-                <p class="push-1-2">Showcase Elisabeth Bruyere's latest innovations in health care.</p>
-                <p class="milli read-btn push-0">Read Case Study</p>
-              </div>
-            </div>
-          </a>
-        </div>
+
+        {% for work in site.data.homepage %}
+        {% include project-buttons.html data=work %}
+        {% endfor %}
+
+      </div>
     </section>
     <section class="about-section text-center">
       <h2 class="push-1-2">I also make stuff for fun.</h2>
       <p class="intro-text gutter push-1-2">Take a tour of my poorly organized computer files I spent way too much time looking for. I make cool stuff on the side to learn and to wind down. </p>
       <div class="">
         <a class="milli enter-here-btn" href="#">Enter Here</a>
-        <div class="btn-underline"></div>
       </div>
     </section>
 

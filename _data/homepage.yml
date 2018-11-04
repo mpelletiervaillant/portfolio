@@ -1,0 +1,59 @@
+- cardColor: pbl-card
+  projectLink: project-big-life
+  projectTitle: Project Big Life
+  projectShortDescription: Illustrations for online health calculators
+  headerColor: pbl-header
+  previousUrl: /bruyere-digital
+  previousProject: Bruyère Digital
+  nextUrl: /quilt
+  nextProject: QUILT
+  projectType: Illustration
+  projectDate: July 2018 - Ongoing
+  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectUrl: https://projectbiglife.ca
+  projectWebsite: www.projectbiglife.ca
+
+- cardColor: quilt-card
+  projectLink: quilt
+  projectTitle: QUILT
+  projectShortDescription: Branding for QUality for Individuals who require Long-Term support.
+  headerColor: quilt-header
+  previousUrl: /project-big-life
+  previousProject: Project Big Life
+  nextUrl: /parkinsons-network
+  nextProject: Parkinson's Network
+  projectType: Branding
+  projectDate: May 2018
+  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectUrl:
+  projectWebsite:
+
+- cardColor: parkinsons-card
+  projectLink: parkinsons-network
+  projectTitle: Parkinson's Network
+  projectShortDescription: A digital platform for Parkinsons patients and physicians.
+  headerColor: parkinsons-header
+  previousUrl: /quilt
+  previousProject: QUILT
+  nextUrl: /bruyere-digital
+  nextProject: Bruyère Digital Health
+  projectType: Web Design
+  projectDate: July 2018 - Ongoing
+  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectUrl:
+  projectWebsite:
+
+- cardColor: bruyere-card
+  projectLink: bruyere-digital
+  projectTitle: Bruyère Digital Health
+  projectDescription: Showcase Elisabeth Bruyere's latest innovations in health care.
+  headerColor: bruyere-header
+  previousUrl: /parkinsons-network
+  previousProject: Parkinson's Network
+  nextUrl: /project-big-life
+  nextProject: Project Big Life
+  projectType: Web Design
+  projectDate: June 2018
+  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectUrl: https://www.bruyeredigitalhealth.ca/
+  projectWebsite: www.bruyeredigitalhealth.ca
