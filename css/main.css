@@ -95,17 +95,6 @@ nav a:hover {
   width: 100%;
 }
 
-/*.arrow {
-  height: 50px;
-  width: 50px;
-  border: 1px solid white;
-  border-radius: 300px;
-  background-color: white;
-  left: 50%;
-  bottom: 10%;
-  transform: translateX(-50%);
-}*/
-
 .about-section {
     padding: 8em 0;
 }
@@ -302,19 +291,33 @@ nav a:hover {
   color: var(--color-blue);
 }
 
-.cs-main {
-  padding-left: 4em;
+.cs-side-bar {
+  padding-bottom: 1em;
 }
 
-.cs-main p {
+.cs-content p {
   font-family: var(--font-secondary);
   color: var(--color-dark-blue);
   font-weight: 300;
   line-height: 1.4rem;
 }
 
-.cs-main h4 {
+.cs-content h4 {
   font-weight: 300;
+}
+
+.cs-image {
+  padding: 2em 6em;
+  margin: 2em 0;
+}
+
+.cs-image-xl {
+  padding: 2em 9em;
+  margin: 2em 0;
+}
+
+.cs-img-special {
+  margin: 2em 0;
 }
 /*Parkinsons Network Case Study*/
 
@@ -347,6 +350,10 @@ nav a:hover {
   display: inline-block;
 }
 
+.see-more {
+  clear: both;
+}
+
 /*Project Big Life*/
 .pbl-header {
   background-color: var(--color-blue);
@@ -371,6 +378,52 @@ nav a:hover {
   border: 1px solid #e2e2e2;
 }
 
+@media only screen and (min-width:43em ) {
+
+  .cs-side-bar {
+    width: 175px;
+    float: left;
+    padding-bottom: 0;
+  }
+
+  .cs-content {
+    float: right;
+    width: 450px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    padding-top: 2em;
+  }
+
+  footer {
+    clear: both;
+  }
+}
+
+@media only screen and (min-width:46em ) {
+
+  .cs-side-bar {
+    width: 200px;
+  }
+
+  .cs-content {
+    width: 490px;
+  }
+}
+
+@media only screen and (min-width:55em ) {
+
+  .cs-side-bar {
+    width: 250px;
+  }
+
+  .cs-content {
+    width: 550px;
+  }
+}
+
 @media only screen and (min-width:60em ) {
 
   .no-space {
@@ -389,5 +442,16 @@ nav a:hover {
   .intro-text {
     max-width: 25em;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width:63em ) {
+
+  .cs-side-bar {
+    width: 300px;
+  }
+
+  .cs-content {
+    width: 650px;
   }
 }

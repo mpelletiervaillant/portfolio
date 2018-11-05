@@ -1,5 +1,5 @@
 <header class="project-header {{include.data.headerColor}} relative">
-  <div class="wrapper grid grid-middle project-title absolute">
+  <div class="wrapper grid grid-middle project-title absolute gutter">
     <div class="unit xs-1-4">
       <div>
         <a class="previous-project-btn" href="{{baseurl}}{{include.data.previousUrl}}">
@@ -23,9 +23,8 @@
     </div>
   </div>
 </header>
-<section class="wrapper pad-t-2 pad-b-2">
-  <div class="grid grid-top">
-    <div class="unit xs-1-4">
+<section class="wrapper pad-t-2 pad-b-2 gutter">
+    <div class="cs-side-bar stick" id="stick">
       <h3 class="giga project-side-title push-1-2 pad-b-1-2">{{include.data.projectTitle}}</h3>
       <p class="project-details push-1-2">{{include.data.projectType}}<br>{{include.data.projectDate}}</p>
       <p class="project-description milli push-1-2">{{include.data.projectLongDescription}}</p>
