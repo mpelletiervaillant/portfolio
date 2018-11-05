@@ -292,7 +292,7 @@ nav a:hover {
 }
 
 .cs-content p {
-  font-family: var(--font-secondary);
+  font-family: var(--font-szz;
   color: var(--color-dark-blue);
   font-weight: 300;
   line-height: 1.4rem;
@@ -353,7 +353,7 @@ nav a:hover {
 }
 
 .see-more {
-  clear: both;
+  border-top: 1px solid #000;
 }
 
 /*Project Big Life*/
