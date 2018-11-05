@@ -306,14 +306,16 @@ nav a:hover {
   padding-left: 4em;
 }
 
-.cs-text {
-  font-weight: 300;
+.cs-main p {
   font-family: var(--font-secondary);
   color: var(--color-dark-blue);
-  margin-bottom: 0;
+  font-weight: 300;
   line-height: 1.4rem;
 }
 
+.cs-main h4 {
+  font-weight: 300;
+}
 /*Parkinsons Network Case Study*/
 
 .parkinsons-header {
