@@ -10,13 +10,7 @@
 }
 
 html {
-  font-family: "Niveau Grotesk", sans-serif;
-}
-
-h1,
-h2,
-h3 {
-    font-family: var(--font-primary);
+  font-family: var(--font-primary);
 }
 
 .navigation {
