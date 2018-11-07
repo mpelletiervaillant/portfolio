@@ -1,6 +1,6 @@
 :root {
   --font-primary: niveau-grotesk, sans-serif;
-  --font-secondary: Lora;
+  --font-secondary: Lora, serif;
   --color-light-gray: #F5F4F2;
   --color-dark-blue: #2A374D;
   --color-blue: #24D1C4;
@@ -74,7 +74,7 @@ nav a:hover {
 
 .hero-banner {
     background: url("../images/banner.png");
-    height: 400px;
+    height: 600px;
     background-color: #F5F4F2;
     background-size: 900px;
     background-repeat: no-repeat;
@@ -380,6 +380,12 @@ nav a:hover {
   border: 1px solid #e2e2e2;
 }
 
+/* @media only screen and (min-width:43em ) {
+
+  .hero-banner {
+    height: 65vh;
+  }
+} */
 @media only screen and (min-width:60em ) {
 
   .no-space {
@@ -388,7 +394,7 @@ nav a:hover {
 
   .hero-banner {
     background: url("../images/banner.png");
-    height: 82vh;
+    height: 80vh;
     background-color: #F5F4F2;
     background-size: contain;
     background-repeat: no-repeat;
