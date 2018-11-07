@@ -298,7 +298,7 @@ nav a:hover {
 }
 
 .cs-content p {
-  font-family: Roboto;
+  font-family: var(--font-secondary);
   color: #39475F;
   font-weight: 300;
   line-height: 1.4rem;
