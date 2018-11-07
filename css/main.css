@@ -1,5 +1,5 @@
 :root {
-  --font-primary: "Niveau Grotesk";
+  --font-primary: niveau-grotesk, sans-serif;
   --font-secondary: Lora;
   --color-light-gray: #F5F4F2;
   --color-dark-blue: #2A374D;
