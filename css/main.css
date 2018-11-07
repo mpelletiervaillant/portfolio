@@ -1,6 +1,6 @@
 :root {
   --font-primary: "Niveau Grotesk";
-  --font-secondary: "Noto Serif";
+  --font-secondary: Lora;
   --color-light-gray: #F5F4F2;
   --color-dark-blue: #2A374D;
   --color-blue: #24D1C4;
@@ -291,9 +291,15 @@ nav a:hover {
   color: var(--color-blue);
 }
 
+.case-study-header {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .cs-content p {
-  font-family: var(--font-szz;
-  color: var(--color-dark-blue);
+  font-family: Roboto;
+  color: #39475F;
   font-weight: 300;
   line-height: 1.4rem;
   max-width: 650px;
