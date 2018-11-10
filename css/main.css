@@ -13,6 +13,23 @@ html {
   font-family: var(--font-primary);
 }
 
+.base-sans {
+  font-family: var(--font-primary);
+}
+
+.serif {
+  font-family: var(--font-secondary);
+}
+
+figure {
+  margin-bottom: 0;
+}
+
+figcaption {
+  font-style: italic;
+  color: #808080;
+}
+
 .navigation {
   padding: 1.3rem
 }
@@ -121,6 +138,20 @@ nav a:hover {
 
 .front-cards p:first-of-type {
   font-weight: 300;
+}
+
+.pbl-project-card {
+  background: url("../images/pbl-banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.quilt-project-card {
+  background: url("../images/quilt-banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .card {
@@ -241,8 +272,16 @@ nav a:hover {
 
 /* Project 1 Case Study */
 
-.project-header {
+
+.pbl-header-banner {
   background: url("../images/pbl-banner.png");
+}
+
+.quilt-header-banner {
+  background: url("../images/quilt-banner.png");
+}
+
+.project-header {
   height: 60vh;
   background-size: 1200px;
   background-repeat: no-repeat;
@@ -294,7 +333,6 @@ nav a:hover {
 }
 
 .cs-content p {
-  font-family: var(--font-secondary);
   color: #39475F;
   font-weight: 300;
   line-height: 1.4rem;

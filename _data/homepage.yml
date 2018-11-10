@@ -12,6 +12,8 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl: https://projectbiglife.ca
   projectWebsite: www.projectbiglife.ca
+  cardBackground: pbl-project-card
+  projectBanner: pbl-header-banner
 
 - cardColor: quilt-card
   projectLink: quilt
@@ -27,6 +29,8 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
+  cardBackground: quilt-project-card
+  projectBanner: quilt-header-banner
 
 - cardColor: parkinsons-card
   projectLink: parkinsons-network
