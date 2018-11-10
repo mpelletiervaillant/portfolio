@@ -242,9 +242,11 @@ nav a:hover {
 /* Project 1 Case Study */
 
 .project-header {
+  background: url("../images/pbl-banner.png");
   height: 60vh;
-  background-size: cover;
-  background-position: center;
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .project-title {
@@ -399,6 +401,11 @@ nav a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
+  }
+
+  .project-header {
+    height: 60vh;
+    background-size: contain;
   }
 
   .intro-text {
