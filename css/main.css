@@ -420,12 +420,18 @@ nav a:hover {
   border: 1px solid #e2e2e2;
 }
 
-/* @media only screen and (min-width:43em ) {
+@media only screen and (min-width:41em ) {
 
-  .hero-banner {
-    height: 65vh;
+  .email {
+    text-align: left;
   }
-} */
+
+  .credit {
+    text-align: center;
+  }
+
+}
+
 @media only screen and (min-width:60em ) {
 
   .no-space {
