@@ -14,6 +14,7 @@
   projectWebsite: www.projectbiglife.ca
   cardBackground: pbl-project-card
   projectBanner: pbl-header-banner
+  projectColor: pbl-color
 
 - cardColor: quilt-card
   projectLink: /quilt
@@ -31,6 +32,7 @@
   projectWebsite:
   cardBackground: quilt-project-card
   projectBanner: quilt-header-banner
+  projectColor: quilt-color
 
 - cardColor: parkinsons-card
   projectLink: /parkinsons-network
@@ -48,6 +50,7 @@
   projectWebsite:
   cardBackground: parkinsons-project-card
   projectBanner: parkinsons-header-banner
+  projectColor: parkinsons-color
 
 - cardColor: canimm-card
   projectLink: /canimmunize
@@ -65,3 +68,4 @@
   projectWebsite: www.canimmunize.ca
   cardBackground: canimmunize-project-card
   projectBanner: canimmunize-header-banner
+  projectColor: canimm-color

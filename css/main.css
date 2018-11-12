@@ -21,6 +21,10 @@ html {
   font-family: var(--font-secondary);
 }
 
+.light {
+  font-weight: 300;
+}
+
 figure {
   margin-bottom: 0;
 }
@@ -28,6 +32,22 @@ figure {
 figcaption {
   font-style: italic;
   color: #808080;
+}
+
+.pbl-color {
+  color: var(--color-blue);
+}
+
+.quilt-color {
+  color: var(--color-purple);
+}
+
+.parkinsons-color {
+  color: var(--color-yellow);
+}
+
+.canimm-color {
+  color: var(--color-pink);
 }
 
 .navigation {
@@ -463,7 +483,7 @@ nav a:hover {
   background-color: var(--color-pink);
 }
 
-.canimmunize-section a {
+.case-study-section a {
   color: var(--color-purple);
   font-weight: 500;
 }
@@ -475,6 +495,13 @@ nav a:hover {
 
 .img-border {
   border: 1px solid #e2e2e2;
+}
+
+@media only screen and (min-width:38em ) {
+  .cs-details {
+    border-right: 1px solid #e2e2e2;
+    text-align: right;
+  }
 }
 
 @media only screen and (min-width:41em ) {
