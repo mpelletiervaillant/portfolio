@@ -50,7 +50,7 @@
 - cardColor: canimm-card
   projectLink: /canimmunize
   projectTitle: CANImmunize
-  projectDescription: Showcase Elisabeth Bruyere's latest innovations in health care.
+  projectShortDescription: An online digital vaccination record tool for Canadians.
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
