@@ -16,7 +16,7 @@
   projectBanner: pbl-header-banner
 
 - cardColor: quilt-card
-  projectLink: quilt
+  projectLink: /quilt
   projectTitle: QUILT
   projectShortDescription: Branding for QUality for Individuals who require Long-Term support.
   headerColor: quilt-header
@@ -33,7 +33,7 @@
   projectBanner: quilt-header-banner
 
 - cardColor: parkinsons-card
-  projectLink: parkinsons-network
+  projectLink: /parkinsons-network
   projectTitle: Parkinson's Network
   projectShortDescription: A digital platform for Parkinsons patients and physicians.
   headerColor: parkinsons-header
@@ -48,7 +48,7 @@
   projectWebsite:
 
 - cardColor: canimm-card
-  projectLink: canimmunize
+  projectLink: /canimmunize
   projectTitle: CANImmunize
   projectDescription: Showcase Elisabeth Bruyere's latest innovations in health care.
   headerColor: canimm-header
