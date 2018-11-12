@@ -46,6 +46,8 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
+  cardBackground: parkinsons-project-card
+  projectBanner: parkinsons-header-banner
 
 - cardColor: canimm-card
   projectLink: /canimmunize
