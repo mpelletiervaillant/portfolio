@@ -352,7 +352,7 @@ nav a:hover {
   margin-right: auto;
 }
 
-.cs-content h4 {
+.cs-content h4, .cs-content h5 {
   font-weight: 300;
   max-width: 650px;
   margin-left: auto;
@@ -433,9 +433,14 @@ nav a:hover {
   background-color: var(--color-purple);
 }
 
-/*Bruyere Digital*/
+/*CANImmunize*/
 .canimm-header {
   background-color: var(--color-pink);
+}
+
+.canimmunize-section a {
+  color: var(--color-purple);
+  font-weight: 500;
 }
 
 /*Play*/
