@@ -25,6 +25,10 @@ html {
   font-weight: 300;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 figure {
   margin-bottom: 0;
 }
@@ -421,6 +425,14 @@ nav a:hover {
 
 .pbl-link:hover {
   color: var(--color-blue);
+}
+
+.canimm-link {
+  transition: all .3s ease;
+}
+
+.canimm-link:hover {
+  color: var(--color-pink);
 }
 /*Parkinsons Network Case Study*/
 
