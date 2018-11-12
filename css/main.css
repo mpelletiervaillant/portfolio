@@ -154,6 +154,13 @@ nav a:hover {
   background-position: center bottom;
 }
 
+.canimmunize-project-card {
+  background: url("../images/canimmunize-banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
 .card {
   height: 350px;
 }
@@ -189,7 +196,7 @@ nav a:hover {
   background-color: #E09D06;
 }
 
-.bruyere-card {
+.canimm-card {
   background-color: var(--color-pink);
   transition: background-color .5s ease;
 }
@@ -279,6 +286,10 @@ nav a:hover {
 
 .quilt-header-banner {
   background: url("../images/quilt-banner.png");
+}
+
+.canimmunize-header-banner {
+  background: url("../images/canimmunize-banner.png");
 }
 
 .project-header {
@@ -392,8 +403,13 @@ nav a:hover {
   display: inline-block;
 }
 
+/* See More */
 .see-more {
-  border-top: 1px solid #000;
+  background-color: var(--color-purple);
+}
+
+.see-more h4, .see-more p {
+  color: #fff;
 }
 
 /*Project Big Life*/
@@ -407,7 +423,7 @@ nav a:hover {
 }
 
 /*Bruyere Digital*/
-.bruyere-header {
+.canimm-header {
   background-color: var(--color-pink);
 }
 

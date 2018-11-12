@@ -3,8 +3,8 @@
   projectTitle: Project Big Life
   projectShortDescription: Illustrations for online health calculators
   headerColor: pbl-header
-  previousUrl: /bruyere-digital
-  previousProject: Bruyère Digital
+  previousUrl: /canimmunize
+  previousProject: CANImmunize
   nextUrl: /quilt
   nextProject: QUILT
   projectType: Illustration
@@ -39,25 +39,27 @@
   headerColor: parkinsons-header
   previousUrl: /quilt
   previousProject: QUILT
-  nextUrl: /bruyere-digital
-  nextProject: Bruyère Digital Health
+  nextUrl: /canimmunize
+  nextProject: CANImmunize
   projectType: Web Design
   projectDate: July 2018 - Ongoing
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
 
-- cardColor: bruyere-card
-  projectLink: bruyere-digital
-  projectTitle: Bruyère Digital Health
+- cardColor: canimm-card
+  projectLink: canimmunize
+  projectTitle: CANImmunize
   projectDescription: Showcase Elisabeth Bruyere's latest innovations in health care.
-  headerColor: bruyere-header
+  headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
   nextUrl: /project-big-life
   nextProject: Project Big Life
   projectType: Web Design
-  projectDate: June 2018
+  projectDate: April 2018 - Ongoing
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
-  projectUrl: https://www.bruyeredigitalhealth.ca/
-  projectWebsite: www.bruyeredigitalhealth.ca
+  projectUrl: https://www.canimmunize.ca/
+  projectWebsite: www.canimmunize.ca
+  cardBackground: canimmunize-project-card
+  projectBanner: canimmunize-header-banner
