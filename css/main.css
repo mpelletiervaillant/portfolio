@@ -404,12 +404,23 @@ nav a:hover {
 }
 
 /* See More */
-.see-more {
-  background-color: var(--color-purple);
-}
 
 .see-more h4, .see-more p {
   color: #fff;
+}
+
+.see-more-btn {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: .75em 2em;
+  text-decoration: none;
+  border-radius: 40px;
+  transition: all .3s ease;
+}
+
+.see-more-btn:hover {
+  background-color: #fff;
+  color: var(--color-dark-blue);
 }
 
 /*Project Big Life*/
