@@ -409,13 +409,18 @@ nav a:hover {
   margin: 2em 0;
 }
 
-.cs-image-xl {
-  padding: 2em 9em;
-  margin: 2em 0;
+.details-link {
+  color: var(--color-dark-blue);
 }
 
-.cs-img-special {
-  margin: 2em 0;
+.pbl-link {
+  color: var(--color-dark-blue);
+  font-weight: 500;
+  transition: all .3s ease;
+}
+
+.pbl-link:hover {
+  color: var(--color-blue);
 }
 /*Parkinsons Network Case Study*/
 
