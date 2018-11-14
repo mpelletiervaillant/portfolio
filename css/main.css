@@ -114,20 +114,21 @@ nav a:hover {
 }
 
 .hero-banner {
-    background: url("../images/banner.png");
-    height: 600px;
-    background-color: #F5F4F2;
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+  background: url("../images/banner.png");
+  height: 450px;
+  background-color: #F5F4F2;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
-.my-name {
-  top: 15%;
+.heading-text {
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   color: var(--color-dark-blue);
   width: 100%;
+  line-height: 1;
 }
 
 .about-section {
@@ -164,35 +165,6 @@ nav a:hover {
   font-weight: 300;
 }
 
-.pbl-project-card {
-  background: url("../images/pbl-banner.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-.quilt-project-card {
-  background: url("../images/quilt-banner.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-.parkinsons-project-card {
-  background: url("../images/parkinsons-banner.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-
-.canimmunize-project-card {
-  background: url("../images/canimmunize-banner.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
 .card {
   height: 350px;
 }
@@ -202,8 +174,33 @@ nav a:hover {
 }
 
 .pbl-card {
+  background: url("../images/pbl-banner.png");
   background-color: var(--color-blue);
   transition: background-color .5s ease;
+}
+
+.quilt-card {
+  background: url("../images/quilt-banner.png");
+  background-color: var(--color-purple);
+  transition: background-color .5s ease;
+}
+
+.parkinsons-card {
+  background: url("../images/parkinsons-banner.png");
+  background-color: var(--color-yellow);
+  transition: background-color .5s ease;
+}
+
+.canimmunize-card {
+  background: url("../images/canimmunize-banner.png");
+  background-color: var(--color-pink);
+  transition: background-color .5s ease;
+}
+
+.all-cards {
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .pbl-card:hover {
@@ -459,6 +456,10 @@ nav a:hover {
   transform: rotate(180deg);
 }
 
+.arrows {
+  fill: var(--color-light-gray);
+}
+
 .next-project-btn:hover .next-project {
   opacity: 1;
   display: inline-block;
@@ -513,7 +514,15 @@ nav a:hover {
   border: 1px solid #e2e2e2;
 }
 
+@media only screen and (min-width:32em ) {
+
+  .heading-text {
+    top: 20%;
+  }
+}
+
 @media only screen and (min-width:38em ) {
+
   .cs-details {
     border-right: 1px solid #e2e2e2;
     text-align: right;

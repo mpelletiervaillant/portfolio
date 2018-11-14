@@ -12,7 +12,6 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl: https://www.projectbiglife.ca
   projectWebsite: www.projectbiglife.ca
-  cardBackground: pbl-project-card
   projectBanner: pbl-header-banner
   projectColor: pbl-color
 
@@ -30,7 +29,6 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
-  cardBackground: quilt-project-card
   projectBanner: quilt-header-banner
   projectColor: quilt-color
 
@@ -48,11 +46,10 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
-  cardBackground: parkinsons-project-card
   projectBanner: parkinsons-header-banner
   projectColor: parkinsons-color
 
-- cardColor: canimm-card
+- cardColor: canimmunize-card
   projectLink: /canimmunize
   projectTitle: CANImmunize
   projectShortDescription: An online digital vaccination record tool for Canadians.
@@ -66,6 +63,5 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl: https://www.canimmunize.ca/
   projectWebsite: www.canimmunize.ca
-  cardBackground: canimmunize-project-card
   projectBanner: canimmunize-header-banner
   projectColor: canimm-color

@@ -84,10 +84,6 @@ img {
   width: 100%;
 }
 
-svg {
-  fill: black;
-}
-
 svg:not(:root) {
   overflow: hidden;
 }
@@ -300,7 +296,6 @@ svg.img-flex {
   position: absolute;
   top: 0;
   width: 100%;
-  fill: black;
 }
 
 .icon-label {
