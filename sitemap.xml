@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://melanypv.ca</loc>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-    <lastmod>2018-10-23</lastmod>
-  </url>
-  <url>
-    <loc>https://melanypv.ca/project-big-life</loc>
-    <priority>.5</priority>
-    <changefreq>weekly</changefreq>
-    <lastmod>2018-10-23</lastmod>
-  </url>
+  {% for post in site.posts %}
+    {% include sitemap-entry.xml entry=post %}
+  {% endfor %}  
 </urlset>
