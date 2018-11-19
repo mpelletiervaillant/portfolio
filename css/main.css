@@ -56,6 +56,11 @@ figcaption {
 
 .logo {
   width: 200px;
+  transition: opacity .2s ease;
+}
+
+.logo:hover {
+  opacity: .7;
 }
 
 .navigation {
