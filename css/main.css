@@ -54,6 +54,10 @@ figcaption {
   color: var(--color-pink);
 }
 
+.logo {
+  width: 200px;
+}
+
 .navigation {
   padding: 1.3rem
 }
