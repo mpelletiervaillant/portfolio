@@ -36,12 +36,12 @@
   projectUrl:
   projectWebsite:
 
-      - headerColor: quilt-header
-        previousUrl: /project-big-life
-        previousProject: Project Big Life
-        projectTitle: QUILT
-        nextUrl: /parkinsons-network
-        nextProject: Parkinson's Network
-        projectType: Branding
-        projectDate: May 2018
-        projectDescription: Branding for Individuals who require Long-Term Support
+- headerColor: quilt-header
+  previousUrl: /project-big-life
+  previousProject: Project Big Life
+  projectTitle: QUILT
+  nextUrl: /parkinsons-network
+  nextProject: Parkinson's Network
+  projectType: Branding
+  projectDate: May 2018
+  projectDescription: Branding for Individuals who require Long-Term Support
