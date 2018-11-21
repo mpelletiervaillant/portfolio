@@ -74,10 +74,6 @@ nav a, .logo {
   transition: color .2s ease;
 }
 
-.logo:hover {
-  color: var(--color-blue);
-}
-
 nav a {
   position: relative;
   padding-bottom: .3em;
@@ -239,7 +235,7 @@ nav a:hover {
   transition: background-color .5s ease;
 }
 
-.bruyere-card:hover {
+.canimm-card:hover {
   background-color: #D53554;
 }
 
