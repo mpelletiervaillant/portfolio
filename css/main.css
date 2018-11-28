@@ -230,12 +230,12 @@ nav a:hover {
   background-color: #E09D06;
 }
 
-.canimm-card {
+.canimmunize-card {
   background-color: var(--color-pink);
   transition: background-color .5s ease;
 }
 
-.canimm-card:hover {
+.canimmunize-card:hover {
   background-color: #D53554;
 }
 

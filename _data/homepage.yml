@@ -14,6 +14,8 @@
   projectWebsite: www.projectbiglife.ca
   projectBanner: pbl-header-banner
   projectColor: pbl-color
+  projectImage: pbl/food-icons.jpg
+  seoKeywords: illustration, branding
 
 - cardColor: quilt-card
   projectLink: /quilt
@@ -31,6 +33,8 @@
   projectWebsite:
   projectBanner: quilt-header-banner
   projectColor: quilt-color
+  projectImage: quilt/quilt-final-logo-variations.jpg
+  seoKeywords: branding, branding guide
 
 - cardColor: parkinsons-card
   projectLink: /parkinsons-network
@@ -48,6 +52,8 @@
   projectWebsite:
   projectBanner: parkinsons-header-banner
   projectColor: parkinsons-color
+  projectImage: parkinsons/parkinsons-home-page.jpg
+  seoKeywords: branding, web design, app design
 
 - cardColor: canimmunize-card
   projectLink: /canimmunize
@@ -65,3 +71,5 @@
   projectWebsite: www.canimmunize.ca
   projectBanner: canimmunize-header-banner
   projectColor: canimm-color
+  projectImage: /canimmunize-icons.jpg
+  seoKeywords: illustration, web design

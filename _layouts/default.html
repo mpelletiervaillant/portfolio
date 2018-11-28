@@ -14,30 +14,42 @@
   <meta property="og:image" content="{{site.baseurl}}/images/melany-avatar.jpg">
   <meta property="og:site_name" content="Mélany Pelletier-Vaillant">
   <meta property="og:description" content="The graphic works of Melany Pelletier-Vaillant">
+  <!-- Twiiter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="Mélany Pelletier-Vaillant · Graphic Designer">
+  <meta name="twitter:url" content="http://www.melanypv.ca">
+  <meta name="twitter:description" content="The graphic works of Melany Pelletier-Vaillant">
+  <meta name="twitter:image" content="{{site.baseurl}}/images/melany-avatar.jpg">
   <!-- CSS -->
   <link href='{{site.baseurl}}/css/site.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://use.typekit.net/yhg4riw.css">
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 <body>
-  <header>
-  <div class="island grid grid-middle wrapper pad-t pad-b">
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
-      <a class="logo" href="{{site.baseurl}}/index"><img class="logo" src="{{site.baseurl}}/images/logo.svg"></a>
-    </div>
+  <ul class="skip-links">
+    <li><a href="#nav" tabindex="0">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+  </ul>
 
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-3-4">
-      <nav>
-        <ul class="list-group-inline push-0 text-right">
-          <li class="push-r milli"><a href="{{site.baseurl}}/project-big-life">Work</a></li>
-          <li class="milli"><a href="{{site.baseurl}}/play">Play</a></li>
-        </ul>
-      </nav>
+  <header role="banner">
+    <div class="island grid grid-middle wrapper pad-t pad-b">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
+        <a class="logo" href="{{site.baseurl}}/index"><img class="logo" src="{{site.baseurl}}/images/logo.svg"></a>
+      </div>
+
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-3-4">
+        <nav role="navigation" id="nav">
+          <ul class="list-group-inline push-0 text-right">
+            <li class="push-r milli"><a href="{{site.baseurl}}/project-big-life">Work</a></li>
+            <li class="milli"><a href="{{site.baseurl}}/play">Play</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </div>
   </header>
   {{content}}
-  <footer class="" id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="text-center pad-t">
+  <footer class="" id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="text-center pad-t" role="content-info">
     <div class="social-media-links pad-t pad-b text-center">
       <ul class="list-group-inline push-0">
         <li><a class="social-media-link gutter-1-2 milli" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
@@ -57,16 +69,5 @@
       </div>
     </div>
   </footer>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "Melany Pelletier-Vaillant's portfolio website",
-      "author": {
-        "@type": "Person",
-        "@id": "#melanypv"
-      }
-    }
-  </script>
 </body>
 </html>
