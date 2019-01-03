@@ -1,5 +1,5 @@
 :root {
-  --font-primary: niveau-grotesk, sans-serif;
+  --font-primary: proxima-nova, sans-serif;
   --font-secondary: Lora, serif;
   --color-light-gray: #F5F4F2;
   --color-dark-blue: #2A374D;
@@ -67,11 +67,13 @@ figcaption {
   padding: 1.3rem
 }
 
-nav a, .logo {
+nav a {
   text-decoration: none;
   color: var(--color-dark-blue);
-  font-weight: 500;
   transition: color .2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 nav a {
@@ -171,7 +173,7 @@ nav a:hover {
 }
 
 .card {
-  height: 350px;
+  height: 500px;
 }
 
 .width-80 {
@@ -230,12 +232,12 @@ nav a:hover {
   background-color: #E09D06;
 }
 
-.canimm-card {
+.canimmunize-card {
   background-color: var(--color-pink);
   transition: background-color .5s ease;
 }
 
-.canimm-card:hover {
+.canimmunize-card:hover {
   background-color: #D53554;
 }
 
@@ -519,19 +521,9 @@ nav a:hover {
   border: 1px solid #e2e2e2;
 }
 
-@media only screen and (min-width:32em ) {
-
-  .heading-text {
-    top: 20%;
-  }
-}
-
 @media only screen and (min-width:38em ) {
 
-  .cs-details {
-    border-right: 1px solid #e2e2e2;
-    text-align: right;
-  }
+
 }
 
 @media only screen and (min-width:41em ) {
@@ -565,5 +557,11 @@ nav a:hover {
     height: 60vh;
     background-size: contain;
   }
+
+
+    .cs-details {
+      border-right: 1px solid #e2e2e2;
+      text-align: right;
+    }
 
 }
