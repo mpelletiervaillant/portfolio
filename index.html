@@ -7,8 +7,8 @@ layout: default
 </div>
 
   <main itemscope itemtype="https://schema.org/Person">
-    <section class="about-section text-center">
-      <ul class="push-0 list-group-inline">
+    <section class="about-section">
+      <!-- <ul class="push-0 list-group-inline">
         <li class="gutter-1-4">
           <i class="icon i-32">
             <svg><use xlink:href="images/icons.svg#pen-tool-icon"></use></svg>
@@ -30,12 +30,16 @@ layout: default
           </i>
         </li>
 
-      </ul>
-      <h2 class="push-1-2">I'm Melany. I make stuff.</h2>
-      <p class="intro-text gutter max-length">I'm an illustrator/web designer/ anything you can think of. You can view my work below.</p>
+      </ul> -->
+      <div class="intro-text my-max-length">
+        <h2 class="push-1-2 tera bold">Nice to meet you!</h2>
+        <p class="mega intro-text">My name is Melany Pelletier-Vaillant and I am a Graphic Designer from Ottawa, Ontario. I'm currently finishing my last year at Algonquin College.</p>
+        <p class="mega intro-text">I'm constantly creating and pushing myself further. I love to tell stories and design allows me to bring anything to life.</p>
+        <p class="mega intro-text">Take a look around! I also post more of my work on <a href="#">Instagram</a>. Still want to know more about me? Check out the <a href="#">about</a> page.</p>
+      </div>
     </section>
 
-    <section class="">
+    <section class="wrapper">
       <div class="front-cards grid grid-middle">
 
         {% for work in site.data.homepage %}

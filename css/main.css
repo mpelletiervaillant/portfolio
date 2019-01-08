@@ -7,10 +7,18 @@
   --color-yellow: #FAB00A;
   --color-pink: #ED5270;
   --color-purple: #3E4E72;
+  --color-gray: #CECECE;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+.my-max-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 28em;
+  width: 100%;
 }
 
 .base-sans {
@@ -69,14 +77,10 @@ figcaption {
 
 nav a {
   text-decoration: none;
-  color: var(--color-dark-blue);
+  color: var(--color-gray);
   transition: color .2s ease;
-  text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
-}
-
-nav a {
   position: relative;
   padding-bottom: .3em;
 }
@@ -103,7 +107,7 @@ nav a:hover:before {
 }
 
 nav a:hover {
-  color: var(--color-blue);
+  color: var(--color-dark-blue);
 }
 
 .button {
@@ -147,6 +151,12 @@ nav a:hover {
   font-weight: 300;
 }
 
+.intro-text a {
+  color: black;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
 .work-section h2, .about-section h2 {
   color: var(--color-dark-blue);
 }
@@ -165,7 +175,7 @@ nav a:hover {
 }
 
 .front-cards h3, .read-btn {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .front-cards p:first-of-type {
@@ -173,7 +183,7 @@ nav a:hover {
 }
 
 .card {
-  height: 500px;
+  height: 400px;
 }
 
 .width-80 {
@@ -205,7 +215,7 @@ nav a:hover {
 }
 
 .all-cards {
-  background-size: 900px;
+  background-size: 800px;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
