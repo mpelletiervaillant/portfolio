@@ -1,18 +1,17 @@
 :root {
   --font-primary: proxima-nova, sans-serif;
   --font-secondary: Lora, serif;
-  --color-light-gray: #F5F4F2;
-  --color-dark-blue: #2A374D;
-  --color-blue: #24D1C4;
-  --color-yellow: #FAB00A;
-  --color-pink: #ED5270;
-  --color-purple: #3E4E72;
+  --color-light-gray: #FAFAFA;
   --color-gray: #CECECE;
+  --color-navy: #3B4F53;
+  --pbl-color: #64d0fa;
 }
 
 html {
   font-family: var(--font-primary);
 }
+
+/* Spacing */
 
 .my-max-length {
   margin-left: auto;
@@ -20,6 +19,17 @@ html {
   max-width: 28em;
   width: 100%;
 }
+
+.my-wrapper {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.my-padding {
+  padding: 7rem 0;
+}
+
+/* Typograhy */
 
 .base-sans {
   font-family: var(--font-primary);
@@ -34,8 +44,24 @@ html {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 800;
 }
+
+/* Colours */
+
+.white {
+  color: #ffffff;
+}
+
+.navy {
+  color: var(--color-navy);
+}
+
+.pbl-color {
+  color: var(--pbl-color);
+}
+
+/* Figures */
 
 figure {
   margin-bottom: 0;
@@ -44,31 +70,6 @@ figure {
 figcaption {
   font-style: italic;
   color: #808080;
-}
-
-.pbl-color {
-  color: var(--color-blue);
-}
-
-.quilt-color {
-  color: var(--color-purple);
-}
-
-.parkinsons-color {
-  color: var(--color-yellow);
-}
-
-.canimm-color {
-  color: var(--color-pink);
-}
-
-.logo {
-  width: 200px;
-  transition: opacity .2s ease;
-}
-
-.logo:hover {
-  opacity: .7;
 }
 
 .navigation {
@@ -142,129 +143,6 @@ nav a:hover {
   line-height: 1;
 }
 
-.about-section {
-    padding: 8em 0;
-}
-
-.intro-text {
-  color: var(--color-dark-blue);
-  font-weight: 300;
-}
-
-.intro-text a {
-  color: black;
-  border-bottom: 1px solid black;
-  text-decoration: none;
-}
-
-.work-section h2, .about-section h2 {
-  color: var(--color-dark-blue);
-}
-
-.work-section h3 {
-  font-weight: 400;
-  max-width: 25em;
-}
-
-.front-cards a {
-  text-decoration: none;
-}
-
-.front-cards h3, .front-cards p {
-  color: #fff;
-}
-
-.front-cards h3, .read-btn {
-  font-weight: 600;
-}
-
-.front-cards p:first-of-type {
-  font-weight: 300;
-}
-
-.card {
-  height: 400px;
-}
-
-.width-80 {
-  width: 80%;
-}
-
-.pbl-card {
-  background: url("../images/pbl-banner.png");
-  background-color: var(--color-blue);
-  transition: background-color .5s ease;
-}
-
-.quilt-card {
-  background: url("../images/quilt-banner.png");
-  background-color: var(--color-purple);
-  transition: background-color .5s ease;
-}
-
-.parkinsons-card {
-  background: url("../images/parkinsons-banner.png");
-  background-color: var(--color-yellow);
-  transition: background-color .5s ease;
-}
-
-.canimmunize-card {
-  background: url("../images/canimmunize-banner.png");
-  background-color: var(--color-pink);
-  transition: background-color .5s ease;
-}
-
-.all-cards {
-  background-size: 800px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-.pbl-card:hover {
-  background-color: #19B4A8;
-}
-
-.quilt-card {
-  background-color: var(--color-purple);
-  transition: background-color .5s ease;
-}
-
-.quilt-card:hover {
-  background-color: #213050;
-}
-
-.parkinsons-card {
-  background-color: var(--color-yellow);
-  transition: background-color .5s ease;
-}
-
-.parkinsons-card:hover {
-  background-color: #E09D06;
-}
-
-.canimmunize-card {
-  background-color: var(--color-pink);
-  transition: background-color .5s ease;
-}
-
-.canimmunize-card:hover {
-  background-color: #D53554;
-}
-
-.section-more {
-  background-color: #F4F5F7;
-  padding: 6em 0;
-}
-
-.more-header {
-  font-weight: 400;
-}
-
-.more-text {
-  font-family: var(--font-primary);
-  color: var(--color-dark-blue);
-}
-
 .enter-here-btn {
   text-decoration: none;
   font-weight: 500;
@@ -323,217 +201,73 @@ nav a:hover {
   font-weight: 300;
 }
 
-/* Project 1 Case Study */
+/*---------- Case Study Template -----------*/
 
-
-.pbl-header-banner {
-  background: url("../images/pbl-banner.png");
+.case-study-banner {
+  height: 55vh;
 }
 
-.quilt-header-banner {
-  background: url("../images/quilt-banner.png");
+.project-type {
+  font-family: Oswald;
+  text-transform: uppercase;
 }
 
-.parkinsons-header-banner {
-  background: url("../images/parkinsons-banner.png");
+.detail-title {
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 
-.canimmunize-header-banner {
-  background: url("../images/canimmunize-banner.png");
-}
-
-.project-header {
-  height: 60vh;
-  background-size: 1200px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-.project-title {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  font-family: var(--font-primray);
-  color: #fff;
-}
-
-.project-side-title {
-  font-weight: 500;
-  color: var(--color-dark-blue);
-  border-bottom: 1px solid #C6C6C6;
-  line-height: 1.1;
-}
-
-.project-details {
+.detail {
   font-weight: 300;
 }
 
-.project-description {
-  font-family: var(--font-primary);
-  color: #434343;
-  line-height: 1.4;
+.gray-background {
+  background-color: var(--color-light-gray);
+}
+
+.pbl-background {
+  background-color: var(--pbl-color);
+}
+
+/*---------- Project Big Life -----------*/
+
+.pbl-details-box {
+  background-color: var(--pbl-color);
+}
+
+.project-intro {
   font-weight: 300;
+  color: var(--color-navy);
 }
 
-.pbl-website {
-  text-decoration: none;
-  color: var(--color-dark-blue);
-  font-weight: 500;
-  transition: color .2s ease;
+.drop-shadow {
+  filter: drop-shadow(5px 5px 30px #3A8BAA);
 }
 
-.pbl-website:hover {
-  color: var(--color-blue);
+.slide-in {
+  animation-name: slideInFromBottom;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
 }
 
-.case-study-header {
-  width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+.pbl-bubbles {
+  background-image: url("{{site.baseurl}}/imagess/bubbles.png"), url("{{site.baseurl}}/imagess/slides.png");
+  background-size: cover, cover;
+  background-position: center;
 }
 
-.cs-content p {
-  color: #39475F;
-  font-weight: 300;
-  line-height: 1.4rem;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* Animations */
 
-.cs-content h3, .cs-content h4 {
-  font-weight: 300;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
-}
+@keyframes slideInFromBottom {
 
-.cs-content h5 {
-  color: var(--color-dark-blue);
-  font-weight: 500;
-}
-
-.park-bullet {
-  width: 10%;
-}
-
-.park-text {
-  width: 75%;
-}
-
-.cs-image {
-  padding: 3em 4em;
-  margin: 2em 0;
-}
-
-.details-link {
-  color: var(--color-dark-blue);
-}
-
-.pbl-link {
-  color: var(--color-dark-blue);
-  font-weight: 500;
-  transition: all .3s ease;
-}
-
-.pbl-link:hover {
-  color: var(--color-blue);
-}
-
-.canimm-link {
-  transition: all .3s ease;
-}
-
-.canimm-link:hover {
-  color: var(--color-pink);
-}
-/*Parkinsons Network Case Study*/
-
-.parkinsons-header {
-  background-color: var(--color-yellow);
-}
-
-.next-project-btn, .previous-project-btn {
-  text-decoration: none;
-}
-
-.previous-project, .next-project {
-  opacity: 0;
-  color: #fff;
-  transition: opacity .4s ease;
-}
-
-.previous-project-btn:hover .previous-project {
-  opacity: 1;
-  display: inline-block;
-}
-
-.next-arrow {
-  transform: rotate(180deg);
-}
-
-.arrows {
-  fill: var(--color-light-gray);
-}
-
-.next-project-btn:hover .next-project {
-  opacity: 1;
-  display: inline-block;
-}
-
-/* See More */
-
-.see-more h4, .see-more p {
-  color: #fff;
-}
-
-.see-more-btn {
-  color: #fff;
-  border: 1px solid #fff;
-  padding: .75em 2em;
-  text-decoration: none;
-  border-radius: 40px;
-  transition: all .3s ease;
-}
-
-.see-more-btn:hover {
-  background-color: #fff;
-  color: var(--color-dark-blue);
-}
-
-/*Project Big Life*/
-.pbl-header {
-  background-color: var(--color-blue);
-}
-
-/*QUILT*/
-.quilt-header {
-  background-color: var(--color-purple);
-}
-
-/*CANImmunize*/
-.canimm-header {
-  background-color: var(--color-pink);
-}
-
-.case-study-section a {
-  color: var(--color-purple);
-  font-weight: 500;
-}
-
-/*Play*/
-.play-header {
-  background-color: #26BF81;
-}
-
-.img-border {
-  border: 1px solid #e2e2e2;
-}
-
-@media only screen and (min-width:38em ) {
-
-
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 @media only screen and (min-width:41em ) {
@@ -545,33 +279,5 @@ nav a:hover {
   .credit {
     text-align: center;
   }
-
-}
-
-@media only screen and (min-width:60em ) {
-
-  .no-space {
-    padding-top: 6em;
-  }
-
-  .hero-banner {
-    background: url("../images/banner.png");
-    height: 80vh;
-    background-color: #F5F4F2;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-  }
-
-  .project-header {
-    height: 60vh;
-    background-size: contain;
-  }
-
-
-    .cs-details {
-      border-right: 1px solid #e2e2e2;
-      text-align: right;
-    }
 
 }
