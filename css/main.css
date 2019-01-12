@@ -26,7 +26,17 @@ html {
 }
 
 .my-padding {
-  padding: 7rem 0;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.my-small-padding {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.my-padding-bottom {
+  padding-bottom: 5rem;
 }
 
 /* Typograhy */
@@ -45,6 +55,10 @@ html {
 
 .bold {
   font-weight: 800;
+}
+
+.no-decoration {
+  text-decoration: none;
 }
 
 /* Colours */
@@ -78,7 +92,7 @@ figcaption {
 
 nav a {
   text-decoration: none;
-  color: var(--color-gray);
+  color: var(--color-navy);
   transition: color .2s ease;
   letter-spacing: 1px;
   font-weight: 600;
@@ -221,6 +235,14 @@ nav a:hover {
   font-weight: 300;
 }
 
+.details-list {
+  text-align: center;
+}
+
+.details-list li {
+  margin-bottom: 1em;
+}
+
 .gray-background {
   background-color: var(--color-light-gray);
 }
@@ -229,7 +251,22 @@ nav a:hover {
   background-color: var(--pbl-color);
 }
 
+.next-project-section {
+  width: 100%;
+}
+
+.next-project-section:hover .next-project-text {
+  transform: scale(1.3);
+  transition: all .6s linear;
+}
+
 /*---------- Project Big Life -----------*/
+
+.pbl-header-banner {
+  background-image: url('{{site.baseurl}}/imagess/pbl-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
 
 .pbl-details-box {
   background-color: var(--pbl-color);
@@ -240,8 +277,12 @@ nav a:hover {
   color: var(--color-navy);
 }
 
-.drop-shadow {
+.blue-drop-shadow {
   filter: drop-shadow(5px 5px 30px #3A8BAA);
+}
+
+.gray-drop-shadow {
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, .18));
 }
 
 .slide-in {
@@ -254,6 +295,15 @@ nav a:hover {
   background-image: url("{{site.baseurl}}/imagess/bubbles.png"), url("{{site.baseurl}}/imagess/slides.png");
   background-size: cover, cover;
   background-position: center;
+}
+
+.pbl-hover {
+  transition: all .3s ease;
+}
+
+.pbl-hover:hover {
+  color: var(--color-navy);
+  transform: scale(1.03);
 }
 
 /* Animations */
@@ -280,4 +330,17 @@ nav a:hover {
     text-align: center;
   }
 
+}
+
+@media only screen and (min-width:43em ) {
+
+  .details-list {
+    text-align: left;
+  }
+
+  .details-list li {
+    margin-bottom: 0;
+    display: inline-block;
+    text-align: left;
+  }
 }
