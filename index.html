@@ -1,56 +1,42 @@
 ---
-layout: default
+layout: mainla
 ---
 
-<div class="hero-banner relative">
+<section>
+<div class="hero-banner relative wrapper">
+  <div class="wrapper gutter banner-text absolute">
+    <p class="push-0 navy">Hello,</p>
+    <h2 class="push-1-2 navy">I'm Melany</h2>
+    <p class="navy push-0 light giga">I’m Melany Pelletier-Vaillant, a graphic designer based in Ottawa with a passion for illustration and web design - well, anything design related really.</p>
+  </div>
+  <div class="absolute banner-img">
+
+  </div>
+  <div class="wrapper banner-links absolute">
+    <ul class="list-group-inline push-0">
+      <li><a class="gutter milli navy banner-sm" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
+      <li><a class="gutter milli navy banner-sm" href="https://www.instagram.com/melany.pv">Instagram</a></li>
+      <li><a class="gutter milli navy banner-sm" href="https://www.behance.net/melanypv">Behance</a></li>
+    </ul>
   </div>
 </div>
+</section>
 
-  <main itemscope itemtype="https://schema.org/Person">
-    <section class="about-section">
-      <!-- <ul class="push-0 list-group-inline">
-        <li class="gutter-1-4">
-          <i class="icon i-32">
-            <svg><use xlink:href="images/icons.svg#pen-tool-icon"></use></svg>
-          </i>
-        </li>
-        <li class="gutter-1-4">
-          <i class="icon i-32">
-            <svg><use xlink:href="images/icons.svg#tea-icon"></use></svg>
-          </i>
-        </li>
-        <li class="gutter-1-4">
-          <i class="icon i-32">
-            <svg><use xlink:href="images/icons.svg#code-icon"></use></svg>
-          </i>
-        </li>
-        <li class="gutter-1-4">
-          <i class="icon i-32">
-            <svg><use xlink:href="images/icons.svg#book-icon"></use></svg>
-          </i>
-        </li>
-
-      </ul> -->
-      <div class="intro-text my-max-length">
-        <h2 class="push-1-2 tera bold">Welcome to my site!</h2>
-        <p class="mega intro-text">I'm a graphic designer from Ottawa doing what I love everyday. </p>
-        <p class="mega intro-text">Take a look</p>
-        <p class="mega intro-text">Take a look around! I also post more of my work on <a href="#">Instagram</a>. Still want to know more about me? Check out the <a href="#">about</a> page.</p>
-      </div>
-    </section>
-
-    <section class="">
-      <div class="front-cards grid grid-middle">
+    <section class="my-padding">
+      <div class="grid grid-middle">
 
         {% for work in site.data.homepage %}
         {% include project-buttons.html data=work %}
         {% endfor %}
 
       </div>
-    </section>
-    <section class="about-section text-center">
-      <h2 class="push-1-2">I also make stuff for fun.</h2>
-      <p class="intro-text gutter max-length">Take a tour of my poorly organized computer files I spent way too much time looking for. I make cool stuff on the side to learn and to wind down. </p>
+    </section>]
+
+    <section class="my-padding-bottom text-center">
+      <div class="my-max-length gutter">
+      <h2 class="push-1-2 navy">Play Hard.</h2>
+      <p class="light">Take a tour of my poorly organized computer files I spent way too much time looking for. I make cool stuff on the side to learn and to wind down. </p>
+      </div>
       <div class="">
         <a class="milli enter-here-btn" href="{{site.baseurl}}/play">Enter Here</a>
       </div>

@@ -26,8 +26,6 @@ $(window).scroll(function(event) {
     var el = $(el);
     if (el.visible(true)) {
       el.addClass("slide-in");
-    } else {
-      el.removeClass("slide-in");
-    }
+    } 
   });
 });

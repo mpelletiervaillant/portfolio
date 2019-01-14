@@ -32,6 +32,7 @@
   projectWebsite:
   projectBanner: quilt-header-banner
   projectColor: quilt-color
+  projectClient: QUILT
 
 - cardColor: parkinsons-card
   projectLink: /parkinsons-network
