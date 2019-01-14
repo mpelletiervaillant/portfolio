@@ -8,6 +8,7 @@
   --pbl-color: #64d0fa;
   --quilt-color: #EB4524;
   --parkinsons-color: #3D4D5A;
+  --canimmunize-color: #4a90e2;
 }
 
 html {
@@ -312,7 +313,7 @@ nav a:hover {
 }
 
 .pbl-header-banner {
-  background-image: url('{{site.baseurl}}/imagess/pbl-banner.jpg');
+  background-image: url('{{site.baseurl}}/images/pbl-banner.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -362,7 +363,7 @@ nav a:hover {
   background-color: #333132;
 }
 
-.quilt-branding {
+.w-60 {
   width: 60%;
   margin: 0 auto;
 }
@@ -383,11 +384,23 @@ nav a:hover {
 background-color: var(--color-blue);
 }
 
-/*---------- Project Big Life -----------*/
-
+/*---------- CANImmunize -----------*/
 
 .canimmunize-card {
-background-color: var(--color-gray);
+background-color: var(--canimmunize-color);
+}
+
+.canimmunize-color {
+  color: var(--canimmunize-color);
+}
+
+.next-project-canimmunize {
+  background-color: var(--canimmunize-color);
+  transition: all .6s ease-in-out;
+}
+
+.next-project-canimmunize:hover {
+  background-color: var(--pbl-color);
 }
 
 /* Animations */

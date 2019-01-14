@@ -1,5 +1,5 @@
 ---
-layout: mainla
+layout: default
 ---
 
 <section>
@@ -25,7 +25,7 @@ layout: mainla
     <section class="my-padding">
       <div class="grid grid-middle">
 
-        {% for work in site.data.homepage %}
+        {% for work in site.data.projects %}
         {% include project-buttons.html data=work %}
         {% endfor %}
 
