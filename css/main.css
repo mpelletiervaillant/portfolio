@@ -15,6 +15,10 @@ html {
   font-family: var(--font-primary);
 }
 
+/* body {
+  background-color: #303030;
+} */
+
 /* Spacing */
 
 .my-max-length {
@@ -177,6 +181,9 @@ nav a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all .3s ease;
+  position: relative;
+  padding-bottom: .3em;
+  margin: 0 1.5rem;
 }
 
 .banner-sm:hover {
@@ -199,7 +206,7 @@ nav a:hover {
   padding-bottom: .3em;
 }
 
-.enter-here-btn:before {
+.enter-here-btn:before, .banner-sm:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -214,13 +221,15 @@ nav a:hover {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.enter-here-btn:hover:before {
+.enter-here-btn:hover:before,
+.banner-sm:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-.enter-here-btn:hover .btn-underline {
+.enter-here-btn:hover .btn-underline,
+.banner-sm:hover .btn-underline {
   width: 60px;
 }
 
@@ -309,7 +318,9 @@ nav a:hover {
 
 
 .pbl-card {
+
   background-color: var(--pbl-color);
+
 }
 
 .pbl-header-banner {
@@ -338,7 +349,7 @@ nav a:hover {
 }
 
 .pbl-bubbles {
-  background-image: url("{{site.baseurl}}/imagess/bubbles.png"), url("{{site.baseurl}}/imagess/slides.png");
+  background-image: url("{{site.baseurl}}/images/bubbles.png"), url("{{site.baseurl}}/images/slides.png");
   background-size: cover, cover;
   background-position: center;
 }
@@ -377,7 +388,7 @@ nav a:hover {
   background-color: var(--parkinsons-color);
 }
 
-/*---------- Project Big Life -----------*/
+/*---------- Parkinsons Network -----------*/
 
 
 .parkinsons-card {
@@ -439,5 +450,10 @@ background-color: var(--canimmunize-color);
     margin-bottom: 0;
     display: inline-block;
     text-align: left;
+  }
+
+  .quilt-branding {
+    max-width: 75%;
+    margin: 0 auto;
   }
 }
