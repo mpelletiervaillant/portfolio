@@ -6,7 +6,7 @@
   --color-navy: #3B4F53;
   --color-blue: #00D5C4;
   --pbl-color: #64d0fa;
-  --quilt-color: #EB4524;
+  --quilt-color: #e42f2c;
   --parkinsons-color: #3D4D5A;
   --canimmunize-color: #4a90e2;
 }
@@ -190,6 +190,10 @@ nav a:hover {
   color: var(--color-blue);
 }
 
+.project-section {
+  height: 80vh;
+}
+
 .card {
   height: 400px;
 }
@@ -318,15 +322,18 @@ nav a:hover {
 
 
 .pbl-card {
-
-  background-color: var(--pbl-color);
-
+  background-image: url('{{site.baseurl}}/images/pbl-banner.jpg');
+  background-size: cover;
 }
 
 .pbl-header-banner {
   background-image: url('{{site.baseurl}}/images/pbl-banner.jpg');
   background-size: cover;
   background-position: center center;
+}
+
+.pbl-banner-color {
+  background-color: var(--pbl-color);
 }
 
 .project-intro {
@@ -365,8 +372,17 @@ nav a:hover {
 
 /*---------- QUILT -----------*/
 
+.quilt-header-banner {
+  background-image: url('{{site.baseurl}}/images/quilt/quilt-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
 
 .quilt-card {
+  background-color: var(--quilt-color);
+}
+
+.quilt-banner-color {
   background-color: var(--quilt-color);
 }
 

@@ -15,6 +15,7 @@
   projectBanner: pbl-header-banner
   projectColor: pbl-color
   projectClient: Project Big Life
+  bannerColor: pbl-banner-color
 
 - cardColor: quilt-card
   projectLink: /quilt
@@ -33,6 +34,7 @@
   projectBanner: quilt-header-banner
   projectColor: quilt-color
   projectClient: QUILT
+  bannerColor: quilt-banner-color
 
 - cardColor: parkinsons-card
   projectLink: /parkinsons-network
