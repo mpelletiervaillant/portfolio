@@ -1,4 +1,4 @@
-- projectCard: pbl-card.jpg
+- projectCard: pbl-card
   projectLink: /project-big-life
   projectTitle: Project Big Life
   projectShortDescription: Illustrations for online health calculators
@@ -17,7 +17,7 @@
   projectClient: Project Big Life
   bannerColor: pbl-banner-color
 
-- cardColor: quilt-card
+- projectCard: quilt-card
   projectLink: /quilt
   projectTitle: QUILT
   projectShortDescription: Branding for QUality for Individuals who require Long-Term support.
@@ -36,7 +36,7 @@
   projectClient: QUILT
   bannerColor: quilt-banner-color
 
-- cardColor: parkinsons-card
+- projectCard: parkinsons-card
   projectLink: /parkinsons-network
   projectTitle: Parkinson's Network
   projectShortDescription: A digital platform for Parkinsons patients and physicians.
@@ -52,8 +52,9 @@
   projectWebsite:
   projectBanner: parkinsons-header-banner
   projectColor: parkinsons-color
+  bannerColor: parkinsons-background
 
-- cardColor: canimmunize-card
+- projectCard: canimmunize-card
   projectLink: /canimmunize
   projectTitle: CANImmunize
   projectShortDescription: An online digital vaccination record tool for Canadians.
@@ -70,3 +71,4 @@
   projectBanner: canimmunize-header-banner
   projectColor: canimmunize-color
   projectClient: CANImmunize
+  bannerColor: canimmunize-background

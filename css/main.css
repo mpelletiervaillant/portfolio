@@ -260,10 +260,7 @@ nav a:hover {
 
 .container {
   position: relative;
-  background-image: url('{{site.baseurl}}/images/pbl-card.jpg');
-  background-size: cover;
-  background-position: center center;
-  height: 500px;
+  height: 300px;
 }
 
 .overlay {
@@ -336,6 +333,14 @@ nav a:hover {
 
 .pbl-background {
   background-color: var(--pbl-color);
+}
+
+.parkinsons-background {
+  background-color: var(--parkinsons-color);
+}
+
+.parkinsons-green-background {
+  background-color: #9eb7b1;
 }
 
 .next-project-section {
@@ -420,7 +425,9 @@ nav a:hover {
 }
 
 .quilt-card {
-  background-color: var(--quilt-color);
+  background-image: url('{{site.baseurl}}/images/quilt/quilt-card.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 .quilt-banner-color {
@@ -447,19 +454,33 @@ nav a:hover {
 
 /*---------- Parkinsons Network -----------*/
 
+.parkinsons-header-banner {
+  background-image: url('{{site.baseurl}}/images/parkinsons-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
 
 .parkinsons-card {
-background-color: var(--color-blue);
+  background-image: url('{{site.baseurl}}/images/parkinsons-card.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
+.parkinsons-color {
+  color: var(--parkinsons-color);
+}
+
+.parkinsons-background {
+  background-color: var(--parkinsons-color);
+}
 /*---------- CANImmunize -----------*/
-
-.canimmunize-card {
-background-color: var(--canimmunize-color);
-}
 
 .canimmunize-color {
   color: var(--canimmunize-color);
+}
+
+.canimmunize-background {
+  background-color: var(--canimmunize-color);
 }
 
 .next-project-canimmunize {
@@ -469,6 +490,12 @@ background-color: var(--canimmunize-color);
 
 .next-project-canimmunize:hover {
   background-color: var(--pbl-color);
+}
+
+.canimmunize-card {
+  background-image: url('{{site.baseurl}}/images/canimmunize/canimmunize-card.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 /* Animations */
@@ -512,5 +539,12 @@ background-color: var(--canimmunize-color);
   .quilt-branding {
     max-width: 75%;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width:71em) {
+
+  .container {
+    height: 300px;
   }
 }
