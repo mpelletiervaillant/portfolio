@@ -17,7 +17,7 @@
   projectClient: Project Big Life
   bannerColor: pbl-banner-color
 
-- cardColor: quilt-card
+- projectCard: quilt-card
   projectLink: /quilt
   projectTitle: QUILT
   projectShortDescription: Branding for QUality for Individuals who require Long-Term support.
@@ -52,10 +52,14 @@
   projectWebsite:
   projectBanner: parkinsons-header-banner
   projectColor: parkinsons-color
+<<<<<<< HEAD
   projectClient: Algonquin College
   bannerColor: parkinsons-banner-color
+=======
+  bannerColor: parkinsons-background
+>>>>>>> 5c4a251436b9ae4b5680c7c02a10fb0bac1a2cfc
 
-- cardColor: canimmunize-card
+- projectCard: canimmunize-card
   projectLink: /canimmunize
   projectTitle: CANImmunize
   projectShortDescription: An online digital vaccination record tool for Canadians.
@@ -72,3 +76,4 @@
   projectBanner: canimmunize-header-banner
   projectColor: canimmunize-color
   projectClient: CANImmunize
+  bannerColor: canimmunize-background
