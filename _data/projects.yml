@@ -1,4 +1,4 @@
-- projectCard: pbl-card.jpg
+- projectCard: pbl-card
   projectLink: /project-big-life
   projectTitle: Project Big Life
   projectShortDescription: Illustrations for online health calculators
@@ -36,7 +36,7 @@
   projectClient: QUILT
   bannerColor: quilt-banner-color
 
-- cardColor: parkinsons-card
+- projectCard: parkinsons-card
   projectLink: /parkinsons-network
   projectTitle: Parkinson's Network
   projectShortDescription: A digital platform for Parkinsons patients and physicians.
@@ -46,12 +46,14 @@
   nextUrl: /canimmunize
   nextProject: CANImmunize
   projectType: Web Design
-  projectDate: July 2018 - Ongoing
+  projectDate: July 2018
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
   projectBanner: parkinsons-header-banner
   projectColor: parkinsons-color
+  projectClient: Algonquin College
+  bannerColor: parkinsons-banner-color
 
 - cardColor: canimmunize-card
   projectLink: /canimmunize

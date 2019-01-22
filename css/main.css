@@ -7,7 +7,7 @@
   --color-blue: #00D5C4;
   --pbl-color: #64d0fa;
   --quilt-color: #e42f2c;
-  --parkinsons-color: #3D4D5A;
+  --parkinsons-color: #3E4D59;
   --canimmunize-color: #4a90e2;
 }
 
@@ -260,10 +260,17 @@ nav a:hover {
 
 .container {
   position: relative;
-  background-image: url('{{site.baseurl}}/images/pbl-card.jpg');
   background-size: cover;
   background-position: center center;
-  height: 500px;
+  height: 400px;
+}
+
+.pbl-card {
+  background-image: url('{{site.baseurl}}/images/pbl-card.jpg');
+}
+
+.parkinsons-card {
+  background-image: url('{{site.baseurl}}/images/parkinsons-card.jpg');
 }
 
 .overlay {
@@ -274,13 +281,14 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.9);
   overflow: hidden;
   width: 100%;
-  height: 0;
+  height: 100%;
+  opacity: 0;
   transition: .5s ease;
   width: 100%;
 }
 
 .container:hover .overlay {
-  height: 100%;
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -447,15 +455,28 @@ nav a:hover {
 
 /*---------- Parkinsons Network -----------*/
 
+.parkinsons-header-banner {
+  background-image: url('{{site.baseurl}}/images/parkinsons-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
 
 .parkinsons-card {
 background-color: var(--color-blue);
 }
 
+.parkinsons-banner-color {
+  background-color: var(--parkinsons-color);
+}
+
+.parkinsons-color {
+  color: var(--parkinsons-color);
+}
+
 /*---------- CANImmunize -----------*/
 
 .canimmunize-card {
-background-color: var(--canimmunize-color);
+  background-color: var(--canimmunize-color);
 }
 
 .canimmunize-color {
