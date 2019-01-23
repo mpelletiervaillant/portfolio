@@ -157,9 +157,10 @@ nav a:hover {
   width: 50%;
 }
 
+
 .banner-img {
   height: 87vh;
-  background-image: url('{{site.baseurl}}/imagess/test-banner.png');
+  background-image: url('{{site.baseurl}}/images/main-image.png');
   background-size: cover;
   top: 50%;
   transform: translateY(-50%);
@@ -260,21 +261,7 @@ nav a:hover {
 
 .container {
   position: relative;
-<<<<<<< HEAD
-  background-size: cover;
-  background-position: center center;
-  height: 400px;
-}
-
-.pbl-card {
-  background-image: url('{{site.baseurl}}/images/pbl-card.jpg');
-}
-
-.parkinsons-card {
-  background-image: url('{{site.baseurl}}/images/parkinsons-card.jpg');
-=======
   height: 300px;
->>>>>>> 5c4a251436b9ae4b5680c7c02a10fb0bac1a2cfc
 }
 
 .overlay {
@@ -366,12 +353,17 @@ nav a:hover {
   transition: all .6s ease-in-out;
 }
 
-.next-project-pbl {
+.next-project-pbl,
+.next-project-parkinsons {
   transition: all .6s ease-in-out;
 }
 
 .next-project-pbl:hover {
   background-color: var(--quilt-color);
+}
+
+.next-project-parkinsons:hover {
+  background-color: var(--canimmunize-color);
 }
 
 .next-project-section:hover .next-project-text {
@@ -481,27 +473,12 @@ nav a:hover {
   background-position: center center;
 }
 
-<<<<<<< HEAD
-.parkinsons-banner-color {
-  background-color: var(--parkinsons-color);
-}
-
-.parkinsons-color {
-  color: var(--parkinsons-color);
-}
-
-/*---------- CANImmunize -----------*/
-
-.canimmunize-card {
-  background-color: var(--canimmunize-color);
-=======
 .parkinsons-color {
   color: var(--parkinsons-color);
 }
 
 .parkinsons-background {
   background-color: var(--parkinsons-color);
->>>>>>> 5c4a251436b9ae4b5680c7c02a10fb0bac1a2cfc
 }
 /*---------- CANImmunize -----------*/
 
@@ -526,6 +503,12 @@ nav a:hover {
   background-image: url('{{site.baseurl}}/images/canimmunize/canimmunize-card.jpg');
   background-size: cover;
   background-position: center center;
+}
+
+/*Play */
+
+.img-border {
+  border: 1px solid #e2e2e2;
 }
 
 /* Animations */
@@ -575,6 +558,6 @@ nav a:hover {
 @media only screen and (min-width:71em) {
 
   .container {
-    height: 300px;
+    height: 500px;
   }
 }
