@@ -73,3 +73,23 @@
   projectColor: canimmunize-color
   projectClient: CANImmunize
   bannerColor: canimmunize-background
+
+- projectCard: beerexpo-card
+  projectLink: /beer-expo
+  projectTitle: Beer Expo
+  projectShortDescription: An online digital vaccination record tool for Canadians.
+  headerColor: beerexpo-header
+  previousUrl: /parkinsons-network
+  previousProject: Parkinson's Network
+  nextUrl: /project-big-life
+  nextProject: Project Big Life
+  projectType: Event Branding
+  projectDate: December 2017
+  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectUrl:
+  projectWebsite:
+  projectBanner: beerexpo-header-banner
+  projectColor: beerexpo-color
+  projectClient: Algonquin College
+  bannerColor: beerexpo-background
+  projectImage: beer-expo/beer-expo-card.jpg

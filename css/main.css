@@ -9,6 +9,7 @@
   --quilt-color: #e42f2c;
   --parkinsons-color: #3E4D59;
   --canimmunize-color: #4a90e2;
+  --beerexpo-color: #f3ab1d;
 }
 
 html {
@@ -261,7 +262,6 @@ nav a:hover {
 
 .container {
   position: relative;
-  height: 300px;
 }
 
 .overlay {
@@ -505,6 +505,29 @@ nav a:hover {
   background-position: center center;
 }
 
+/* Beer Expo */
+.beerexpo-color {
+  color: var(--beerexpo-color);
+}
+
+.beerexpo-background {
+  background-color: var(--beerexpo-color);
+}
+
+/* .next-project-canimmunize {
+  background-color: var(--canimmunize-color);
+  transition: all .6s ease-in-out;
+}
+
+.next-project-canimmunize:hover {
+  background-color: var(--pbl-color);
+} */
+
+.beerexpo-card {
+  background-image: url('{{site.baseurl}}/images/beer-expo/beer-expo-card.jpg');
+  background-size: cover;
+  background-position: center center;
+}
 /*Play */
 
 .img-border {
@@ -552,12 +575,5 @@ nav a:hover {
   .quilt-branding {
     max-width: 75%;
     margin: 0 auto;
-  }
-}
-
-@media only screen and (min-width:71em) {
-
-  .container {
-    height: 500px;
   }
 }
