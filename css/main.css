@@ -1,5 +1,5 @@
 :root {
-  --font-primary: proxima-nova, sans-serif;
+  --font-primary: sofia-pro, sans-serif;
   --font-secondary: oswald, sans-serif;
   --color-light-gray: #FAFAFA;
   --color-gray: #CECECE;
@@ -161,7 +161,7 @@ nav a:hover {
 
 .banner-img {
   height: 87vh;
-  background-image: url('{{site.baseurl}}/images/main-image.png');
+  background-image: url('{{site.baseurl}}/images/front-page.jpg');
   background-size: cover;
   top: 50%;
   transform: translateY(-50%);
