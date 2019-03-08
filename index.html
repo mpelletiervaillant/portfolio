@@ -4,27 +4,31 @@ layout: default
 
 <section>
   <div class="hero-banner relative wrapper">
-    <div class="wrapper gutter banner-text absolute">
-      <p class="push-0 navy">Hello,</p>
-      <h2 class="push-1-2 navy">I'm Melany</h2>
-      <p class="navy push-0 light giga">I’m Melany Pelletier-Vaillant, a graphic designer based in Ottawa with a passion for illustration and web design - well, anything design related really.</p>
-    </div>
-    <div class="absolute banner-img">
-      <!-- <img class="img-flex" src="{{site.baseurl}}/images/main-image.png" alt=""> -->
-  </div>
-    <div class="wrapper banner-links absolute">
-      <ul class="list-group-inline push-0">
-        <li><a class="milli navy banner-sm" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
-        <li><a class="milli navy banner-sm" href="https://www.instagram.com/melany.pv">Instagram</a></li>
-        <li><a class="milli navy banner-sm" href="https://www.behance.net/melanypv">Behance</a></li>
-      </ul>
+    <div class="grid grid-middle absolute hero-grid">
+      <div class="unit xs-1 s-1 m-1-2">
+        <div class="wrapper gutter banner-text">
+          <h2 class="push-1-2 blue black">I'm Melany</h2>
+          <p class="navy pad-b-2 semibold giga">A graphic designer based in Ottawa with a passion for illustration and web design - well, anything design related really.</p>
+          <ul class="list-group-inline push-0">
+            <li><a class="milli navy banner-sm first-banner-sm" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
+            <li><a class="milli navy banner-sm" href="https://www.instagram.com/melany.pv">Instagram</a></li>
+            <li><a class="milli navy banner-sm" href="https://www.behance.net/melanypv">Behance</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="unit xs-0 s-0 m-1-2">
+        <div class="">
+          <img class="img-flex" src="{{site.baseurl}}/images/hero-image.jpg" alt="">
+        </div
+      </div>
     </div>
   </div>
 </section>
 
-    <section class="my-padding">
-      <div class="grid grid-middle wrapper">
-
+    <section class="pad-t-2 pad-b-2">
+      <div class="wrapper">
+        <p class="semibold mega navy my-max-length pad-b-2 push-0">Take a look around, I don’t have anything else to say but I will think of something hopefully.</p>
         {% for work in site.data.projects %}
         {% include project-buttons.html data=work %}
         {% endfor %}
@@ -34,7 +38,7 @@ layout: default
 
     <section class="my-padding-bottom text-center">
       <div class="my-max-length gutter">
-      <h2 class="push-1-2 navy">More Stuff</h2>
+      <h3 class="push-1-2 navy">More Stuff</h3>
       <p class="light">Take a tour of my poorly organized computer files I spent way too much time looking for. I make cool stuff on the side to learn and to wind down. </p>
       </div>
       <div class="">

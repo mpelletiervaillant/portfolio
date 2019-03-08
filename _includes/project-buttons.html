@@ -11,13 +11,16 @@
 </div>
 </div> -->
 
-<div class="container island-1-2 unit xs-1 s-1-2 m-1-3">
+<div class="project-card island-1-2 {{include.data.projectCard}}">
   <a class="ib" href="{{site.baseurl}}{{include.data.projectLink}}">
-    <img class="img-flex" src="{{site.baseurl}}/images/{{include.data.projectImage}}" alt="">
-    <div class="overlay">
-      <div class="text">
-        <p class="giga push-0 portfolio-title semibold {{include.data.projectColor}}">{{include.data.projectTitle}}</p>
-        <p class="push-0 portfolio-text">Branding</p>
+    <div class="grid grid-middle">
+      <div class="unit xs-1-2 s-1-2 m-2-3 l-2-3">
+        <img class="img-flex" src="{{site.baseurl}}/images/{{include.data.projectImage}}" alt="">
+      </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 l-1-3">
+        <p class="giga white push-0 portfolio-title semibold">{{include.data.projectTitle}}</p>
+        <p class="white regular push-1-2">{{include.data.projectShortDescription}}</p>
+        <p class="white semibold push-0 milli">View Case Study<i class="icon i-16 gutter-1-2 arrow-icon"><svg><use xlink:href="images/icons.svg#arrow"></use></svg></i></p>
       </div>
     </div>
   </a>

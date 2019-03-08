@@ -1,12 +1,14 @@
 :root {
-  --font-primary: proxima-nova, sans-serif;
+  --font-primary: sofia-pro, sans-serif;
   --font-secondary: oswald, sans-serif;
   --color-light-gray: #FAFAFA;
   --color-gray: #CECECE;
-  --color-navy: #3B4F53;
-  --color-blue: #00D5C4;
+  --color-dark-gray: #404040;
+  --color-navy: #2C2C51;
+  --color-blue: #55D8D1;
+  --color-yellow: #FFD833;
   --pbl-color: #64d0fa;
-  --quilt-color: #e42f2c;
+  --quilt-color: #FC6159;
   --parkinsons-color: #3E4D59;
   --canimmunize-color: #4a90e2;
   --beerexpo-color: #f3ab1d;
@@ -44,7 +46,7 @@ html {
   padding-bottom: 5rem;
 }
 
-/* Typograhy */
+/* Typography */
 
 .base-sans {
   font-family: var(--font-primary);
@@ -54,12 +56,16 @@ html {
   font-family: var(--font-secondary);
 }
 
-.light {
-  font-weight: 300;
+.regular {
+  font-weight: 400;
 }
 
-.bold {
-  font-weight: 800;
+.semibold {
+  font-weight: 600;
+}
+
+.black {
+  font-weight: 900;
 }
 
 .no-decoration {
@@ -76,8 +82,12 @@ html {
   color: var(--color-navy);
 }
 
+.blue {
+  color: var(--color-blue);
+}
+
 .pbl-color {
-  color: var(--pbl-color);
+  color: var(--color-blue);
 }
 
 .quilt-color {
@@ -152,12 +162,18 @@ nav a:hover {
   height: 87vh;
 }
 
-.banner-text {
+/* .banner-text {
   top: 40%;
   transform: translateY(-50%);
   width: 50%;
-}
+} */
 
+.hero-grid {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .banner-img {
   height: 87vh;
@@ -165,7 +181,7 @@ nav a:hover {
   background-size: cover;
   top: 50%;
   transform: translateY(-50%);
-  width: 50%;
+  width: 45%;
   right: 0;
 }
 
@@ -181,7 +197,11 @@ nav a:hover {
   transition: all .3s ease;
   position: relative;
   padding-bottom: .3em;
-  margin: 0 1.5rem;
+  margin: 0 1rem;
+}
+
+.first-banner-sm {
+  margin: 0 1rem 0 0;
 }
 
 .banner-sm:hover {
@@ -260,45 +280,30 @@ nav a:hover {
   font-weight: 300;
 }
 
-.container {
-  position: relative;
-}
+/*--------Project Cards----------*/
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  overflow: hidden;
+.project-card {
   width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  width: 100%;
+  transition: all .2s ease-in-out;
+  margin-bottom: 1em;
 }
 
-.container:hover .overlay {
-  opacity: 1;
-  cursor: pointer;
+.project-card a {
+  text-decoration: none;
 }
 
-.text {
-  white-space: nowrap;
-  color: 000;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.arrow-icon {
+  fill: #fff;
+  transition: all .2s ease-in-out;
 }
 
-
-.portfolio-text {
-  color: var(--color-navy);
+.project-card:hover {
+  transform: scale(1.015);
 }
 
+.project-card:hover .arrow-icon {
+  transform: translateX(20%);
+}
 
 /*---------- Case Study Template -----------*/
 
@@ -372,11 +377,8 @@ nav a:hover {
 
 /*---------- Project Big Life -----------*/
 
-
 .pbl-card {
-  background-image: url('{{site.baseurl}}/images/pbl-card.jpg');
-  background-size: cover;
-  background-position: center center;
+  background-color: var(--color-blue);
 }
 
 .pbl-header-banner {
@@ -386,7 +388,7 @@ nav a:hover {
 }
 
 .pbl-banner-color {
-  background-color: var(--pbl-color);
+  background-color: var(--color-blue);
 }
 
 .project-intro {
@@ -432,9 +434,7 @@ nav a:hover {
 }
 
 .quilt-card {
-  background-image: url('{{site.baseurl}}/images/quilt/quilt-card.jpg');
-  background-size: cover;
-  background-position: center center;
+  background-color: var(--quilt-color);
 }
 
 .quilt-banner-color {
@@ -468,9 +468,7 @@ nav a:hover {
 }
 
 .parkinsons-card {
-  background-image: url('{{site.baseurl}}/images/parkinsons-card.jpg');
-  background-size: cover;
-  background-position: center center;
+  background-color: var(--color-yellow);
 }
 
 .parkinsons-color {
@@ -500,9 +498,7 @@ nav a:hover {
 }
 
 .canimmunize-card {
-  background-image: url('{{site.baseurl}}/images/canimmunize/canimmunize-card.jpg');
-  background-size: cover;
-  background-position: center center;
+  background-color: var(--color-navy);
 }
 
 /* Beer Expo */
