@@ -1,4 +1,4 @@
-- projectCard: pbl-card
+- projectBackground: pbl-background
   projectLink: /project-big-life
   projectTitle: Project Big Life
   projectShortDescription: Illustrations for online health calculators
@@ -12,11 +12,13 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl: https://www.projectbiglife.ca
   projectWebsite: www.projectbiglife.ca
-  projectBanner: pbl-header-banner
   projectColor: pbl-color
   projectClient: Project Big Life
-  bannerColor: pbl-banner-color
+  projectBanner: /pbl-banner.png
   projectImage: pbl-drawing.png
+  tags: Illustration UI UX
+  # pushClass: m-2-3 unit-push-m-1-3
+  # pullClass: m-1-3 unit-pull-m-2-3
 
 - projectCard: quilt-card
   projectLink: /quilt
@@ -36,7 +38,9 @@
   projectColor: quilt-color
   projectClient: QUILT
   bannerColor: quilt-banner-color
-  projectImage: pbl-drawing.png
+  projectImage: quilt-drawing.png
+  # pushClass: m-2-3
+  # pullClass: m-1-3
 
 - projectCard: parkinsons-card
   projectLink: /parkinsons-network
@@ -57,6 +61,8 @@
   projectClient: Algonquin College
   bannerColor: parkinsons-background
   projectImage: pbl-drawing.png
+  # pushClass: m-2-3 unit-push-m-1-3
+  # pullClass: m-1-3 unit-pull-m-2-3
 
 - projectCard: canimmunize-card
   projectLink: /canimmunize
@@ -77,6 +83,8 @@
   projectClient: CANImmunize
   bannerColor: canimmunize-background
   projectImage: pbl-drawing.png
+  # pushClass: m-2-3 unit-push-m-1-3
+  # pullClass: m-1-3 unit-pull-m-2-3
 #
 # - projectCard: packaging-card
 #   projectLink: /packaging

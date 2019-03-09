@@ -1,12 +1,10 @@
 :root {
   --font-primary: sofia-pro, sans-serif;
   --font-secondary: oswald, sans-serif;
-  --color-light-gray: #FAFAFA;
-  --color-gray: #CECECE;
-  --color-dark-gray: #404040;
   --color-navy: #2C2C51;
   --color-blue: #55D8D1;
   --color-yellow: #FFD833;
+  --color-beige: #F9F1E4;
   --pbl-color: #64d0fa;
   --quilt-color: #FC6159;
   --parkinsons-color: #3E4D59;
@@ -86,8 +84,8 @@ html {
   color: var(--color-blue);
 }
 
-.pbl-color {
-  color: var(--color-blue);
+.beige {
+  color: var(--color-beige);
 }
 
 .quilt-color {
@@ -307,8 +305,9 @@ nav a:hover {
 
 /*---------- Case Study Template -----------*/
 
-.case-study-banner {
-  height: 55vh;
+.banner-text {
+  line-height: 1.5;
+  font-size: .9rem;
 }
 
 .project-type {
@@ -322,10 +321,6 @@ nav a:hover {
   font-weight: 800;
 }
 
-.detail {
-  font-weight: 300;
-}
-
 .details-list {
   text-align: center;
 }
@@ -336,10 +331,6 @@ nav a:hover {
 
 .gray-background {
   background-color: var(--color-light-gray);
-}
-
-.pbl-background {
-  background-color: var(--pbl-color);
 }
 
 .parkinsons-background {
@@ -376,18 +367,11 @@ nav a:hover {
 }
 
 /*---------- Project Big Life -----------*/
-
-.pbl-card {
-  background-color: var(--color-blue);
+.pbl-color {
+  color: var(--color-blue);
 }
 
-.pbl-header-banner {
-  background-image: url('{{site.baseurl}}/images/pbl-banner.jpg');
-  background-size: cover;
-  background-position: center center;
-}
-
-.pbl-banner-color {
+.pbl-background {
   background-color: var(--color-blue);
 }
 
