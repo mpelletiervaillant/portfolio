@@ -1,6 +1,6 @@
 - projectBackground: pbl-background
   projectLink: /project-big-life
-  projectTitle: Project Big Life
+  projectTitle: Project<br>Big Life
   projectShortDescription: Illustrations for online health calculators
   headerColor: pbl-header
   previousUrl: /canimmunize
@@ -20,7 +20,7 @@
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 
-- projectCard: quilt-card
+- projectBackground: quilt-background
   projectLink: /quilt
   projectTitle: QUILT
   projectShortDescription: Branding for QUality for Individuals who require Long-Term support.

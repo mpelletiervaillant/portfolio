@@ -5,6 +5,8 @@
   --color-blue: #55D8D1;
   --color-yellow: #FFD833;
   --color-beige: #F9F1E4;
+  --color-gray: #6E6E6E;
+  --color-light-gray: #FAFAFA;
   --pbl-color: #64d0fa;
   --quilt-color: #FC6159;
   --parkinsons-color: #3E4D59;
@@ -55,7 +57,7 @@ html {
 }
 
 .regular {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .semibold {
@@ -88,8 +90,18 @@ html {
   color: var(--color-beige);
 }
 
+.gray {
+  color: var(--color-gray);
+}
+
 .quilt-color {
   color: var(--quilt-color);
+}
+
+/* Backgrounds */
+
+.section-gray {
+  background-color: #FAFAFA;
 }
 
 /* Figures */
@@ -156,31 +168,18 @@ nav a:hover {
   background-color: var(--color-dark-blue);
 }
 
+.main-section {
+  height: 100vh;
+}
+
 .hero-banner {
-  height: 87vh;
+  height: 100vh;
 }
 
-/* .banner-text {
-  top: 40%;
-  transform: translateY(-50%);
-  width: 50%;
-} */
-
-.hero-grid {
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.banner-img {
-  height: 87vh;
-  background-image: url('{{site.baseurl}}/images/main-image.png');
+.pattern-box {
+  background-image: url('{{site.baseurl}}/images/pattern.jpg');
   background-size: cover;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 45%;
-  right: 0;
+  height: 100vh;
 }
 
 .banner-links {
@@ -305,6 +304,10 @@ nav a:hover {
 
 /*---------- Case Study Template -----------*/
 
+.case-study-header {
+  height: 90vh;
+}
+
 .banner-text {
   line-height: 1.5;
   font-size: .9rem;
@@ -318,15 +321,10 @@ nav a:hover {
 
 .detail-title {
   letter-spacing: 2px;
-  font-weight: 800;
 }
 
 .details-list {
   text-align: center;
-}
-
-.details-list li {
-  margin-bottom: 1em;
 }
 
 .gray-background {
@@ -377,7 +375,6 @@ nav a:hover {
 
 .project-intro {
   font-weight: 300;
-  color: var(--color-navy);
 }
 
 .blue-drop-shadow {
@@ -390,7 +387,7 @@ nav a:hover {
 
 .slide-in {
   animation-name: slideInFromBottom;
-  animation-duration: 1.5s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out;
 }
 
@@ -405,7 +402,7 @@ nav a:hover {
 }
 
 .pbl-hover:hover {
-  color: var(--color-navy);
+  color: var(--color-blue);
   transform: scale(1.03);
 }
 
@@ -417,7 +414,7 @@ nav a:hover {
   background-position: center center;
 }
 
-.quilt-card {
+.quilt-background {
   background-color: var(--quilt-color);
 }
 
