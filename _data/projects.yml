@@ -42,7 +42,7 @@
   # pushClass: m-2-3
   # pullClass: m-1-3
 
-- projectCard: parkinsons-card
+- projectBackground: parkinsons-background
   projectLink: /parkinsons-network
   projectTitle: Parkinson's Network
   projectShortDescription: A digital platform for Parkinsons patients and physicians.
@@ -64,10 +64,10 @@
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 
-- projectCard: canimmunize-card
+- projectBackground: canimmunize-background
   projectLink: /canimmunize
   projectTitle: CANImmunize
-  projectShortDescription: An online digital vaccination record tool for Canadians.
+  projectShortDescription: A digital vaccination record tool for Canadians.
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
@@ -75,14 +75,14 @@
   nextProject: Project Big Life
   projectType: Web Design
   projectDate: April 2018 - Ongoing
-  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectLongDescription: During my team at CANImmunize, I created promotional meterials, web assets and wireframes to help promote the application.
   projectUrl: https://www.canimmunize.ca/
   projectWebsite: www.canimmunize.ca
   projectBanner: canimmunize-header-banner
   projectColor: canimmunize-color
   projectClient: CANImmunize
   bannerColor: canimmunize-background
-  projectImage: pbl-drawing.png
+  projectImage: canimm-drawing.png
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 #

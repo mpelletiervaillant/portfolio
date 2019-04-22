@@ -305,7 +305,7 @@ nav a:hover {
 /*---------- Case Study Template -----------*/
 
 .case-study-header {
-  height: 90vh;
+  height: 87vh;
 }
 
 .banner-text {
@@ -457,7 +457,7 @@ nav a:hover {
 }
 
 .parkinsons-background {
-  background-color: var(--parkinsons-color);
+  background-color: var(--color-yellow);
 }
 /*---------- CANImmunize -----------*/
 
@@ -466,7 +466,7 @@ nav a:hover {
 }
 
 .canimmunize-background {
-  background-color: var(--canimmunize-color);
+  background-color: var(--color-navy);
 }
 
 .next-project-canimmunize {
