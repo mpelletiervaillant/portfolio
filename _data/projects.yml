@@ -32,7 +32,7 @@
   nextProject: Parkinson's Network
   projectType: Branding
   projectDate: May 2018
-  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectLongDescription: QUILT approached me to develop the branding identity for their newly formed group.
   projectUrl:
   projectWebsite:
   projectBanner: /quilt/quilt-banner.png
@@ -56,12 +56,12 @@
   nextProject: CANImmunize
   projectType: Web Design
   projectDate: July 2018
-  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectLongDescription: Parkinson's Network is a side project where I designed a website and application Parkinson's patients and physicians.
   projectUrl:
   projectWebsite:
   projectBanner: /parkinsons-header-banner
   projectColor: parkinsons-color
-  projectClient: Algonquin College
+  projectClient: Personal Project
   projectBanner: /parkinsons/parkinsons-banner.png
   bannerColor: parkinsons-background
   projectImage: /parkinsons/parkinsons-drawing.png
@@ -81,7 +81,7 @@
   nextProject: Project Big Life
   projectType: Web Design
   projectDate: April 2018 - April 2019
-  projectLongDescription: During my time at CANImmunize, I created promotional meterials, web assets and wireframes to help promote the application.
+  projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
   projectUrl: https://www.canimmunize.ca/
   projectWebsite: www.canimmunize.ca
   projectColor: canimmunize-color

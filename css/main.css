@@ -86,6 +86,10 @@ html {
   color: var(--color-blue);
 }
 
+.yellow {
+  color: var(--color-yellow);
+}
+
 .beige {
   color: var(--color-beige);
 }
@@ -492,11 +496,11 @@ nav a:hover {
   background-color: var(--color-navy);
 }
 
-.pbl-hover {
+.canimmunize-hover {
   transition: all .3s ease;
 }
 
-.pbl-hover:hover {
+.canimmunize-hover:hover {
   color: var(--canimmunize-color);
   transform: scale(1.03);
 }
