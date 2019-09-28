@@ -39,7 +39,7 @@
   projectColor: quilt-color
   projectClient: QUILT
   bannerColor: quilt-banner-color
-  projectImage: quilt-drawing.png
+  projectImage: /quilt/quilt-drawing.png
   tags: Branding
   textColor: beige
   # pushClass: m-2-3
@@ -93,44 +93,3 @@
   textColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
-#
-# - projectCard: packaging-card
-#   projectLink: /packaging
-#   projectTitle: Ferrero Rocher Packaging
-#   projectShortDescription: An online digital vaccination record tool for Canadians.
-#   headerColor: packaging-header
-#   previousUrl: /packaging
-#   previousProject: Parkinson's Network
-#   nextUrl: /project-big-life
-#   nextProject: Project Big Life
-#   projectType: Packaging Design
-#   projectDate: November 2017
-#   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
-#   projectUrl:
-#   projectWebsite:
-#   projectBanner: packaging-header-banner
-#   projectColor: packaging-color
-#   projectClient: Algonquin College
-#   bannerColor: packaging-background
-#   projectImage: packaging/package-card.jpg
-
-#
-# - projectCard: beerexpo-card
-#   projectLink: /beer-expo
-#   projectTitle: Beer Expo
-#   projectShortDescription: An online digital vaccination record tool for Canadians.
-#   headerColor: beerexpo-header
-#   previousUrl: /parkinsons-network
-#   previousProject: Parkinson's Network
-#   nextUrl: /project-big-life
-#   nextProject: Project Big Life
-#   projectType: Event Branding
-#   projectDate: December 2017
-#   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
-#   projectUrl:
-#   projectWebsite:
-#   projectBanner: beerexpo-header-banner
-#   projectColor: beerexpo-color
-#   projectClient: Algonquin College
-#   bannerColor: beerexpo-background
-#   projectImage: beer-expo/beer-expo-card.jpg
