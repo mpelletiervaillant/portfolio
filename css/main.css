@@ -1,17 +1,52 @@
 :root {
-  --font-primary: niveau-grotesk, sans-serif;
-  --font-secondary: Lora, serif;
-  --color-light-gray: #F5F4F2;
-  --color-dark-blue: #2A374D;
-  --color-blue: #24D1C4;
-  --color-yellow: #FAB00A;
-  --color-pink: #ED5270;
-  --color-purple: #3E4E72;
+  --font-primary: sofia-pro, sans-serif;
+  --font-secondary: oswald, sans-serif;
+  --color-navy: #2C2C51;
+  --color-blue: #55D8D1;
+  --color-yellow: #FFD833;
+  --color-beige: #F9F1E4;
+  --color-gray: #6E6E6E;
+  --color-light-gray: #FAFAFA;
+  --pbl-color: #64d0fa;
+  --quilt-color: #FC6159;
+  --parkinsons-color: #3E4D59;
+  --canimmunize-color: #4a90e2;
+  --beerexpo-color: #f3ab1d;
 }
 
 html {
   font-family: var(--font-primary);
 }
+
+/* Spacing */
+
+.my-max-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 28em;
+  width: 100%;
+}
+
+.my-wrapper {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.my-padding {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.my-small-padding {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.my-padding-bottom {
+  padding-bottom: 5rem;
+}
+
+/* Typography */
 
 .base-sans {
   font-family: var(--font-primary);
@@ -21,13 +56,65 @@ html {
   font-family: var(--font-secondary);
 }
 
-.light {
+.regular {
   font-weight: 300;
 }
 
-.bold {
-  font-weight: bold;
+.semibold {
+  font-weight: 600;
 }
+
+.black {
+  font-weight: 900;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+/* Colours */
+
+.white {
+  color: #ffffff;
+}
+
+.navy {
+  color: var(--color-navy);
+}
+
+.blue {
+  color: var(--color-blue);
+}
+
+.yellow {
+  color: var(--color-yellow);
+}
+
+.beige {
+  color: var(--color-beige);
+}
+
+<<<<<<< HEAD
+.gray {
+  color: var(--color-gray);
+=======
+.logo {
+  width: 200px;
+  transition: all .2s ease;
+>>>>>>> master
+}
+
+.quilt-color {
+  color: var(--quilt-color);
+}
+
+/* Backgrounds */
+
+.section-gray {
+  background-color: #FAFAFA;
+}
+
+/* Figures */
 
 figure {
   margin-bottom: 0;
@@ -38,43 +125,16 @@ figcaption {
   color: #808080;
 }
 
-.pbl-color {
-  color: var(--color-blue);
-}
-
-.quilt-color {
-  color: var(--color-purple);
-}
-
-.parkinsons-color {
-  color: var(--color-yellow);
-}
-
-.canimm-color {
-  color: var(--color-pink);
-}
-
-.logo {
-  width: 200px;
-  transition: all .2s ease;
-}
-
-.logo:hover {
-  opacity: .7;
-}
-
 .navigation {
   padding: 1.3rem
 }
 
-nav a, .logo {
-  text-decoration: none;
-  color: var(--color-dark-blue);
-  font-weight: 500;
-  transition: color .2s ease;
-}
-
 nav a {
+  text-decoration: none;
+  color: var(--color-navy);
+  transition: color .2s ease;
+  letter-spacing: 1px;
+  font-weight: 600;
   position: relative;
   padding-bottom: .3em;
 }
@@ -86,7 +146,7 @@ nav a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--color-purple);
+  background-color: var(--color-navy);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -101,7 +161,7 @@ nav a:hover:before {
 }
 
 nav a:hover {
-  color: var(--color-blue);
+  color: var(--color-dark-blue);
 }
 
 .button {
@@ -118,69 +178,71 @@ nav a:hover {
   background-color: var(--color-dark-blue);
 }
 
+.main-section {
+  height: 100vh;
+}
+
 .hero-banner {
-  background: url("../images/banner.png");
-  height: 450px;
-  background-color: #F5F4F2;
-  background-size: 900px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  height: 100vh;
 }
 
-.heading-text {
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: var(--color-dark-blue);
-  width: 100%;
-  line-height: 1;
+.pattern-box {
+  background-image: url('{{site.baseurl}}/images/pattern.jpg');
+  background-size: cover;
+  height: 100vh;
 }
 
-.about-section {
-    padding: 8em 0;
+.banner-links {
+  bottom: 4rem;
 }
 
-.intro-text {
-  color: var(--color-dark-blue);
-  font-weight: 300;
-}
-
-.work-section h2, .about-section h2 {
-  color: var(--color-dark-blue);
-}
-
-.work-section h3 {
-  font-weight: 400;
-  max-width: 25em;
-}
-
-.front-cards a {
+.banner-sm {
+  font-family: var(--font-secondary);
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all .3s ease;
+  position: relative;
+  padding-bottom: .3em;
+  margin: 0 1rem;
 }
 
-.front-cards h3, .front-cards p {
-  color: #fff;
+.first-banner-sm {
+  margin: 0 1rem 0 0;
 }
 
+<<<<<<< HEAD
+.banner-sm:hover {
+  color: var(--color-blue);
+=======
 .front-cards h3, .read-btn {
   font-weight: 600;
+>>>>>>> master
 }
 
-.front-cards p:first-of-type {
-  font-weight: 300;
+.project-section {
+  height: 80vh;
 }
 
 .card {
-  height: 350px;
+  height: 500px;
 }
 
-.width-80 {
-  width: 80%;
+.card-text {
+  width: 100%;
 }
 
-.pbl-card {
-  background: url("../images/pbl-banner.png");
+.enter-here-btn {
   background-color: var(--color-blue);
+<<<<<<< HEAD
+  border: 1px solid var(--color-blue);
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  padding: .5em 2.5em .60em;
+  transition: all .3s ease-in-out;
+=======
   transition: background-color .5s ease;
 }
 
@@ -246,29 +308,24 @@ nav a:hover {
 
 .more-header {
   font-weight: 400;
+>>>>>>> master
 }
 
-.more-text {
-  font-family: var(--font-primary);
-  color: var(--color-dark-blue);
+
+.enter-here-btn:hover {
+  background-color: var(--quilt-color);
+  border-color: var(--quilt-color);
+  transform: scale(1.05);
 }
 
-.enter-here-btn {
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--color-dark-blue);
-  position: relative;
-  padding-bottom: .3em;
-}
-
-.enter-here-btn:before {
+.banner-sm:before {
   content: "";
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--color-pink);
+  background-color: var(--color-navy);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -276,18 +333,14 @@ nav a:hover {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.enter-here-btn:hover:before {
+.banner-sm:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-.enter-here-btn:hover .btn-underline {
+.banner-sm:hover .btn-underline {
   width: 60px;
-}
-
-.enter-here-btn:hover{
-  color: var(--color-blue);
 }
 
 .social-media-links {
@@ -311,214 +364,239 @@ nav a:hover {
   font-weight: 300;
 }
 
-/* Project 1 Case Study */
+/*--------Project Cards----------*/
 
-
-.pbl-header-banner {
-  background: url("../images/pbl-banner.png");
-}
-
-.quilt-header-banner {
-  background: url("../images/quilt-banner.png");
-}
-
-.parkinsons-header-banner {
-  background: url("../images/parkinsons-banner.png");
-}
-
-.canimmunize-header-banner {
-  background: url("../images/canimmunize-banner.png");
-}
-
-.project-header {
-  height: 60vh;
-  background-size: 1200px;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-}
-
-.project-title {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.project-card {
   width: 100%;
-  font-family: var(--font-primray);
-  color: #fff;
+  transition: all .2s ease-in-out;
+  margin-bottom: 1em;
 }
 
-.project-side-title {
-  font-weight: 500;
-  color: var(--color-dark-blue);
-  border-bottom: 1px solid #C6C6C6;
-  line-height: 1.1;
-}
-
-.project-details {
-  font-weight: 300;
-}
-
-.project-description {
-  font-family: var(--font-primary);
-  color: #434343;
-  line-height: 1.4;
-  font-weight: 300;
-}
-
-.pbl-website {
+.project-card a {
   text-decoration: none;
-  color: var(--color-dark-blue);
-  font-weight: 500;
-  transition: color .2s ease;
 }
 
-.pbl-website:hover {
-  color: var(--color-blue);
+.arrow-icon {
+  fill: #fff;
+  transition: all .2s ease-in-out;
 }
+
+.project-card:hover {
+  transform: scale(1.015);
+}
+
+.project-card:hover .arrow-icon {
+  transform: translateX(20%);
+}
+
+/*---------- Case Study Template -----------*/
 
 .case-study-header {
-  width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 87vh;
 }
 
-.cs-content p {
-  color: #39475F;
-  font-weight: 300;
-  line-height: 1.4rem;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+.banner-text {
+  line-height: 1.5;
+  font-size: .9rem;
 }
 
-.cs-content h3, .cs-content h4 {
-  font-weight: 300;
-  max-width: 650px;
-  margin-left: auto;
-  margin-right: auto;
+.project-type {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.cs-content h5 {
-  color: var(--color-dark-blue);
-  font-weight: 500;
+.detail-title {
+  letter-spacing: 2px;
 }
 
-.park-bullet {
-  width: 10%;
+.details-list {
+  text-align: center;
 }
 
-.park-text {
-  width: 75%;
+.gray-background {
+  background-color: var(--color-light-gray);
 }
 
-.cs-image {
-  padding: 3em 4em;
-  margin: 2em 0;
+.parkinsons-background-2 {
+  background-color: var(--parkinsons-color);
 }
 
-.details-link {
-  color: var(--color-dark-blue);
+.parkinsons-background-3 {
+  background-color: #9eb7b1;
 }
 
-.pbl-link {
-  color: var(--color-dark-blue);
-  font-weight: 500;
-  transition: all .3s ease;
+.parkinsons-green-background {
+  background-color: #9eb7b1;
 }
 
-.pbl-link:hover {
+.next-project-section {
+  width: 100%;
+}
+
+.next-project-text {
+  transition: all .6s ease-in-out;
+}
+
+.next-project-pbl,
+.next-project-parkinsons {
+  transition: all .6s ease-in-out;
+}
+
+.next-project-pbl:hover {
+  background-color: var(--quilt-color);
+}
+
+.next-project-parkinsons:hover {
+  background-color: var(--canimmunize-color);
+}
+
+.next-project-section:hover .next-project-text {
+  transform: scale(1.1);
+}
+
+/*---------- Project Big Life -----------*/
+.pbl-color {
   color: var(--color-blue);
 }
 
-.canimm-link {
-  transition: all .3s ease;
-}
-
-.canimm-link:hover {
-  color: var(--color-pink);
-}
-/*Parkinsons Network Case Study*/
-
-.parkinsons-header {
-  background-color: var(--color-yellow);
-}
-
-.next-project-btn, .previous-project-btn {
-  text-decoration: none;
-}
-
-.previous-project, .next-project {
-  opacity: 0;
-  color: #fff;
-  transition: opacity .4s ease;
-}
-
-.previous-project-btn:hover .previous-project {
-  opacity: 1;
-  display: inline-block;
-}
-
-.next-arrow {
-  transform: rotate(180deg);
-}
-
-.arrows {
-  fill: var(--color-light-gray);
-}
-
-.next-project-btn:hover .next-project {
-  opacity: 1;
-  display: inline-block;
-}
-
-/* See More */
-
-.see-more h4, .see-more p {
-  color: #fff;
-}
-
-.see-more-btn {
-  color: #fff;
-  border: 1px solid #fff;
-  padding: .75em 2em;
-  text-decoration: none;
-  border-radius: 40px;
-  transition: all .3s ease;
-}
-
-.see-more-btn:hover {
-  background-color: #fff;
-  color: var(--color-dark-blue);
-}
-
-/*Project Big Life*/
-.pbl-header {
+.pbl-background {
   background-color: var(--color-blue);
 }
 
-/*QUILT*/
-.quilt-header {
-  background-color: var(--color-purple);
+.project-intro {
+  font-weight: 300;
 }
 
-/*CANImmunize*/
-.canimm-header {
-  background-color: var(--color-pink);
+.blue-drop-shadow {
+  filter: drop-shadow(5px 5px 30px #3A8BAA);
 }
 
-.case-study-section a {
-  color: var(--color-purple);
-  font-weight: 500;
+.gray-drop-shadow {
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, .18));
 }
 
-/*Play*/
-.play-header {
-  background-color: #26BF81;
+.slide-in {
+  animation-name: slideInFromBottom;
+  animation-duration: .7s;
+  animation-timing-function: ease-in-out;
 }
+
+.pbl-bubbles {
+  background-image: url("{{site.baseurl}}/images/bubbles.png"), url("{{site.baseurl}}/images/slides.png");
+  background-size: cover, cover;
+  background-position: center;
+}
+
+.pbl-hover {
+  transition: all .3s ease;
+}
+
+.pbl-hover:hover {
+  color: var(--color-blue);
+  transform: scale(1.03);
+}
+
+/*---------- QUILT -----------*/
+
+.quilt-header-banner {
+  background-image: url('{{site.baseurl}}/images/quilt/quilt-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.quilt-background {
+  background-color: var(--quilt-color);
+}
+
+.quilt-banner-color {
+  background-color: var(--quilt-color);
+}
+
+.black-background {
+  background-color: #333132;
+}
+
+.w-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.next-project-quilt {
+  background-color: var(--quilt-color);
+  transition: all .6s ease-in-out;
+}
+
+.next-project-quilt:hover {
+  background-color: var(--parkinsons-color);
+}
+
+/*---------- Parkinsons Network -----------*/
+
+.parkinsons-header-banner {
+  background-image: url('{{site.baseurl}}/images/parkinsons-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.parkinsons-card {
+  background-color: var(--color-yellow);
+}
+
+.parkinsons-color {
+  color: var(--parkinsons-color);
+}
+
+.parkinsons-background {
+  background-color: var(--color-yellow);
+}
+
+.w-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*---------- CANImmunize -----------*/
+
+.canimmunize-color {
+  color: var(--canimmunize-color);
+}
+
+.canimmunize-background {
+  background-color: var(--color-navy);
+}
+
+.next-project-canimmunize {
+  background-color: var(--canimmunize-color);
+  transition: all .6s ease-in-out;
+}
+
+.next-project-canimmunize:hover {
+  background-color: var(--pbl-color);
+}
+
+.canimmunize-card {
+  background-color: var(--color-navy);
+}
+
+.canimmunize-hover {
+  transition: all .3s ease;
+}
+
+.canimmunize-hover:hover {
+  color: var(--canimmunize-color);
+  transform: scale(1.03);
+}
+
+/*Play */
 
 .img-border {
   border: 1px solid #e2e2e2;
 }
 
+<<<<<<< HEAD
+/* Animations */
+=======
 /* 404 */
 
 .not-found-section {
@@ -561,12 +639,17 @@ nav a:hover {
     top: 20%;
   }
 }
+>>>>>>> master
 
-@media only screen and (min-width:38em ) {
+@keyframes slideInFromBottom {
 
-  .cs-details {
-    border-right: 1px solid #e2e2e2;
-    text-align: right;
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -582,24 +665,25 @@ nav a:hover {
 
 }
 
-@media only screen and (min-width:60em ) {
+@media only screen and (min-width:43em ) {
 
-  .no-space {
-    padding-top: 6em;
+  .details-list {
+    text-align: left;
   }
 
-  .hero-banner {
-    background: url("../images/banner.png");
-    height: 80vh;
-    background-color: #F5F4F2;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom;
+  .details-list li {
+    margin-bottom: 0;
+    display: inline-block;
+    text-align: left;
   }
 
-  .project-header {
-    height: 60vh;
-    background-size: contain;
+  .quilt-branding {
+    max-width: 75%;
+    margin: 0 auto;
   }
 
+  .w-60-q {
+    width: 60%;
+    margin: 0 auto;
+  }
 }

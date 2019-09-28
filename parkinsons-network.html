@@ -1,9 +1,26 @@
 ---
-layout: default
+layout: caseStudy
 title: Mélany Pelletier-Vaillant · Parkinson's Network
-meta: A look at the creation of Parkinson's Network's false brand and interface design.
+meta: Website design for Parkinson's Network
 ---
 
+<<<<<<< HEAD
+<header class="parkinsons-background">
+  <div class="grid grid-middle wrapper pad-t-4 gutter-2">
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
+      <p class="push-0"><a class="no-decoration navy semibold milli" href="{{site.baseurl}}/index">Mélany Pelletier-Vaillant</a></p>
+    </div>
+    <div class="unit xs-1-2 s-1-2 m-1-2 l-3-4">
+      <nav>
+        <ul class="list-group-inline push-0 text-right">
+          <li class="push-r milli"><a class="navy" href="{{site.baseurl}}/project-big-life">Work</a></li>
+          <li class="milli"><a class="navy" href="{{site.baseurl}}/play">Play</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+=======
 {% assign data=site.data.homepage[2] %}
 {% include case-study-template.html data=data %}
 
@@ -19,124 +36,109 @@ meta: A look at the creation of Parkinson's Network's false brand and interface 
         <p class="milli push-2 serif">I created a false Network, and started by creating the website. I wanted the primary colour to be bright, because we are still dealing with a serious topic. After some research, I found out the international symbol for Parkinson’s is the red tulip, so naturally using a bright red made sense.</p>
       </div>
     </div>
+>>>>>>> master
 
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1 l-1 cs-content">
-      <h4 class="push-1-2">Colours</h4>
-      <p class="milli serif push-2">This is in no way accurate or tested or anything. It was really to explore interactivity and designing things I’ve always wanted to do: dashboards, cool icons and apps. I did keep in mind what I thought would be useful for Parkinson’s patients, based on my limited research and knowledge.</p>
+{% assign data=site.data.projects[2] %}
+{% include case-study-header.html data=data %}
 
-      <figure>
-        <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/parkinsons-brand-colours.jpg" alt="Screenshots of Parkinson's Network website's home page.">
-        <figcaption class="micro push-2">Website's Home page.</figcaption>
-      </figure>
-    </div>
-    <div class="unit xs-1 s-1 m-1 l-1 cs-content">
-      <h4 class="push-1-2">Colours</h4>
-      <p class="milli serif push-2">This is in no way accurate or tested or anything. It was really to explore interactivity and designing things I’ve always wanted to do: dashboards, cool icons and apps. I did keep in mind what I thought would be useful for Parkinson’s patients, based on my limited research and knowledge.</p>
-      <figure>
-        <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/parkinsons-brand-typography.jpg" alt="Screenshots of Parkinson's Network website's home page.">
-        <figcaption class="micro push-2">Website's Home page.</figcaption>
-      </figure>
-    </div>
-    <div class="unit xs-1 s-1 m-1 l-1 cs-content">
-      <h4 class="push-1-2">Colours</h4>
-      <p class="milli serif push-2">This is in no way accurate or tested or anything. It was really to explore interactivity and designing things I’ve always wanted to do: dashboards, cool icons and apps. I did keep in mind what I thought would be useful for Parkinson’s patients, based on my limited research and knowledge.</p>
-      <figure>
-        <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/parkinsons-icons.jpg" alt="Screenshots of Parkinson's Network website's home page.">
-        <figcaption class="micro push-2">Website's Home page.</figcaption>
-      </figure>
-    </div>
-  </div>
-
-
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1 l-1 cs-content">
-      <p class="milli push-2 serif">Next was the portal itself. It was important to design for both patient and physician. I created a portal where patients can easily track their symptoms and complete assessments, that way when they visit their physician, the time can be spent discussing the important issues and not doing paperwork.</p>
-    </div>
-
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1 l-1">
-      <figure>
-        <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/parkinsons-home-page.jpg" alt="Screenshots of Parkinson's Network website's home page.">
-        <figcaption class="micro push-2">Website's Home page.</figcaption>
-      </figure>
-    </div>
-  </div>
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1 l-1 cs-content">
-      <p class="milli push-2 serif">Next was the portal itself. It was important to design for both patient and physician. I created a portal where patients can easily track their symptoms and complete assessments, that way when they visit their physician, the time can be spent discussing the important issues and not doing paperwork.</p>
-    </div>
-
-    <!-- Patient Portal -->
-    <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 cs-content">
-      <h4 class="push-1-2">Patient Portal</h4>
-      <ol class="list-group">
-        <li class="">
-          <h5 class="ib kilo push-0 park-h5">View Upcoming Appointments</h5>
-          <p class="milli push-1-2">Keep track of your upcoming appointment and assessment tests right on the front page of your dashboard</p>
-        </li>
-        <li class="">
-            <h5 class="ib kilo push-0 park-h5">Symptoms Overview</h5>
-            <p class="milli push-1-2">View how frequent your symptoms have been. Customize to track one particular symptom.</p>
-        </li>
-        <li class="">
-            <h5 class="ib kilo push-0 park-h5">Track Assessment Progress</h5>
-            <p class="milli push-1-2">Complete all your assessments on time with this progress box.</p>
-        </li>
-        <li class="">
-          <h5 class="ib kilo push-0 park-h5">Symptom Diary</h5>
-          <p class="milli push-1-2">Track your symptoms in the symptom diary to help your physician treat you correctly and view your progress.</p>
-        </li>
-      </ol>
-    </div>
-    <div class="unit xs-1 s-1 m-2-3 l-2-3 island-1-2">
-    <figure>
-      <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/patient-dashboard.jpg" alt="Mockup of Parkinson's Network Patient Portal on a computer.">
-      <figcaption class="micro push-2">Parkinson's Network Patient Portal Design</figcaption>
-    </figure>
-    </div>
-  </div>
-
-    <!-- Physician Portal -->
-    <div class="grid grid-middle">
-      <div class="unit xs-1 s-1 m-2-3 l-2-3">
-        <figure>
-          <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/physician-dashbaord.jpg" alt="Mockup of Parkinson's Network Physician Portal on a computer.">
-          <figcaption class="micro push-2">Parkinson's Network Physician Portal Design</figcaption>
-        </figure>
+<section>
+  <div class="grid wrapper my-padding gutter-2 slide-element">
+    <div class="unit s-1  m-2-3 l-2-3 pad-b-2">
+      <div class="my-max-length">
+        <p class="project-intro-heading giga semibold navy">Sometimes really cool projects just fall through, and that’s okay. What do you do then? Make it anyways. That’s what happened with this particular project. I decided to make it to gain more insight of web and application design.</p>
+        <p class="project-intro push-0 gray">I branded and designed a web application for Parkinson's patients to track their symptoms in order to make more time for valuable conversation during their appointments. Physicians found that they were spending too much time filling in paperwork during visits and they needed a solution.</p>
       </div>
-    <div class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 cs-content">
-      <h4 class="push-1-2">Physician Portal</h4>
-      <ol class="list-group">
-        <li class="">
-            <h5 class="ib kilo push-0 park-h5">View Schedule</h5>
-            <p class="milli push-1-2">Easily view your schedule for the day and create new appointments to maximize your time.</p>
-        </li>
-        <li class="">
-          <h5 class="ib kilo push-0 park-h5">Track Patients</h5>
-          <p class="milli push-1-2">View patient information, assessments and symptoms diaries to better understand their condition.</p>
-        </li>
-        <li class="">
-
-            <h5 class="ib kilo push-0 park-h5">See patient progress</h5>
-            <p class="milli push-1-2">Get an overall look at the progress of your patients.</p>
-
-        </li>
-        <li class="">
-            <h5 class="ib kilo push-0 park-h5">Quick Statistics</h5>
-            <p class="milli push-0">See how many patients are completing their assessments and develop methods to increase activity.</p>
-        </li>
-      </ol>
+    </div>
+    <div class="unit s-1 m-1-3 l-1-3">
+      <p class="push-0 detail-title semibold yellow">CLIENT</p>
+      <p class="navy">{{data.projectClient}}</p>
+      <p class="push-0 detail-title semibold yellow">DATE</p>
+      <p class="navy">{{data.projectDate}}</p>
     </div>
   </div>
+</section>
 
-  <!-- Application -->
-  <div class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1 l-1 cs-content">
-      <p class="milli push-2 serif">The companion app was also created to allow patients to track and complete assessments wherever they are. You aren’t always near a computer when a symptom occurs. So this was very important as well.</p>
+<section class="gray-background">
+  <div class="wrapper gutter-2 grid grid-middle my-padding">
+    <div class="unit xs-1 s-1 m-1 l-1 my-max-length slide-element">
+      <h4 class="navy push-1-2">Colours</h4>
+      <p class="navy light push-0">I began with establishing a bright colour palette for the brand. After some research, I discovered that Parkinson's national symbol is the red tulip, therefore a bright and inviting red seemed fitting for this brand. I then added a few more neutral colours to compliment the primary one.</p>
+    </div>
+  </div>
+</section>
+
+<section class="my-padding">
+  <div class="wrapper gutter-2 slide-element w-80">
+    <img class="img-flex" src="{{site.baseurl}}/images/parkinsons/parkinsons-colours.jpg" alt="">
+  </div>
+</section>
+
+<section class="my-padding parkinsons-green-background">
+  <div class="wrapper slide-element">
+    <div class="my-max-length gutter-2">
+      <h4 class="white push-1-2">Icons</h4>
+      <p class="white">My favourite part of any project: icons. I opted for a detailed, linear style.</p>
+    </div>
+    <div class="slide-element w-80">
+      <img class="img-flex island gutter-2" src="{{site.baseurl}}/images/parkinsons/parkinsons-icons.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="my-padding">
+  <div class="wrapper grid grid-middle slide-element">
+    <div class="unit xs-1 s-1 m-1-2 l-2-3 island gutter-2">
+      <img class="img-flex gray-drop-shadow" src="{{site.baseurl}}/images/parkinsons/physician-login.png" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-2">
+      <h4 class="push-1-2 navy">Logins</h4>
+      <p class="navy">The login pages were designed to reprent both physicians and patients. It is also very easy to switch between each page.</p>
     </div>
 
+    <div class="unit xs-1 s-1 m-1-2 l-2-3 island gutter-2">
+      <img class="img-flex gray-drop-shadow" src="{{site.baseurl}}/images/parkinsons/patient-login.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="parkinsons-background-3 my-padding">
+  <div class="grid grid-middle wrapper slide-element">
+    <div class="unit xs-1 s-1 m-1 l-1 gutter-2 my-max-length pad-b-2">
+      <h4 class="push-1-2 white">Dashboards</h4>
+      <p class="white push-0">Next were the portals. It was important to design for both patient and physician. I created a portal where patients can easily track their symptoms and complete assessments, that way when they visit their physician, the time can be spent discussing the important issues and not doing paperwork.</p>
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <img class="img-flex island gray-drop-shadow island gutter-2" src="{{site.baseurl}}/images/parkinsons/physician-dashboard.png" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <img class="img-flex island gray-drop-shadow gutter-2" src="{{site.baseurl}}/images/parkinsons/patient-dashboard.png" alt="">
+    </div>
+</section>
+
+
+<section class="parkinsons-background-2 my-padding">
+  <div class="wrapper slide-element">
+    <div class="my-max-length gutter">
+      <h4 class="white push-1-2">Website</h4>
+      <p class="white">The website's home page is kept very clean so information and resources are easily accessible.</p>
+    </div>
+    <div class="">
+      <img class="img-flex gray-drop-shadow island gutter-2" src="{{site.baseurl}}/images/parkinsons/parkinsons-website.png" alt="">
+    </div>
+  </div>
+</section>
+
+
+<<<<<<< HEAD
+<section class="">
+<a class="next-project-section no-decoration parkinsons-background next-project-parkinsons ib" href="{{site.baseurl}}/canimmunize">
+<div class="next-project-text pad-t-2 pad-b-2 text-center">
+    <p class="push-0 white light">View Next Project</p>
+    <p class="push-0 white tera">CANImmunize</p>
+</div>
+  </a>
+</section>
+=======
       <div class="unit xs-1 s-1 m-1 l-1">
         <figure>
           <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/parkinsons-phone-mockups.jpg" alt="3 iPhone mockups of Parkinson's Network dashboard, assessment test and symptom diary.">
@@ -149,3 +151,4 @@ meta: A look at the creation of Parkinson's Network's false brand and interface 
 {% include see-more.html data=data %}
 </main>
   {% include seo.html data=data %}
+>>>>>>> master

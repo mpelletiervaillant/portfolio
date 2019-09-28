@@ -1,0 +1,95 @@
+- projectBackground: pbl-background
+  projectLink: /project-big-life
+  projectTitle: Project<br>Big Life
+  projectShortDescription: Illustrations for online health calculators
+  headerColor: pbl-header
+  previousUrl: /canimmunize
+  previousProject: CANImmunize
+  nextUrl: /quilt
+  nextProject: QUILT
+  projectType: Illustration
+  projectDate: July 2018 - March 2019
+  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project was challenging but so rewarding.
+  projectUrl: https://www.projectbiglife.ca
+  projectWebsite: www.projectbiglife.ca
+  projectColor: pbl-color
+  projectClient: Project Big Life
+  projectBanner: /pbl/pbl-banner.png
+  projectImage: /pbl/pbl-drawing.png
+  tags: Illustration UI UX
+  textColor: beige
+  # pushClass: m-2-3 unit-push-m-1-3
+  # pullClass: m-1-3 unit-pull-m-2-3
+
+- projectBackground: quilt-background
+  projectLink: /quilt
+  projectTitle: QUILT
+  projectShortDescription: Branding for QUality for Individuals who require Long-Term support.
+  headerColor: quilt-header
+  previousUrl: /project-big-life
+  previousProject: Project Big Life
+  nextUrl: /parkinsons-network
+  nextProject: Parkinson's Network
+  projectType: Branding
+  projectDate: May 2018
+  projectLongDescription: QUILT approached me to develop the branding identity for their newly formed group.
+  projectUrl:
+  projectWebsite:
+  projectBanner: /quilt/quilt-banner.png
+  projectColor: quilt-color
+  projectClient: QUILT
+  bannerColor: quilt-banner-color
+  projectImage: /quilt/quilt-drawing.png
+  tags: Branding
+  textColor: beige
+  # pushClass: m-2-3
+  # pullClass: m-1-3
+
+- projectBackground: parkinsons-background
+  projectLink: /parkinsons-network
+  projectTitle: Parkinson's Network
+  projectShortDescription: A digital platform for Parkinsons patients and physicians.
+  headerColor: parkinsons-header
+  previousUrl: /quilt
+  previousProject: QUILT
+  nextUrl: /canimmunize
+  nextProject: CANImmunize
+  projectType: Web Design
+  projectDate: July 2018
+  projectLongDescription: Parkinson's Network is a side project where I designed a website and application Parkinson's patients and physicians.
+  projectUrl:
+  projectWebsite:
+  projectBanner: /parkinsons-header-banner
+  projectColor: parkinsons-color
+  projectClient: Personal Project
+  projectBanner: /parkinsons/parkinsons-banner.png
+  bannerColor: parkinsons-background
+  projectImage: /parkinsons/parkinsons-drawing.png
+  tags: Web Design UI UX
+  textColor: navy
+  # pushClass: m-2-3 unit-push-m-1-3
+  # pullClass: m-1-3 unit-pull-m-2-3
+
+- projectBackground: canimmunize-background
+  projectLink: /canimmunize
+  projectTitle: CANImmunize
+  projectShortDescription: A digital vaccination record tool for Canadians.
+  headerColor: canimm-header
+  previousUrl: /parkinsons-network
+  previousProject: Parkinson's Network
+  nextUrl: /project-big-life
+  nextProject: Project Big Life
+  projectType: Web Design
+  projectDate: April 2018 - April 2019
+  projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
+  projectUrl: https://www.canimmunize.ca/
+  projectWebsite: www.canimmunize.ca
+  projectColor: canimmunize-color
+  projectClient: CANImmunize
+  projectBanner: /canimmunize/canimm-banner.png
+  bannerColor: canimmunize-background
+  projectImage: /canimmunize/canimm-drawing.png
+  tags: UI UX Layout
+  textColor: beige
+  # pushClass: m-2-3 unit-push-m-1-3
+  # pullClass: m-1-3 unit-pull-m-2-3
