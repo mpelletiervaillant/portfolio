@@ -4,6 +4,7 @@ title: Mélany Pelletier-Vaillant · Parkinson's Network
 meta: Website design for Parkinson's Network
 ---
 
+<<<<<<< HEAD
 <header class="parkinsons-background">
   <div class="grid grid-middle wrapper pad-t-4 gutter-2">
     <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
@@ -19,6 +20,23 @@ meta: Website design for Parkinson's Network
     </div>
   </div>
 </header>
+=======
+{% assign data=site.data.homepage[2] %}
+{% include case-study-template.html data=data %}
+
+    <div class="unit xs-1 s-1 m-3-4 l-3-4 island-1-2">
+      <p class="base-sans light push-0">Sometimes really cool projects just fall through, and that’s okay. What do you do then? Make it anyways. That’s what happened with this particular project. I was really excited to work on a platform for Parkinson’s patients but it didn’t work out. I decided to make it to gain more insight of web and application design.</p>
+    </div>
+    </div>
+    <div class="grid grid-middle cs-content">
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <p class="milli serif">This is in no way accurate or tested or anything. It was really to explore interactivity and designing things I’ve always wanted to do: dashboards, cool icons and apps. I did keep in mind what I thought would be useful for Parkinson’s patients, based on my limited research and knowledge.</p>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <p class="milli push-2 serif">I created a false Network, and started by creating the website. I wanted the primary colour to be bright, because we are still dealing with a serious topic. After some research, I found out the international symbol for Parkinson’s is the red tulip, so naturally using a bright red made sense.</p>
+      </div>
+    </div>
+>>>>>>> master
 
 {% assign data=site.data.projects[2] %}
 {% include case-study-header.html data=data %}
@@ -111,6 +129,7 @@ meta: Website design for Parkinson's Network
 </section>
 
 
+<<<<<<< HEAD
 <section class="">
 <a class="next-project-section no-decoration parkinsons-background next-project-parkinsons ib" href="{{site.baseurl}}/canimmunize">
 <div class="next-project-text pad-t-2 pad-b-2 text-center">
@@ -119,3 +138,17 @@ meta: Website design for Parkinson's Network
 </div>
   </a>
 </section>
+=======
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <figure>
+          <img class="img-flex img-border" src="{{site.baseurl}}/images/parkinsons/parkinsons-phone-mockups.jpg" alt="3 iPhone mockups of Parkinson's Network dashboard, assessment test and symptom diary.">
+          <figcaption class="micro">Parkinson's Network companion app design</figcaption>
+        </figure>
+      </div>
+  </div>
+</section>
+{% assign data=site.data.homepage[2] %}
+{% include see-more.html data=data %}
+</main>
+  {% include seo.html data=data %}
+>>>>>>> master
