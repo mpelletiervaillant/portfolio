@@ -22,6 +22,7 @@ tmp
 *.gz
 *.tar
 *.7z
+*.DS_Store
 
 # Type faces
 *.otf
