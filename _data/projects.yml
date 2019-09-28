@@ -8,8 +8,8 @@
   nextUrl: /quilt
   nextProject: QUILT
   projectType: Illustration
-  projectDate: July 2018 - Ongoing
-  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
+  projectDate: July 2018 - March 2019
+  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project was challenging but so rewarding.
   projectUrl: https://www.projectbiglife.ca
   projectWebsite: www.projectbiglife.ca
   projectColor: pbl-color
@@ -17,6 +17,7 @@
   projectBanner: /pbl-banner.png
   projectImage: pbl-drawing.png
   tags: Illustration UI UX
+  textColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 
@@ -34,11 +35,13 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
-  projectBanner: quilt-header-banner
+  projectBanner: /quilt/quilt-banner.png
   projectColor: quilt-color
   projectClient: QUILT
   bannerColor: quilt-banner-color
   projectImage: quilt-drawing.png
+  tags: Branding
+  textColor: beige
   # pushClass: m-2-3
   # pullClass: m-1-3
 
@@ -56,11 +59,13 @@
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project is challenging but so rewarding.
   projectUrl:
   projectWebsite:
-  projectBanner: parkinsons-header-banner
+  projectBanner: /parkinsons-header-banner
   projectColor: parkinsons-color
   projectClient: Algonquin College
   bannerColor: parkinsons-background
-  projectImage: pbl-drawing.png
+  projectImage: parkinsons-drawing.png
+  tags: Web Design UI UX
+  textColor: navy
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 
@@ -74,15 +79,17 @@
   nextUrl: /project-big-life
   nextProject: Project Big Life
   projectType: Web Design
-  projectDate: April 2018 - Ongoing
+  projectDate: April 2018 - April 2019
   projectLongDescription: During my team at CANImmunize, I created promotional meterials, web assets and wireframes to help promote the application.
   projectUrl: https://www.canimmunize.ca/
   projectWebsite: www.canimmunize.ca
-  projectBanner: canimmunize-header-banner
   projectColor: canimmunize-color
   projectClient: CANImmunize
+  projectBanner: /canimm-banner.png
   bannerColor: canimmunize-background
   projectImage: canimm-drawing.png
+  tags: UI UX Layout
+  textColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 #

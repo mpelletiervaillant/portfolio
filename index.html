@@ -37,11 +37,12 @@ layout: main
 
     <section class="pad-t-4 pad-b-4">
       <div class="wrapper">
-        <p class="semibold mega navy my-max-length pad-b-4 push-0">Take a look around, I don’t have anything else to say but I will think of something hopefully.</p>
-        {% for work in site.data.projects %}
-        {% include project-buttons.html data=work %}
-        {% endfor %}
-
+        <p class="semibold mega navy my-max-length pad-b-4 push-0 gutter-2">Take a look at some of my favourite projects and their case studies below.</p>
+        <div class="gutter-2">
+          {% for work in site.data.projects %}
+          {% include project-buttons.html data=work %}
+          {% endfor %}
+        </div>
       </div>
     </section>
 

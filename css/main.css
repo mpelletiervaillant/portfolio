@@ -331,8 +331,12 @@ nav a:hover {
   background-color: var(--color-light-gray);
 }
 
-.parkinsons-background {
+.parkinsons-background-2 {
   background-color: var(--parkinsons-color);
+}
+
+.parkinsons-background-3 {
+  background-color: #9eb7b1;
 }
 
 .parkinsons-green-background {
@@ -387,7 +391,7 @@ nav a:hover {
 
 .slide-in {
   animation-name: slideInFromBottom;
-  animation-duration: 1.2s;
+  animation-duration: .7s;
   animation-timing-function: ease-in-out;
 }
 
@@ -459,6 +463,12 @@ nav a:hover {
 .parkinsons-background {
   background-color: var(--color-yellow);
 }
+
+.w-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /*---------- CANImmunize -----------*/
 
 .canimmunize-color {
@@ -482,29 +492,15 @@ nav a:hover {
   background-color: var(--color-navy);
 }
 
-/* Beer Expo */
-.beerexpo-color {
-  color: var(--beerexpo-color);
+.pbl-hover {
+  transition: all .3s ease;
 }
 
-.beerexpo-background {
-  background-color: var(--beerexpo-color);
+.pbl-hover:hover {
+  color: var(--canimmunize-color);
+  transform: scale(1.03);
 }
 
-/* .next-project-canimmunize {
-  background-color: var(--canimmunize-color);
-  transition: all .6s ease-in-out;
-}
-
-.next-project-canimmunize:hover {
-  background-color: var(--pbl-color);
-} */
-
-.beerexpo-card {
-  background-image: url('{{site.baseurl}}/images/beer-expo/beer-expo-card.jpg');
-  background-size: cover;
-  background-position: center center;
-}
 /*Play */
 
 .img-border {
@@ -551,6 +547,11 @@ nav a:hover {
 
   .quilt-branding {
     max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .w-60-q {
+    width: 60%;
     margin: 0 auto;
   }
 }
