@@ -11,7 +11,8 @@
   --quilt-color: #FC6159;
   --parkinsons-color: #3E4D59;
   --canimmunize-color: #4a90e2;
-  --beerexpo-color: #f3ab1d;
+  --cangeo-color: #084975;
+  --cm-color: #5d4482;
 }
 
 html {
@@ -100,6 +101,14 @@ html {
 
 .quilt-color {
   color: var(--quilt-color);
+}
+
+.cangeo-color {
+  var(--cangeo-color);
+}
+
+.cm-color {
+  color: var(--cm-color);
 }
 
 /* Backgrounds */
@@ -289,7 +298,7 @@ nav a:hover {
 .project-card {
   width: 100%;
   transition: all .2s ease-in-out;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
 }
 
 .project-card a {
@@ -313,6 +322,10 @@ nav a:hover {
 
 .case-study-header {
   height: 87vh;
+}
+
+.banner-title {
+  line-height: 1;
 }
 
 .banner-text {
@@ -359,7 +372,9 @@ nav a:hover {
 }
 
 .next-project-pbl,
-.next-project-parkinsons {
+.next-project-parkinsons,
+.next-project-cm,
+.next-project-quilt {
   transition: all .6s ease-in-out;
 }
 
@@ -369,6 +384,14 @@ nav a:hover {
 
 .next-project-parkinsons:hover {
   background-color: var(--canimmunize-color);
+}
+
+.next-project-cm:hover {
+  background-color: var(--color-blue);
+}
+
+.next-project-quilt:hover {
+  background-color: var(--parkinsons-color);
 }
 
 .next-project-section:hover .next-project-text {
@@ -403,7 +426,7 @@ nav a:hover {
 }
 
 .pbl-bubbles {
-  background-image: url("{{site.baseurl}}/images/bubbles.png"), url("{{site.baseurl}}/images/slides.png");
+  background-image: url("{{site.baseurl}}/images/pbl/bubbles.png"), url("{{site.baseurl}}/images/pbl/slides.png");
   background-size: cover, cover;
   background-position: center;
 }
@@ -444,11 +467,6 @@ nav a:hover {
 
 .next-project-quilt {
   background-color: var(--quilt-color);
-  transition: all .6s ease-in-out;
-}
-
-.next-project-quilt:hover {
-  background-color: var(--parkinsons-color);
 }
 
 /*---------- Parkinsons Network -----------*/
@@ -492,7 +510,7 @@ nav a:hover {
 }
 
 .next-project-canimmunize:hover {
-  background-color: var(--pbl-color);
+  background-color: var(--cangeo-color);
 }
 
 .canimmunize-card {
@@ -508,7 +526,47 @@ nav a:hover {
   transform: scale(1.03);
 }
 
-/*Play */
+/*Can Geo*/
+
+.cangeo-color {
+  color: var(--cangeo-color);
+}
+
+.cangeo-background {
+  background-color: var(--cangeo-color);
+}
+
+.next-project-cangeo:hover {
+  background-color: var(--cm-color);
+}
+
+.cangeo-hover {
+  transition: all .3s ease;
+}
+
+.cangeo-hover:hover {
+  color: var(--cangeo-color);
+  transform: scale(1.03);
+}
+
+/*Creative Mornings*/
+.cm-color {
+  color: var(--cm-color);
+}
+
+.cm-background {
+  background-color: var(--cm-color);
+}
+
+.cm-hover {
+  transition: all .3s ease;
+}
+
+.cm-hover:hover {
+  color: var(--cm-color);
+  transform: scale(1.03);
+}
+/*Play*/
 
 .img-border {
   border: 1px solid #e2e2e2;

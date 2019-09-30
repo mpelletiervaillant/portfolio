@@ -1,7 +1,7 @@
 - projectBackground: pbl-background
   projectLink: /project-big-life
   projectTitle: Project<br>Big Life
-  projectShortDescription: Illustrations for online health calculators
+  projectShortDescription: Illustrations for online health calculators.
   headerColor: pbl-header
   previousUrl: /canimmunize
   previousProject: CANImmunize
@@ -18,6 +18,7 @@
   projectImage: /pbl/pbl-drawing.png
   tags: Illustration UI UX
   textColor: beige
+  tagsColor: navy
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 
@@ -42,6 +43,7 @@
   projectImage: /quilt/quilt-drawing.png
   tags: Branding
   textColor: beige
+  tagsColor: navy
   # pushClass: m-2-3
   # pullClass: m-1-3
 
@@ -67,6 +69,7 @@
   projectImage: /parkinsons/parkinsons-drawing.png
   tags: Web Design UI UX
   textColor: navy
+  tagsColor: navy
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
 
@@ -77,8 +80,8 @@
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
-  nextUrl: /project-big-life
-  nextProject: Project Big Life
+  nextUrl: /canadian-geographic
+  nextProject: Canadian Geographic 10000 Changes
   projectType: Web Design
   projectDate: April 2018 - April 2019
   projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
@@ -91,5 +94,6 @@
   projectImage: /canimmunize/canimm-drawing.png
   tags: UI UX Layout
   textColor: beige
+  tagsColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3

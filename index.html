@@ -34,16 +34,23 @@ layout: main
     </div>
   </div>
 </section>
-    <section class="my-padding">
-      <div class="wrapper">
-        <p class="semibold giga navy my-max-length my-padding-bottom push-0 gutter-2 text-center">Take a look at some of my favourite projects and their case studies below.</p>
-        <div class="gutter-2">
-          {% for work in site.data.projects %}
-          {% include project-buttons.html data=work %}
-          {% endfor %}
-        </div>
+<section class="my-padding">
+  <div class="wrapper gutter-1-2">
+    <p class="semibold giga navy my-max-length my-padding-bottom push-0 gutter text-center">Take a look at some of my favourite projects and their case studies below.</p>
+    {% for work in site.data.projects %}
+    <div class="gutter push">
+      {% include project-buttons.html data=work %}
+    </div>
+    {% endfor %}
+    <div class="grid gutter-1-2">
+      {% for work in site.data.projects-small %}
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+        {% include small-project-buttons.html data=work %}
       </div>
-    </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
     <section class="my-padding-bottom text-center">
       <div class="my-max-length gutter">

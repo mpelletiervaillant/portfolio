@@ -1,0 +1,49 @@
+- projectBackground: cangeo-background
+  projectLink: /canadian-geographic
+  projectTitle: Canadian Geographic
+  projectSubTitle: 1000 Changes
+  projectShortDescription: Illustrations for Canadian Geographic's 10000 Changes project.
+  headerColor: cangeo-header
+  previousUrl: /canimmunize
+  previousProject: CANImmunize
+  nextUrl: /creative-mornings-ottawa
+  nextProject: Creative Mornings Ottawa
+  projectType: Illustration
+  projectDate: May 2019 - Ongoing
+  projectLongDescription: I developed a series of illustrations for infographics and animated videos to raise awareness about plastics in Canada.
+  projectUrl: https://10000changes.ca/en/education/
+  projectWebsite: www.10000changes.ca
+  projectColor: cangeo-color
+  projectClient: Canadian Geographic
+  projectBanner: cangeo/cangeo-drawing.png
+  projectImage: cangeo/cangeo-banner.png
+  tags: Illustration Animation
+  textColor: beige
+  tagsColor: beige
+  # pushClass: m-2-3 unit-push-m-1-3
+  # pullClass: m-1-3 unit-pull-m-2-3
+
+- projectBackground: cm-background
+  projectLink: /creative-mornings-ottawa
+  projectTitle: Creative Mornings Ottawa
+  projectShortDescription: Custom lettering piece to support Creative Mornings Ottawa.
+  headerColor: cm-header
+  previousUrl: /canadian-geographic
+  previousProject: Canadian Geographic 10000 Changes
+  nextUrl: /project-big-life
+  nextProject: Project Big Life
+  projectType: Lettering
+  projectDate: April 2019
+  projectLongDescription: Creative Mornings Ottawa asked me to create a simple design to promote Ottawa is Creative.
+  projectUrl: https://creativemornings.com/cities/ott
+  projectWebsite: www.creativemornings.ca/cities/ott
+  projectBanner: /creative-mornings/cm-drawing.png
+  projectColor: cm-color
+  projectClient: Creative Mornings Ottawa
+  bannerColor: cm-banner-color
+  projectImage: creative-mornings/cm-banner.png
+  tags: Lettering
+  textColor: beige
+  tagsColor: beige
+  # pushClass: m-2-3
+  # pullClass: m-1-3
