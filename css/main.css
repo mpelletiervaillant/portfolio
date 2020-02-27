@@ -12,11 +12,13 @@
   --parkinsons-color: #3E4D59;
   --canimmunize-color: #4a90e2;
   --cangeo-color: #084975;
+  --cangeo-color-1: #35c8da;
   --cm-color: #5d4482;
 }
 
 html {
   font-family: var(--font-primary);
+  scroll-behavior: smooth;
 }
 
 /* Spacing */
@@ -73,6 +75,15 @@ html {
   text-decoration: none;
 }
 
+.this {
+  line-height: 1;
+}
+
+.title {
+  letter-spacing: 3px;
+}
+
+
 /* Colours */
 
 .white {
@@ -115,6 +126,10 @@ html {
 
 .section-gray {
   background-color: #FAFAFA;
+}
+
+.section-navy {
+  background-color: var(--color-navy);
 }
 
 /* Figures */
@@ -270,6 +285,11 @@ nav a:hover {
 
 .banner-sm:hover .btn-underline {
   width: 60px;
+}
+
+.home-intro {
+  max-width: 20em;
+  margin: 0 auto;
 }
 
 .social-media-links {
@@ -536,6 +556,10 @@ nav a:hover {
   background-color: var(--cangeo-color);
 }
 
+.cangeo-background-1 {
+  background-color: var(--cangeo-color-1);
+}
+
 .next-project-cangeo:hover {
   background-color: var(--cm-color);
 }
@@ -584,6 +608,14 @@ nav a:hover {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+@media only screen and (min-width:38em ) {
+
+  .project-details {
+    padding: 0 1em;
+  }
+
 }
 
 @media only screen and (min-width:41em ) {

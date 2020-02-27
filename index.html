@@ -4,8 +4,8 @@ layout: main
 
 <section class="">
   <div class="hero-banner">
-    <div class="grid grid-middle">
-      <div class="unit xs-1 s-1 m-2-3 relative main-section">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-3-5 relative main-section">
         <div class="w-1 absolute pin-tc pad-t-4 max-length gutter-2 grid grid-middle">
           <div class="unit xs-1-2">
             <a class="no-decoration semibold milli navy" href="{{site.baseurl}}/index">Mélany Pelletier-Vaillant</a>
@@ -13,15 +13,13 @@ layout: main
           <nav class="unit xs-1-2">
             <ul class="list-group-inline push-0 text-right">
               <li class="push-r milli"><a href="{{site.baseurl}}/project-big-life">Work</a></li>
-              <li class="milli"><a href="{{site.baseurl}}/play">Play</a></li>
-            </ul>
-          </nav>
+              <li class="push-r milli"><a href="{{site.baseurl}}/play">Play</a></li>
         </div>
         <div class="absolute w-1 pin-c max-length gutter-2">
-          <h2 class="push-1-2 blue black">I'm Mélany</h2>
-          <p class="navy semibold giga">A graphic designer based in Ottawa who just loves to create everyday.</p>
+          <h2 class="push black zetta navy this">Mélany Pelletier-Vaillant</h2>
+          <p class="blue title">GRAPHIC DESIGNER</p>
         </div>
-        <div class="absolute w-1 pin-cb max-length gutter-2 pad-b-4">
+        <div class="absolute w-1 pin-cb max-length gutter-2 pad-b-2">
           <ul class="list-group-inline push-0">
             <li><a class="milli navy banner-sm first-banner-sm" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
             <li><a class="milli navy banner-sm" href="https://www.instagram.com/melany.pv">Instagram</a></li>
@@ -29,14 +27,14 @@ layout: main
           </ul>
         </div>
       </div>
-      <div class="unit xs-0 s-0 m-1-3 pattern-box">
+      <div class="unit xs-0 s-0 m-2-5 pattern-box">
       </div>
     </div>
   </div>
 </section>
 <section class="my-padding">
   <div class="wrapper gutter-1-2">
-    <p class="semibold giga navy my-max-length my-padding-bottom push-0 gutter text-center">Take a look at some of my favourite projects and their case studies below.</p>
+    <p class="semibold tera navy home-intro my-padding-bottom push-0 gutter text-center">Take a look at some of my favourite projects and their case studies below.</p>
     {% for work in site.data.projects %}
     <div class="gutter push">
       {% include project-buttons.html data=work %}
@@ -44,7 +42,7 @@ layout: main
     {% endfor %}
     <div class="grid gutter-1-2">
       {% for work in site.data.projects-small %}
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push">
         {% include small-project-buttons.html data=work %}
       </div>
       {% endfor %}
@@ -52,13 +50,25 @@ layout: main
   </div>
 </section>
 
-    <section class="my-padding-bottom text-center">
-      <div class="my-max-length gutter">
-      <h3 class="push-1-2 navy">But Wait... There's More!</h3>
-      <p class="light">Here is where I keep some of my favourite side projects. Take a look!</p>
-      </div>
+<section class="my-padding section-navy">
+  <div class="gutter wrapper">
+    <div class="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1-2 l-2-5 gutter-1-2">
+      <h3 class="push-1-2 white">Get in Touch</h3>
+      <p class="light white">I'm always interested in hearing about your project and how I can help. Please send me an email at <strong class="blue semibold">melanypvdesigns@gmail.com</strong> and we can chat! </p>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-3-5 gutter-1-2">
+      <img class="img-flex" src="{{site.baseurl}}/images/freelance-image.png" alt="">
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-padding text-center wrapper gutter">
+      <h3 class="push-1-2 navy">There's More!</h3>
+      <p class="light my-max-length">Not every project becomes a case study! Take a look at a few of my favourite side projects. </p>
       <div class="">
-        <a class="milli enter-here-btn ib" href="{{site.baseurl}}/play">Enter Here</a>
+        <a class="milli enter-here-btn ib" href="{{site.baseurl}}/play">Take a Look!</a>
       </div>
-    </section>
-  </main>
+</section>
+</main>
