@@ -15,6 +15,7 @@
   --cangeo-color: #084975;
   --cangeo-color-1: #35c8da;
   --cm-color: #5d4482;
+  --hds-color: #FAF7EF;
 }
 
 html {
@@ -558,6 +559,15 @@ h2 {
 .canimmunize-hover:hover {
   color: var(--canimmunize-color);
   transform: scale(1.03);
+}
+
+/*The High Desert Sonnets*/
+.hds-color {
+  color: var(--hds-color);
+}
+
+.hds-background {
+  background-color: var(--hds-color);
 }
 
 /*Can Geo*/
