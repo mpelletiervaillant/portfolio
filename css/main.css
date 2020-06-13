@@ -6,13 +6,13 @@
   --color-navy: #2C365A;
   --color-gray: #383838;
   --color-light-gray: #F7F7F7;
-  --pbl-color: #EBF6FD;
-  --quilt-color: #FFF6F2;
+  --pbl-color: #D8F3FE;
+  --quilt-color: #FAD7D6;
   --parkinsons-color: #3E4D59;
-  --canimmunize-color: #EDEFF4;
-  --cangeo-color: #EFFAF7;
+  --canimmunize-color: #DDECF5;
+  --cangeo-color: #DEF2F5;
   --cm-color: #F3EFFA;
-  --hds-color: #FAF7EF;
+  --hds-color: #FDE9CE;
 }
 
 html {
@@ -414,10 +414,6 @@ nav a:hover {
   transform: scaleX(1.5);
 }
 
-.case-study-header-canimm:before {
-  background-color: var(--canimmunize-color);
-}
-
 .case-study-content {
   position: relative;
   z-index: 1;
@@ -429,7 +425,7 @@ nav a:hover {
 }
 
 .banner-text {
-  line-height: 1.5;
+  line-height: 2;
   font-size: .9rem;
 }
 
@@ -518,6 +514,14 @@ nav a:hover {
 }
 
 .pbl-background {
+  background-color: var(--pbl-color);
+}
+
+.pbl-dark-background {
+  background-color: #78D6FA;
+}
+
+.case-study-header-pbl:before {
   background-color: var(--pbl-color);
 }
 
@@ -615,6 +619,10 @@ nav a:hover {
 }
 
 .canimmunize-background {
+  background-color: var(--canimmunize-color);
+}
+
+.case-study-header-canimm:before {
   background-color: var(--canimmunize-color);
 }
 

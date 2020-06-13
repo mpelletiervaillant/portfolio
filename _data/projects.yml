@@ -1,5 +1,5 @@
 - projectBackground: canimmunize-background
-  projectTest: case-study-header-canimm
+  projectHeader: case-study-header-canimm
   projectLink: /canimmunize
   projectTitle: CANImmunize
   projectShortDescription: Marketing materials and user interface and experience design for a digital vaccination record tool for Canadians.
@@ -25,7 +25,7 @@
 - projectBackground: hds-background
   projectLink: /high-desert-sonnets
   projectTitle: The High Desert Sonnets
-  projectShortDescription: A digital vaccination record tool for Canadians.
+  projectShortDescription: Event Branding and web design for a Night of Poetry.
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
@@ -37,11 +37,11 @@
   projectUrl: https://highdesertsonnets.com/
   projectWebsite: www.highdesertsonnets.com
   projectColor: hds-color
-  projectClient:
-  projectBanner: /canimmunize/canimm-banner.png
+  projectClient: Toby Shannan
+  projectBanner: /hds/hds-home-banner.png
   bannerColor: hds-background
   projectImage: /high-desert-sonnets/hds-home-banner.png
-  tags: Event Branding  Web Design
+  tags: Event Branding |  Web Design
   textColor: beige
   tagsColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
@@ -98,6 +98,7 @@
   # pullClass: m-1-3 unit-pull-m-2-3
 
 - projectBackground: pbl-background
+  projectHeader: case-study-header-pbl
   projectLink: /project-big-life
   projectTitle: Project Big Life
   projectShortDescription: Illustrations for online health calculators.
@@ -115,7 +116,7 @@
   projectClient: Project Big Life
   projectBanner: /pbl/pbl-home-banner.png
   projectImage: /pbl/pbl-home-banner.png
-  tags: Illustration UI UX
+  tags: Illustration | UI UX
   textColor: beige
   tagsColor: navy
   pushClass: m-1-2 unit-push-m-1-2

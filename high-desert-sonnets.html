@@ -1,0 +1,98 @@
+---
+layout: caseStudy
+title: Mélany Pelletier-Vaillant · The High Desert Sonnets
+meta: A collection of various works completd for CANImmunize, a vaccination tracking app.
+---
+{% assign data=site.data.projects[1] %}
+{% include main-navigation.html data=data %}
+
+{% assign data=site.data.projects[1] %}
+{% include case-study-header.html data=data %}
+
+<section>
+  <div class="grid wrapper my-padding gutter-2 slide-element">
+    <div class="unit s-1  m-2-3 l-2-3 pad-b-2">
+      <div class="my-max-length">
+        <p class="giga regular navy">I have had the pleasure of working with the Ottawa mHealth Lab team creating various applications for healthcare. Our main project is CANImmunize, a digital vaccination record tool for Canadians.</p>
+        <p class="project-intro push-0 gray">The type of work is very varied: from application design to marketing materials to illustrations. Here is a collection of my favourite projects I have worked on for CANImmunize.</p>
+      </div>
+    </div>
+    <div class="unit s-1 m-1-3 l-1-3 project-details">
+      <p class="push-0 detail-title micro">AGENCY</p>
+      <p class="navy">Simple Story</p>
+      <p class="push-0 detail-title micro">CLIENT</p>
+      <p class="navy">{{data.projectClient}}</p>
+      <p class="push-0 detail-title micro">WEBSITE</p>
+      <a class="navy canimmunize-hover push ib" href="{{data.projectUrl}}">{{data.projectWebsite}}</a>
+      <p class="push-0 detail-title micro">DATE</p>
+      <p class="navy">{{data.projectDate}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="canimmunize-background">
+  <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/all-devices-mockup.jpg" alt="">
+</section>
+
+<section class="">
+  <div class="wrapper gutter-2 my-padding slide-element">
+    <div class="my-max-length">
+      <h4 class="navy regular tera push-1-2">Iconography</h4>
+      <p class="gray third milli push-0">When I first arrived, CANImmunize's icons were sourced from all over the place so there was no consistency. I made it my mission to develop a branded icon look to use in all applications.</p>
+    </div>
+    <div class="">
+      <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/canimmunize-icons.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="gray-background">
+  <div class="wrapper grid grid-middle my-padding slide-element">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 my-max-length">
+      <h4 class="push-1-2 navy regular tera">Promotional Video</h4>
+      <p class="gray third milli">One of the my favourite projects I got to work on was a promotional video for the CANImmunize Web Client launch. I drew all of the illustrations and my coworker animated everything together!</p>
+      <p class="third push-0 gray milli">You can view the final video <a class="canimmunize-hover navy" href="https://www.youtube.com/watch?v=8PK5W3rYGzo">here</a>!</p>
+    </div>
+  </div>
+</section>
+
+<section class="gray-background">
+  <div class="grid grid-middle slide-element">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/car-family.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/public-health.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/school.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/family.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1 my-padding slide-element">
+      <p class="gray third milli my-max-length text-center">We decided to create this one-page information sheet based on the video for people to take home.</p>
+      <img class="img-flex island gutter-2 w-60-q" src="{{site.baseurl}}/images/canimmunize/infographic-en.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="">
+  <div class="wrapper my-padding slide-element">
+    <div class="my-max-length">
+      <h4 class="push-1-2 gray tera regular">Marketing Materials</h4>
+      <p class="gray third milli">Here's a look at some of my favourite marketing materials I had the opportunity to design.</p>
+    </div>
+    <img class="img-flex island gutter-2" src="{{site.baseurl}}/images/canimmunize/algonquin-residence-package-print.jpg" alt="">
+    <img class="img-flex island gutter-2" src="{{site.baseurl}}/images/canimmunize/oph-tv-slides-2-en.jpg" alt="">
+  </div>
+</section>
+
+<section>
+  <a class="next-project-section no-decoration next-project-canimmunize ib" href="{{site.baseurl}}{{data.nextUrl}}">
+  <div class="next-project-text pad-t-2 pad-b-2 text-center">
+      <p class="push-0 navy view-next micro">View Next Project</p>
+      <p class="push-0 navy tera">{{data.nextProject}}</p>
+  </div>
+  </a>
+</section>
