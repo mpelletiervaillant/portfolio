@@ -1,6 +1,7 @@
 :root {
   --font-primary: poynter-oldstyle-display, serif;
   --font-secondary: termina, sans-serif;
+  --font-third: 'Spartan', sans-serif;
   --color-primary: #537BFF;
   --color-navy: #2C365A;
   --color-gray: #383838;
@@ -53,7 +54,6 @@ p {
   line-height: 2;
 }
 
-
 h2 {
   font-weight: normal;
 }
@@ -84,6 +84,11 @@ h2 {
 
 .this {
   line-height: 1;
+}
+
+.third {
+  font-family: var(--font-third);
+  line-height: 2.25;
 }
 
 .case-study-text {
@@ -238,8 +243,31 @@ nav a:hover {
 
 /* Hero Banner */
 
-.hero-banner {
-  background-color: var(--color-light-gray);
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.hero-section:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-light-gray);
+  border-radius: 0 0 50% 50%;
+  transform: scaleX(1.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .pattern-box {
@@ -282,7 +310,6 @@ nav a:hover {
 .card-text {
   width: 100%;
 }
-
 
 .banner-sm:before {
   content: "";
@@ -369,7 +396,32 @@ nav a:hover {
 /*---------- Case Study Template -----------*/
 
 .case-study-header {
-  height: 87vh;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.case-study-header:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 50% 50%;
+  transform: scaleX(1.5);
+}
+
+.case-study-header-canimm:before {
+  background-color: var(--canimmunize-color);
+}
+
+.case-study-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
 }
 
 .banner-title {
@@ -381,6 +433,12 @@ nav a:hover {
   font-size: .9rem;
 }
 
+.tags {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 .project-type {
   font-family: Oswald;
   text-transform: uppercase;
@@ -388,7 +446,9 @@ nav a:hover {
 }
 
 .detail-title {
-  letter-spacing: 2px;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .details-list {
@@ -409,6 +469,12 @@ nav a:hover {
 
 .parkinsons-green-background {
   background-color: #9eb7b1;
+}
+
+.view-next {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .next-project-section {
@@ -456,7 +522,7 @@ nav a:hover {
 }
 
 .project-intro {
-  font-weight: 300;
+  font-family: var(--font-third);
 }
 
 .blue-drop-shadow {
@@ -553,12 +619,14 @@ nav a:hover {
 }
 
 .next-project-canimmunize {
-  background-color: var(--canimmunize-color);
+  background: linear-gradient(to right, var(--canimmunize-color) 50%, var(--cangeo-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
   transition: all .6s ease-in-out;
 }
 
 .next-project-canimmunize:hover {
-  background-color: var(--cangeo-color);
+  background-position: right bottom;
 }
 
 .canimmunize-card {

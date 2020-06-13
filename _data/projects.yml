@@ -1,4 +1,5 @@
 - projectBackground: canimmunize-background
+  projectTest: case-study-header-canimm
   projectLink: /canimmunize
   projectTitle: CANImmunize
   projectShortDescription: Marketing materials and user interface and experience design for a digital vaccination record tool for Canadians.
@@ -17,9 +18,7 @@
   projectBanner: /canimmunize/canimm-home-banner.png
   bannerColor: canimmunize-background
   projectImage: /canimmunize/canimm-home-banner.png
-  tags: UI UX Layout
-  textColor: beige
-  tagsColor: beige
+  tags: MARKETING MATERIALS | UI UX
   pushClass: m-1-2 unit-push-m-1-2
   pullClass: m-1-2 unit-pull-m-1-2
 
