@@ -223,22 +223,22 @@ nav a:hover {
 }
 
 .enter-here-btn {
-  background-color: #fff;
   border: 1px solid var(--color-navy);
+  color: var(--color-navy);
   text-decoration: none;
   font-family: var(--font-secondary);
+  padding: 1.5em 2.5em 1.25em;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: var(--color-navy);
-  padding: 1.5em 2.5em 1.25em;
+  background: linear-gradient(to right, #fff 50%, var(--color-navy) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
   transition: all .3s ease-in-out;
 }
 
 .enter-here-btn:hover {
-  background-color: var(--color-navy);
-  border-color: var(--color-navy);
+  background-position: right bottom;
   color: #fff;
-  transform: scale(1.05);
 }
 
 /* Hero Banner */
@@ -518,7 +518,7 @@ nav a:hover {
 }
 
 .pbl-dark-background {
-  background-color: #78D6FA;
+  background-color: #65D0FA;
 }
 
 .case-study-header-pbl:before {
@@ -550,12 +550,21 @@ nav a:hover {
 }
 
 .pbl-hover {
+  background:
+    linear-gradient(
+      to bottom, #65D0FA 0%, #65D0FA 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: var(--color-navy);
   transition: all .3s ease;
 }
 
 .pbl-hover:hover {
-  color: var(--color-blue);
-  transform: scale(1.03);
+  color: #fff;
+  background-size: 4px 50px;
+  font-weight: bold;
 }
 
 /*---------- QUILT -----------*/
@@ -567,6 +576,10 @@ nav a:hover {
 }
 
 .quilt-background {
+  background-color: var(--quilt-color);
+}
+
+.case-study-header-quilt:before {
   background-color: var(--quilt-color);
 }
 
@@ -659,6 +672,10 @@ nav a:hover {
   background-color: var(--hds-color);
 }
 
+.case-study-header-hds:before {
+  background-color: var(--hds-color);
+}
+
 /*Can Geo*/
 
 .cangeo-color {
@@ -669,8 +686,12 @@ nav a:hover {
   background-color: var(--cangeo-color);
 }
 
-.cangeo-background-1 {
-  background-color: var(--cangeo-color-1);
+.cangeo-dark-background {
+  background-color: #35527D;
+}
+
+.case-study-header-cangeo:before {
+  background-color: var(--cangeo-color);
 }
 
 .next-project-cangeo:hover {
@@ -678,12 +699,21 @@ nav a:hover {
 }
 
 .cangeo-hover {
+  background:
+    linear-gradient(
+      to bottom, #35527D 0%, #35527D 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #35527D;
   transition: all .3s ease;
 }
 
 .cangeo-hover:hover {
-  color: var(--cangeo-color);
-  transform: scale(1.03);
+  color: #fff;
+  background-size: 4px 50px;
+  font-weight: bold;
 }
 
 /*Creative Mornings*/
@@ -695,14 +725,33 @@ nav a:hover {
   background-color: var(--cm-color);
 }
 
+.cm-dark-background {
+  background-color: #7F62AD;
+}
+
+.case-study-header-cm:before {
+  background-color: var(--cm-color);
+}
+
 .cm-hover {
+  background:
+    linear-gradient(
+      to bottom, #7F62AD 0%, #7F62AD 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: var(--color-navy);
   transition: all .3s ease;
 }
 
 .cm-hover:hover {
-  color: var(--cm-color);
-  transform: scale(1.03);
+  color: #fff;
+  background-size: 4px 50px;
+  font-weight: bold;
+  transition: all .3s ease;
 }
+
 /*Play*/
 
 .img-border {

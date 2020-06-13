@@ -23,9 +23,10 @@
   pullClass: m-1-2 unit-pull-m-1-2
 
 - projectBackground: hds-background
+  projectHeader: case-study-header-hds
   projectLink: /high-desert-sonnets
   projectTitle: The High Desert Sonnets
-  projectShortDescription: Event Branding and web design for a Night of Poetry.
+  projectShortDescription: Event Branding and web design for a night of poetry at the National Arts Centre.
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
@@ -38,7 +39,7 @@
   projectWebsite: www.highdesertsonnets.com
   projectColor: hds-color
   projectClient: Toby Shannan
-  projectBanner: /hds/hds-home-banner.png
+  projectBanner: /high-desert-sonnets/hds-home-banner.png
   bannerColor: hds-background
   projectImage: /high-desert-sonnets/hds-home-banner.png
   tags: Event Branding |  Web Design
@@ -48,6 +49,7 @@
   # pullClass: m-1-3 unit-pull-m-2-3
 
 - projectBackground: quilt-background
+  projectHeader: case-study-header-quilt
   projectLink: /quilt
   projectTitle: QUILT
   projectShortDescription: Branding for QUality for Individuals who require Long-Term support.
@@ -73,6 +75,7 @@
   pullClass: m-1-2 unit-pull-m-1-2
 
 - projectBackground: cangeo-background
+  projectHeader: case-study-header-cangeo
   projectLink: /canadian-geographic
   projectTitle: Canadian Geographic
   projectSubTitle: 10000 Changes
@@ -123,6 +126,7 @@
   pullClass: m-1-2 unit-pull-m-1-2
 
 - projectBackground: cm-background
+  projectHeader: case-study-header-cm
   projectLink: /creative-mornings-ottawa
   projectTitle: Creative Mornings Ottawa
   projectShortDescription: Custom lettering piece to support Creative Mornings Ottawa.
