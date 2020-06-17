@@ -34,7 +34,7 @@
   nextProject: QUILT
   projectType: Web Design
   projectDate: November 2019 - February 2020
-  projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
+  projectLongDescription: I created various event branding materials and the matching website design for The High Desert Sonnets.
   projectUrl: https://highdesertsonnets.com/
   projectWebsite: www.highdesertsonnets.com
   projectColor: hds-color
@@ -42,7 +42,7 @@
   projectBanner: /high-desert-sonnets/hds-study-banner-2.png
   bannerColor: hds-background
   projectImage: /high-desert-sonnets/hds-home-banner.png
-  tags: Event Branding |  Web Design
+  tags: Event Branding | Print Materials | Web Design
   textColor: beige
   tagsColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
@@ -63,7 +63,7 @@
   projectLongDescription: QUILT approached me to develop the branding identity for their newly formed group.
   projectUrl:
   projectWebsite:
-  projectBanner: /quilt/quilt-home-banner.png
+  projectBanner: /quilt/quilt-study-banner.png
   projectColor: quilt-color
   projectClient: QUILT
   bannerColor: quilt-banner-color
@@ -94,7 +94,7 @@
   projectClient: Canadian Geographic
   projectBanner: cangeo/can-geo-home-banner.png
   projectImage: cangeo/can-geo-home-banner.png
-  tags: Illustration Animation
+  tags: Editorial | Illustration
   textColor: beige
   tagsColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
@@ -117,7 +117,7 @@
   projectWebsite: www.projectbiglife.ca
   projectColor: pbl-color
   projectClient: Project Big Life
-  projectBanner: /pbl/pbl-home-banner.png
+  projectBanner: /pbl/pbl-study-banner.png
   projectImage: /pbl/pbl-home-banner.png
   tags: Illustration | UI UX
   textColor: beige

@@ -570,6 +570,17 @@ nav a:hover {
   background-size: 4px 50px;
 }
 
+.next-project-pbl {
+  background: linear-gradient(to right, var(--pbl-color) 50%, var(--cm-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-pbl:hover {
+  background-position: right bottom;
+}
+
 /*---------- QUILT -----------*/
 
 .quilt-header-banner {
@@ -600,8 +611,16 @@ nav a:hover {
 }
 
 .next-project-quilt {
-  background-color: var(--quilt-color);
+  background: linear-gradient(to right, var(--quilt-color) 50%, var(--cangeo-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
 }
+
+.next-project-quilt:hover {
+  background-position: right bottom;
+}
+
 
 /*---------- Parkinsons Network -----------*/
 
@@ -683,9 +702,43 @@ nav a:hover {
   background-color: var(--hds-color);
 }
 
+.hds-dark-background {
+  background-color: #3B2516;
+}
+
 .case-study-header-hds:before {
   background-color: var(--hds-color);
 }
+
+.hds-view-btn {
+  border: 1px solid var(--hds-color);
+  color: var(--color-navy);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  padding: 1.5em 2.5em 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #fff 50%, var(--hds-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .3s ease-in-out;
+}
+
+.hds-view-btn:hover {
+  background-position: right bottom;
+}
+
+.next-project-hds {
+  background: linear-gradient(to right, var(--hds-color) 50%, var(--quilt-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-hds:hover {
+  background-position: right bottom;
+}
+
 
 /*Can Geo*/
 
@@ -723,7 +776,7 @@ nav a:hover {
 }
 
 .next-project-cangeo {
-  background: linear-gradient(to right, var(--cangeo-color) 50%, var(--cm-color) 50%);
+  background: linear-gradient(to right, var(--cangeo-color) 50%, var(--pbl-color) 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .6s ease-in-out;
@@ -766,6 +819,18 @@ nav a:hover {
   color: #fff;
   background-size: 4px 50px;
 }
+
+.next-project-cm {
+  background: linear-gradient(to right, var(--cm-color) 50%, var(--canimmunize-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-cm:hover {
+  background-position: right bottom;
+}
+
 
 /*Play*/
 
