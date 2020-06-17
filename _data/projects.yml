@@ -6,10 +6,10 @@
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
-  nextUrl: /canadian-geographic
-  nextProject: Canadian Geographic 10000 Changes
+  nextUrl: /high-desert-sonnets
+  nextProject: The High Desert Sonnets
   projectType: Web Design
-  projectDate: April 2018 - April 2019
+  projectDate: April 2018 - May 2019
   projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
   projectUrl: https://www.canimmunize.ca/
   projectWebsite: www.canimmunize.ca
@@ -30,8 +30,8 @@
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
-  nextUrl: /canadian-geographic
-  nextProject: Canadian Geographic 10000 Changes
+  nextUrl: /quilt
+  nextProject: QUILT
   projectType: Web Design
   projectDate: November 2019 - February 2020
   projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
@@ -39,7 +39,7 @@
   projectWebsite: www.highdesertsonnets.com
   projectColor: hds-color
   projectClient: Toby Shannan
-  projectBanner: /high-desert-sonnets/hds-home-banner.png
+  projectBanner: /high-desert-sonnets/hds-study-banner-2.png
   bannerColor: hds-background
   projectImage: /high-desert-sonnets/hds-home-banner.png
   tags: Event Branding |  Web Design
@@ -56,8 +56,8 @@
   headerColor: quilt-header
   previousUrl: /project-big-life
   previousProject: Project Big Life
-  nextUrl: /parkinsons-network
-  nextProject: Parkinson's Network
+  nextUrl: /canadian-geographic
+  nextProject: Canadian Geographic 10 000 Changes
   projectType: Branding
   projectDate: May 2018
   projectLongDescription: QUILT approached me to develop the branding identity for their newly formed group.
@@ -83,8 +83,8 @@
   headerColor: cangeo-header
   previousUrl: /canimmunize
   previousProject: CANImmunize
-  nextUrl: /creative-mornings-ottawa
-  nextProject: Creative Mornings Ottawa
+  nextUrl: /project-big-life
+  nextProject: Project Big Life
   projectType: Illustration
   projectDate: May 2019 - March 2020
   projectLongDescription: I developed a series of illustrations for infographics and animated videos to raise awareness about plastics in Canada.
@@ -108,8 +108,8 @@
   headerColor: pbl-header
   previousUrl: /canimmunize
   previousProject: CANImmunize
-  nextUrl: /quilt
-  nextProject: QUILT
+  nextUrl: /creative-mornings-ottawa
+  nextProject: Creative Mornings Ottawa
   projectType: Illustration
   projectDate: July 2018 - March 2019
   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes. This project was challenging but so rewarding.
@@ -133,8 +133,8 @@
   headerColor: cm-header
   previousUrl: /canadian-geographic
   previousProject: Canadian Geographic 10000 Changes
-  nextUrl: /project-big-life
-  nextProject: Project Big Life
+  nextUrl: /canimmunize
+  nextProject: CANImmunize
   projectType: Lettering
   projectDate: April 2019
   projectLongDescription: Creative Mornings Ottawa asked me to create a simple design to promote their slogan <i>Ottawa is Creative</i>.

@@ -48,6 +48,10 @@ html {
   padding-bottom: 5rem;
 }
 
+.my-padding-top {
+  padding-top: 5rem;
+}
+
 /* Typography */
 
 p {
@@ -398,7 +402,7 @@ nav a:hover {
 .case-study-header {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 75vh;
   display: flex;
   overflow: hidden;
 }
@@ -564,7 +568,6 @@ nav a:hover {
 .pbl-hover:hover {
   color: #fff;
   background-size: 4px 50px;
-  font-weight: bold;
 }
 
 /*---------- QUILT -----------*/
@@ -640,7 +643,7 @@ nav a:hover {
 }
 
 .next-project-canimmunize {
-  background: linear-gradient(to right, var(--canimmunize-color) 50%, var(--cangeo-color) 50%);
+  background: linear-gradient(to right, var(--canimmunize-color) 50%, var(--hds-color) 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .6s ease-in-out;
@@ -654,13 +657,21 @@ nav a:hover {
   background-color: var(--color-navy);
 }
 
-.canimmunize-hover {
+.canimm-hover {
+  background:
+    linear-gradient(
+      to bottom, #35527D 0%, #35527D 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #35527D;
   transition: all .3s ease;
 }
 
-.canimmunize-hover:hover {
-  color: var(--canimmunize-color);
-  transform: scale(1.03);
+.canimm-hover:hover {
+  color: #fff;
+  background-size: 4px 50px;
 }
 
 /*The High Desert Sonnets*/
@@ -694,10 +705,6 @@ nav a:hover {
   background-color: var(--cangeo-color);
 }
 
-.next-project-cangeo:hover {
-  background-color: var(--cm-color);
-}
-
 .cangeo-hover {
   background:
     linear-gradient(
@@ -713,7 +720,17 @@ nav a:hover {
 .cangeo-hover:hover {
   color: #fff;
   background-size: 4px 50px;
-  font-weight: bold;
+}
+
+.next-project-cangeo {
+  background: linear-gradient(to right, var(--cangeo-color) 50%, var(--cm-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-cangeo:hover {
+  background-position: right bottom;
 }
 
 /*Creative Mornings*/
@@ -748,8 +765,6 @@ nav a:hover {
 .cm-hover:hover {
   color: #fff;
   background-size: 4px 50px;
-  font-weight: bold;
-  transition: all .3s ease;
 }
 
 /*Play*/
@@ -809,8 +824,8 @@ nav a:hover {
     margin: 0 auto;
   }
 
-  .w-60-q {
-    width: 60%;
+  .w-70-q {
+    width: 70%;
     margin: 0 auto;
   }
 }
