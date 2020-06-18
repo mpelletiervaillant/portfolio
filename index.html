@@ -2,73 +2,69 @@
 layout: main
 ---
 
-<section class="">
-  <div class="hero-banner">
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-3-5 relative main-section">
-        <div class="w-1 absolute pin-tc pad-t-4 max-length gutter-2 grid grid-middle">
-          <div class="unit xs-1-2">
-            <a class="no-decoration semibold milli navy" href="{{site.baseurl}}/index">Mélany Pelletier-Vaillant</a>
-          </div>
-          <nav class="unit xs-1-2">
-            <ul class="list-group-inline push-0 text-right">
-              <li class="push-r milli"><a href="{{site.baseurl}}/project-big-life">Work</a></li>
-              <li class="push-r milli"><a href="{{site.baseurl}}/play">Play</a></li>
-        </div>
-        <div class="absolute w-1 pin-c max-length gutter-2">
-          <h2 class="push black zetta navy this">Mélany Pelletier-Vaillant</h2>
-          <p class="blue title">GRAPHIC DESIGNER</p>
-        </div>
-        <div class="absolute w-1 pin-cb max-length gutter-2 pad-b-2">
+<section class="hero-section">
+  <div class="hero-content wrapper">
+    <div class="grid grid-middle pad-t-4 gutter my-padding-bottom">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
+        <a class="no-decoration navy" href="{{site.baseurl}}/index">Mélany Pelletier-Vaillant</a>
+      </div>
+      <nav class="unit xs-1-2 s-1-2 m-1-2 l-3-4 main-navigation">
+        <ul class="list-group-inline push-0 text-right">
+          <li class="push-r micro"><a href="{{site.baseurl}}/project-big-life">Work</a></li>
+          <li class="micro"><a href="{{site.baseurl}}/play">Play</a></li>
+        </ul>  
+      </nav>
+    </div>
+    <div class="grid grid-middle gutter my-padding-bottom">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <h2 class="push-1-2 zetta navy this">Mélany<br>Pelletier-Vaillant</h2>
+        <h3 class="navy giga regular push-2">Graphic Designer & Illustrator</h3>
+        <div class="">
           <ul class="list-group-inline push-0">
-            <li><a class="milli navy banner-sm first-banner-sm" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
-            <li><a class="milli navy banner-sm" href="https://www.instagram.com/melany.pv">Instagram</a></li>
-            <li><a class="milli navy banner-sm" href="https://www.behance.net/melanypv">Behance</a></li>
+            <li><a class="micro navy banner-sm first-banner-sm" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
+            <li><a class="micro navy banner-sm" href="https://www.instagram.com/melany.pv">Instagram</a></li>
+            <li><a class="micro navy banner-sm" href="https://www.behance.net/melanypv">Behance</a></li>
           </ul>
         </div>
       </div>
-      <div class="unit xs-0 s-0 m-2-5 pattern-box">
+      <div class="unit xs-0 s-0 m-1-2 l-1-2">
+        <img class="img-flex gutter" src="{{site.baseurl}}/images/main-banner.png" alt="">
       </div>
     </div>
   </div>
 </section>
+
 <section class="my-padding">
   <div class="wrapper gutter-1-2">
-    <p class="semibold tera navy home-intro my-padding-bottom push-0 gutter text-center">Take a look at some of my favourite projects and their case studies below.</p>
+    <h2 class="navy text-center push-1-2">Recent Work</h2>
+    <p class="mega navy home-intro my-padding-bottom push-0 gutter text-center">Take a look at my recent projects and their case studies!</p>
     {% for work in site.data.projects %}
     <div class="gutter push">
       {% include project-buttons.html data=work %}
     </div>
     {% endfor %}
-    <div class="grid gutter-1-2">
-      {% for work in site.data.projects-small %}
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push">
-        {% include small-project-buttons.html data=work %}
-      </div>
-      {% endfor %}
-    </div>
   </div>
 </section>
 
-<section class="my-padding section-navy">
+<!-- <section class="my-padding gray-background">
   <div class="gutter wrapper">
     <div class="grid grid-middle">
       <div class="unit xs-1 s-1 m-1-2 l-2-5 gutter-1-2">
-      <h3 class="push-1-2 white">Get in Touch</h3>
-      <p class="light white">I'm always interested in hearing about your project and how I can help. Please send me an email at <strong class="blue semibold">melanypvdesigns@gmail.com</strong> and we can chat! </p>
+      <h3 class="push-1-2 white regular">Get in Touch</h3>
+      <p class="third milli white">I'm always interested in hearing about your project and how I can help. Please send me an email at <strong class="blue semibold">melanypvdesigns@gmail.com</strong> and we can chat! </p>
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-3-5 gutter-1-2">
       <img class="img-flex" src="{{site.baseurl}}/images/freelance-image.png" alt="">
     </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="my-padding text-center wrapper gutter">
-      <h3 class="push-1-2 navy">There's More!</h3>
-      <p class="light my-max-length">Not every project becomes a case study! Take a look at a few of my favourite side projects. </p>
+<section class="my-padding-bottom text-center wrapper gutter">
+      <h3 class="push-1-2 regular">There's More!</h3>
+      <p class="my-max-length gray third milli">Not every project becomes a case study!<br>Take a look at a few of my favourite side projects. </p>
       <div class="">
-        <a class="milli enter-here-btn ib" href="{{site.baseurl}}/play">Take a Look!</a>
+        <a class="micro enter-here-btn ib" href="{{site.baseurl}}/play">Take a Look!</a>
       </div>
 </section>
 </main>

@@ -3,58 +3,87 @@ layout: caseStudy
 title: Mélany Pelletier-Vaillant · CANImmunize
 meta: A collection of various works completd for CANImmunize, a vaccination tracking app.
 ---
+{% assign data=site.data.projects[0] %}
+{% include main-navigation.html data=data %}
 
-<header class="canimmunize-background">
-  <div class="grid grid-middle wrapper pad-t-4 gutter-2">
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
-      <p class="push-0"><a class="no-decoration beige semibold milli" href="{{site.baseurl}}/index">Mélany Pelletier-Vaillant</a></p>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-3-4">
-      <nav>
-        <ul class="list-group-inline push-0 text-right">
-          <li class="push-r milli"><a class="beige" href="{{site.baseurl}}/project-big-life">Work</a></li>
-          <li class="milli"><a class="beige" href="{{site.baseurl}}/play">Play</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
-
-{% assign data=site.data.projects[3] %}
+{% assign data=site.data.projects[0] %}
 {% include case-study-header.html data=data %}
 
 <section>
   <div class="grid wrapper my-padding gutter-2 slide-element">
     <div class="unit s-1  m-2-3 l-2-3 pad-b-2">
       <div class="my-max-length">
-        <p class="project-intro-heading giga semibold navy">I have had the pleasure of working with the Ottawa mHealth Lab team creating various applications for healthcare. Our main project is CANImmunize, a digital vaccination record tool for Canadians.</p>
-        <p class="project-intro push-0 gray">The type of work is very varied: from application design to marketing materials to illustrations. Here is a collection of my favourite projects I have worked on for CANImmunize.</p>
+        <p class="giga regular navy">This page is dedicated to a collection of work during my time at The Ottawa Hospital mHealth Lab.  I worked closely with both the marketing and development teams to create branded materials and mobile applications for their main project CANImmunize, a digital vaccination record tool for Canadians.</p>
+        <p class="project-intro push-0 gray">The type of work presented is varied: from application design to marketing materials to illustrations. Here is a glimpse at some of the projects completed.</p>
       </div>
     </div>
     <div class="unit s-1 m-1-3 l-1-3 project-details">
-      <p class="push-0 detail-title semibold {{data.projectColor}}">CLIENT</p>
+      <p class="push-0 detail-title micro">CLIENT</p>
       <p class="navy">{{data.projectClient}}</p>
-      <p class="push-0 detail-title semibold {{data.projectColor}}">WEBSITE</p>
-      <a class="navy canimmunize-hover push ib" href="{{data.projectUrl}}">{{data.projectWebsite}}</a>
-      <p class="push-0 detail-title semibold {{data.projectColor}}">DATE</p>
+      <p class="push-0 detail-title micro">WEBSITE</p>
+      <a class="navy no-decoration canimm-hover push ib" href="{{data.projectUrl}}">{{data.projectWebsite}}</a>
+      <p class="push-0 detail-title micro">DATE</p>
       <p class="navy">{{data.projectDate}}</p>
     </div>
   </div>
 </section>
 
-<section class="canimmunize-background">
+<section class="">
   <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/all-devices-mockup.jpg" alt="">
+  <figcaption class="micro third gutter">An overview of the CANImmunize platform.</figcaption>
 </section>
 
-
 <section class="">
-  <div class="wrapper gutter-2 my-padding slide-element">
+  <div class="wrapper my-padding slide-element">
     <div class="my-max-length">
-      <h4 class="navy push-1-2">Iconography</h4>
-      <p class="navy light push-0">When I first arrived, CANImmunize's icons were sourced from all over the place so there was no consistency. I made it my mission to develop a branded icon look to use in all applications.</p>
+      <h4 class="push-1-2 navy tera regular">Marketing Materials</h4>
+      <p class="gray third milli push-0">Here's a look at some of my favourite marketing materials I had the opportunity to design.</p>
     </div>
-    <div class="">
-      <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/canimmunize-icons.png" alt="">
+  </div>
+</section>
+
+<section class="gray-background">
+  <div class="grid grid-middle gutter wrapper my-padding slide-element">
+    <div class="unit xs-1 s-1 m-1-3 l-1-4">
+      <h5 class="semibold">Ottawa Public Health Promotion</h5>
+      <p class="gray third milli">Posters created to promote the CANImmunize application at Ottawa Public Health locations. Multiple iterations of the design were created to target various groups.</p>
+    </div>
+    <div class="unit xs-1 s-1 m-2-3 l-3-4">
+      <img class="img-flex island-1-2 gray-drop-shadow" src="{{site.baseurl}}/images/canimmunize/oph-tv-slides-2-en.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex island-1-2 gray-drop-shadow" src="{{site.baseurl}}/images/canimmunize/oph-tv-slides-1-fr.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex island-1-2 gray-drop-shadow" src="{{site.baseurl}}/images/canimmunize/oph-tv-slides-3-fr.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="my-padding slide-element wrapper">
+  <div class="my-max-length">
+    <h5 class="semibold navy">Algonquin College Promotion</h5>
+    <p class="gray third milli">This campaign encouraged post-secondary students to track their vaccinations using the CANImmunize application. The post features a desk including elements students might find in their own space, as well as bright colours to target the audience effectively.</p>
+  </div>
+  <div class="grid grid-middle gutter">
+    <div class="unit xs-1 s-2-3 m-2-3 l-2-3">
+      <img class="img-flex island-1-2 gray-drop-shadow" src="{{site.baseurl}}/images/canimmunize/algonquin-residence-package-print.jpg" alt="">
+      <figcaption class="micro third gutter">Left: Posters and TV advertisements that were featured around the college. Right: The design repurposed for social media.</figcaption>
+    </div>
+    <div class="unit xs-1 s-1-3 m-1-3 l-1-3">
+      <img class="img-flex island-1-2 gray-drop-shadow" src="{{site.baseurl}}/images/canimmunize/canimmunize-instagram-mockup.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="my-padding slide-element canimmunize-background">
+  <div class="my-max-length">
+    <h5 class="semibold navy">Newsletter Ad</h5>
+    <p class="gray third milli">I was tasked to create a simple ad to be included in an email newsletter. It was important that the design stand out from the rest of the page.</p>
+  </div>
+  <div class="grid grid-middle gutter wrapper">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <img class="img-flex island-1-2 gray-drop-shadow" src="{{site.baseurl}}/images/canimmunize/canadian-pediatric-soceity-newsletter-en.jpg" alt="">
     </div>
   </div>
 </section>
@@ -62,14 +91,12 @@ meta: A collection of various works completd for CANImmunize, a vaccination trac
 <section class="gray-background">
   <div class="wrapper grid grid-middle my-padding slide-element">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 my-max-length">
-      <h4 class="push-1-2 navy">Promotional Video</h4>
-      <p class="light navy">One of the my favourite projects I got to work on was a promotional video for the CANImmunize Web Client launch. I drew all of the illustrations and my coworker animated everything together!</p>
-      <p class="light push-0 navy">You can view the final video <a class="canimmunize-hover navy" href="https://www.youtube.com/watch?v=8PK5W3rYGzo">here</a>!</p>
+      <h4 class="push-1-2 navy regular tera">Promotional Video & Infographic</h4>
+      <p class="gray third milli">The following pieces were created for the launch of the CANImmunize Web Application. It was important to explain how the application worked and share what the future held for the platform.</p>
+      <p class="gray third milli">It was important to establish a cohesive style for the materials. It was decided that the style from the icons I had created previously was to be used (view those icons <a class="canimm-hover no-decoration ib" href="#iconography">here</a>).</p>
+      <p class="third push-0 gray milli">You can view the final video <a class="canimm-hover navy ib no-decoration" href="https://www.youtube.com/watch?v=8PK5W3rYGzo">here</a>!</p>
     </div>
   </div>
-</section>
-
-<section class="gray-background">
   <div class="grid grid-middle slide-element">
     <div class="unit xs-1 s-1 m-1 l-1">
       <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/car-family.jpg" alt="">
@@ -82,30 +109,45 @@ meta: A collection of various works completd for CANImmunize, a vaccination trac
     </div>
     <div class="unit xs-1 s-1 m-1 l-1">
       <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/family.jpg" alt="">
+      <figcaption class="micro third gutter">Here are just a few of the illustrations created for the video!</figcaption>
     </div>
-    <div class="unit xs-1 s-1 m-1 l-1 my-padding slide-element">
-      <p class="navy light my-max-length text-center">We decided to create this one-page information sheet based on the video for people to take home.</p>
-      <img class="img-flex island gutter-2 w-60-q" src="{{site.baseurl}}/images/canimmunize/infographic-en.jpg" alt="">
+  </div>
+  <div class="wrapper slide-element my-padding">
+    <p class="gray third milli my-max-length text-center push-0 my-padding-bottom">The video was then designed into a one page infographic for people to take home at the end of the launch.</p>
+    <div class="grid grid-middle w-70-q">
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <img class="img-flex gray-drop-shadow island-1-2" src="{{site.baseurl}}/images/canimmunize/infographic-en.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3">
+        <img class="img-flex island-1-2" src="{{site.baseurl}}/images/canimmunize/infographic-social-2.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3">
+        <img class="img-flex island-1-2" src="{{site.baseurl}}/images/canimmunize/infographic-social-3.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3">
+        <img class="img-flex island-1-2" src="{{site.baseurl}}/images/canimmunize/infographic-social-4.jpg" alt="">
+      </div>
     </div>
   </div>
 </section>
 
-<section class="">
-  <div class="wrapper my-padding slide-element">
+<section id="iconography" class="">
+  <div class="wrapper gutter-2 my-padding-top slide-element">
     <div class="my-max-length">
-      <h4 class="push-1-2 navy">Marketing Materials</h4>
-      <p class="light navy">Here's a look at some of my favourite marketing materials I had the opportunity to design.</p>
+      <h4 class="navy regular tera push-1-2">Iconography</h4>
+      <p class="gray third milli push-0">When I first arrived, CANImmunize's icons were sourced from all over the place so there was no consistency. I made it my mission to develop a branded icon look to use in all applications.</p>
     </div>
-    <img class="img-flex island gutter-2" src="{{site.baseurl}}/images/canimmunize/algonquin-residence-package-print.jpg" alt="">
-    <img class="img-flex island gutter-2" src="{{site.baseurl}}/images/canimmunize/oph-tv-slides-2-en.jpg" alt="">
+    <div class="">
+      <img class="img-flex" src="{{site.baseurl}}/images/canimmunize/canimmunize-icons.png" alt="">
+    </div>
   </div>
 </section>
 
 <section>
   <a class="next-project-section no-decoration next-project-canimmunize ib" href="{{site.baseurl}}{{data.nextUrl}}">
   <div class="next-project-text pad-t-2 pad-b-2 text-center">
-      <p class="push-0 white light">View Next Project</p>
-      <p class="push-0 white tera">{{data.nextProject}}</p>
+      <p class="push-0 navy view-next micro">View Next Project</p>
+      <p class="push-0 navy tera">{{data.nextProject}}</p>
   </div>
   </a>
 </section>

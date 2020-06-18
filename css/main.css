@@ -1,19 +1,18 @@
 :root {
-  --font-primary: sofia-pro, sans-serif;
-  --font-secondary: oswald, sans-serif;
-  --color-navy: #2C2C51;
-  --color-blue: #55D8D1;
-  --color-yellow: #FFD833;
-  --color-beige: #F9F1E4;
-  --color-gray: #6E6E6E;
-  --color-light-gray: #FAFAFA;
-  --pbl-color: #64d0fa;
-  --quilt-color: #FC6159;
+  --font-primary: poynter-oldstyle-display, serif;
+  --font-secondary: termina, sans-serif;
+  --font-third: 'Spartan', sans-serif;
+  --color-primary: #537BFF;
+  --color-navy: #2C365A;
+  --color-gray: #383838;
+  --color-light-gray: #F7F7F7;
+  --pbl-color: #D8F3FE;
+  --quilt-color: #FAD7D6;
   --parkinsons-color: #3E4D59;
-  --canimmunize-color: #4a90e2;
-  --cangeo-color: #084975;
-  --cangeo-color-1: #35c8da;
-  --cm-color: #5d4482;
+  --canimmunize-color: #DDECF5;
+  --cangeo-color: #DEF2F5;
+  --cm-color: #F3EFFA;
+  --hds-color: #FDE9CE;
 }
 
 html {
@@ -49,13 +48,25 @@ html {
   padding-bottom: 5rem;
 }
 
+.my-padding-top {
+  padding-top: 5rem;
+}
+
 /* Typography */
+
+p {
+  line-height: 2;
+}
+
+h2 {
+  font-weight: normal;
+}
 
 .base-sans {
   font-family: var(--font-primary);
 }
 
-.serif {
+.sans-serif {
   font-family: var(--font-secondary);
 }
 
@@ -79,12 +90,21 @@ html {
   line-height: 1;
 }
 
-.title {
+.third {
+  font-family: var(--font-third);
+  line-height: 2.25;
+}
+
+.case-study-text {
+  text-transform: uppercase;
   letter-spacing: 3px;
 }
 
-
 /* Colours */
+
+.primary {
+  color: var(--color-primary);
+}
 
 .white {
   color: #ffffff;
@@ -125,7 +145,7 @@ html {
 /* Backgrounds */
 
 .section-gray {
-  background-color: #FAFAFA;
+  background-color: var(--color-light-gray);
 }
 
 .section-navy {
@@ -142,6 +162,8 @@ figcaption {
   font-style: italic;
   color: #808080;
 }
+
+/* Navigation */
 
 .navigation {
   padding: 1.3rem
@@ -182,6 +204,14 @@ nav a:hover {
   color: var(--color-dark-blue);
 }
 
+.main-navigation ul li a {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Buttons */
+
 .button {
   background-color: #e2e2e2;
   border: 1px solid #e2e2e2;
@@ -196,12 +226,52 @@ nav a:hover {
   background-color: var(--color-dark-blue);
 }
 
-.main-section {
-  height: 100vh;
+.enter-here-btn {
+  border: 1px solid var(--color-navy);
+  color: var(--color-navy);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  padding: 1.5em 2.5em 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #fff 50%, var(--color-navy) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .3s ease-in-out;
 }
 
-.hero-banner {
-  height: 100vh;
+.enter-here-btn:hover {
+  background-position: right bottom;
+  color: #fff;
+}
+
+/* Hero Banner */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.hero-section:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-light-gray);
+  border-radius: 0 0 50% 50%;
+  transform: scaleX(1.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .pattern-box {
@@ -245,23 +315,6 @@ nav a:hover {
   width: 100%;
 }
 
-.enter-here-btn {
-  background-color: var(--color-blue);
-  border: 1px solid var(--color-blue);
-  border-radius: 100px;
-  text-decoration: none;
-  font-weight: 500;
-  color: white;
-  padding: .5em 2.5em .60em;
-  transition: all .3s ease-in-out;
-}
-
-.enter-here-btn:hover {
-  background-color: var(--quilt-color);
-  border-color: var(--quilt-color);
-  transform: scale(1.05);
-}
-
 .banner-sm:before {
   content: "";
   position: absolute;
@@ -288,7 +341,7 @@ nav a:hover {
 }
 
 .home-intro {
-  max-width: 20em;
+  max-width: 30em;
   margin: 0 auto;
 }
 
@@ -298,8 +351,10 @@ nav a:hover {
 
 .social-media-link {
   text-decoration: none;
-  font-family: var(--font-primary);
-  color: #ACACAC;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--color-navy);
   transition: all .15s ease-in-out;
 }
 
@@ -325,8 +380,12 @@ nav a:hover {
   text-decoration: none;
 }
 
+.portfolio-title {
+  line-height: 1;
+}
+
 .arrow-icon {
-  fill: #fff;
+  fill: var(--color-navy);
   transition: all .2s ease-in-out;
 }
 
@@ -341,7 +400,28 @@ nav a:hover {
 /*---------- Case Study Template -----------*/
 
 .case-study-header {
-  height: 87vh;
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.case-study-header:before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 50% 50%;
+  transform: scaleX(1.5);
+}
+
+.case-study-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
 }
 
 .banner-title {
@@ -349,8 +429,14 @@ nav a:hover {
 }
 
 .banner-text {
-  line-height: 1.5;
+  line-height: 2;
   font-size: .9rem;
+}
+
+.tags {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .project-type {
@@ -360,7 +446,9 @@ nav a:hover {
 }
 
 .detail-title {
-  letter-spacing: 2px;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .details-list {
@@ -381,6 +469,12 @@ nav a:hover {
 
 .parkinsons-green-background {
   background-color: #9eb7b1;
+}
+
+.view-next {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .next-project-section {
@@ -415,20 +509,28 @@ nav a:hover {
 }
 
 .next-project-section:hover .next-project-text {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /*---------- Project Big Life -----------*/
 .pbl-color {
-  color: var(--color-blue);
+  color: var(--color-pbl-color);
 }
 
 .pbl-background {
-  background-color: var(--color-blue);
+  background-color: var(--pbl-color);
+}
+
+.pbl-dark-background {
+  background-color: #65D0FA;
+}
+
+.case-study-header-pbl:before {
+  background-color: var(--pbl-color);
 }
 
 .project-intro {
-  font-weight: 300;
+  font-family: var(--font-third);
 }
 
 .blue-drop-shadow {
@@ -452,12 +554,31 @@ nav a:hover {
 }
 
 .pbl-hover {
+  background:
+    linear-gradient(
+      to bottom, #65D0FA 0%, #65D0FA 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: var(--color-navy);
   transition: all .3s ease;
 }
 
 .pbl-hover:hover {
-  color: var(--color-blue);
-  transform: scale(1.03);
+  color: #fff;
+  background-size: 4px 50px;
+}
+
+.next-project-pbl {
+  background: linear-gradient(to right, var(--pbl-color) 50%, var(--cm-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-pbl:hover {
+  background-position: right bottom;
 }
 
 /*---------- QUILT -----------*/
@@ -469,6 +590,10 @@ nav a:hover {
 }
 
 .quilt-background {
+  background-color: var(--quilt-color);
+}
+
+.case-study-header-quilt:before {
   background-color: var(--quilt-color);
 }
 
@@ -486,8 +611,16 @@ nav a:hover {
 }
 
 .next-project-quilt {
-  background-color: var(--quilt-color);
+  background: linear-gradient(to right, var(--quilt-color) 50%, var(--cangeo-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
 }
+
+.next-project-quilt:hover {
+  background-position: right bottom;
+}
+
 
 /*---------- Parkinsons Network -----------*/
 
@@ -521,30 +654,91 @@ nav a:hover {
 }
 
 .canimmunize-background {
-  background-color: var(--color-navy);
+  background-color: var(--canimmunize-color);
+}
+
+.case-study-header-canimm:before {
+  background-color: var(--canimmunize-color);
 }
 
 .next-project-canimmunize {
-  background-color: var(--canimmunize-color);
+  background: linear-gradient(to right, var(--canimmunize-color) 50%, var(--hds-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
   transition: all .6s ease-in-out;
 }
 
 .next-project-canimmunize:hover {
-  background-color: var(--cangeo-color);
+  background-position: right bottom;
 }
 
 .canimmunize-card {
   background-color: var(--color-navy);
 }
 
-.canimmunize-hover {
+.canimm-hover {
+  background:
+    linear-gradient(
+      to bottom, #35527D 0%, #35527D 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #35527D;
   transition: all .3s ease;
 }
 
-.canimmunize-hover:hover {
-  color: var(--canimmunize-color);
-  transform: scale(1.03);
+.canimm-hover:hover {
+  color: #fff;
+  background-size: 4px 50px;
 }
+
+/*The High Desert Sonnets*/
+.hds-color {
+  color: var(--hds-color);
+}
+
+.hds-background {
+  background-color: var(--hds-color);
+}
+
+.hds-dark-background {
+  background-color: #3B2516;
+}
+
+.case-study-header-hds:before {
+  background-color: var(--hds-color);
+}
+
+.hds-view-btn {
+  border: 1px solid var(--hds-color);
+  color: var(--color-navy);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  padding: 1.5em 2.5em 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #fff 50%, var(--hds-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .3s ease-in-out;
+}
+
+.hds-view-btn:hover {
+  background-position: right bottom;
+}
+
+.next-project-hds {
+  background: linear-gradient(to right, var(--hds-color) 50%, var(--quilt-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-hds:hover {
+  background-position: right bottom;
+}
+
 
 /*Can Geo*/
 
@@ -556,21 +750,40 @@ nav a:hover {
   background-color: var(--cangeo-color);
 }
 
-.cangeo-background-1 {
-  background-color: var(--cangeo-color-1);
+.cangeo-dark-background {
+  background-color: #35527D;
 }
 
-.next-project-cangeo:hover {
-  background-color: var(--cm-color);
+.case-study-header-cangeo:before {
+  background-color: var(--cangeo-color);
 }
 
 .cangeo-hover {
+  background:
+    linear-gradient(
+      to bottom, #35527D 0%, #35527D 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #35527D;
   transition: all .3s ease;
 }
 
 .cangeo-hover:hover {
-  color: var(--cangeo-color);
-  transform: scale(1.03);
+  color: #fff;
+  background-size: 4px 50px;
+}
+
+.next-project-cangeo {
+  background: linear-gradient(to right, var(--cangeo-color) 50%, var(--pbl-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-cangeo:hover {
+  background-position: right bottom;
 }
 
 /*Creative Mornings*/
@@ -582,14 +795,43 @@ nav a:hover {
   background-color: var(--cm-color);
 }
 
+.cm-dark-background {
+  background-color: #7F62AD;
+}
+
+.case-study-header-cm:before {
+  background-color: var(--cm-color);
+}
+
 .cm-hover {
+  background:
+    linear-gradient(
+      to bottom, #7F62AD 0%, #7F62AD 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: var(--color-navy);
   transition: all .3s ease;
 }
 
 .cm-hover:hover {
-  color: var(--cm-color);
-  transform: scale(1.03);
+  color: #fff;
+  background-size: 4px 50px;
 }
+
+.next-project-cm {
+  background: linear-gradient(to right, var(--cm-color) 50%, var(--canimmunize-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-cm:hover {
+  background-position: right bottom;
+}
+
+
 /*Play*/
 
 .img-border {
@@ -647,8 +889,8 @@ nav a:hover {
     margin: 0 auto;
   }
 
-  .w-60-q {
-    width: 60%;
+  .w-70-q {
+    width: 70%;
     margin: 0 auto;
   }
 }

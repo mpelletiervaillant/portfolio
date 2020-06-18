@@ -4,39 +4,26 @@ title: Mélany Pelletier-Vaillant · Project Big Life
 meta: A look at the process of creating Project Big Life's illustration style.
 ---
 
-<header class="pbl-background">
-  <div class="grid grid-middle wrapper pad-t-4 gutter-2">
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
-      <p class="push-0"><a class="no-decoration beige semibold milli" href="{{site.baseurl}}/index">Mélany Pelletier-Vaillant</a></p>
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-3-4">
-      <nav>
-        <ul class="list-group-inline push-0 text-right">
-          <li class="push-r milli"><a class="beige" href="{{site.baseurl}}/project-big-life">Work</a></li>
-          <li class="milli"><a class="beige" href="{{site.baseurl}}/play">Play</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
+{% assign data=site.data.projects[4] %}
+{% include main-navigation.html data=data %}
 
-{% assign data=site.data.projects[0] %}
+{% assign data=site.data.projects[4] %}
 {% include case-study-header.html data=data %}
 
 <section>
   <div class="grid wrapper my-padding gutter-2 slide-element">
     <div class="unit s-1 m-2-3 l-2-3 pad-b-2">
       <div class="my-max-length">
-        <p class="project-intro-heading giga semibold navy">Project Big Life are algorithms that help predict your life expectancy, risk of disease, and diet quality.</p>
-        <p class="project-intro push-0 gray">I had the opportunity to develop PBL’s illustration style from scratch. But how do you deal with such a heavy subject matter? These calculators essentially inform you of when you are going to die, so it was very important that the information be presented in an approachable manner. We wanted to encourage  users to complete the assessments. So I got to creating!</p>
+        <p class="project-intro-heading giga regular navy">Project Big Life are algorithms that help predict your life expectancy, risk of disease, and diet quality.</p>
+        <p class="project-intro push-0 gray third milli">I had the opportunity to develop PBL’s illustration style from scratch. But how do you deal with such a heavy subject matter? These calculators essentially inform you of when you are going to die, so it was very important that the information be presented in an approachable manner. We wanted to encourage  users to complete the assessments. So I got to creating!</p>
       </div>
     </div>
     <div class="unit s-1 m-1-3 l-1-3 gutter">
-      <p class="push-0 detail-title semibold {{data.projectColor}}">CLIENT</p>
+      <p class="push-0 detail-title micro {{data.projectColor}}">CLIENT</p>
       <p class="navy">{{data.projectClient}}</p>
-      <p class="push-0 detail-title semibold {{data.projectColor}}">WEBSITE</p>
-      <a class="navy pbl-hover push ib" href="{{data.projectUrl}}">{{data.projectWebsite}}</a>
-      <p class="push-0 detail-title semibold {{data.projectColor}}">DATE</p>
+      <p class="push-0 detail-title micro {{data.projectColor}}">WEBSITE</p>
+      <a class="navy pbl-hover push ib no-decoration" href="{{data.projectUrl}}">{{data.projectWebsite}}</a>
+      <p class="push-0 detail-title micro {{data.projectColor}}">DATE</p>
       <p class="navy">{{data.projectDate}}</p>
     </div>
   </div>
@@ -48,8 +35,8 @@ meta: A look at the process of creating Project Big Life's illustration style.
       <img class="img-flex" src="{{site.baseurl}}/images/pbl/character-exploration.png" alt="">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
-      <h4 class="navy push-1-2 semibold">Exploration</h4>
-      <p class="gray light push-0">My first order of business was to establish a style. I wanted the look to be bubbly, fun and eye catching in a way distract people from the heaviness of these algorithms.</p>
+      <h4 class="navy push-1-2 regular">Exploration</h4>
+      <p class="gray third milli push-0">My first order of business was to establish a style. I wanted the look to be bubbly, fun and eye catching in a way distract people from the heaviness of these algorithms.</p>
     </div>
   </div>
 </section>
@@ -57,8 +44,8 @@ meta: A look at the process of creating Project Big Life's illustration style.
 <section class="my-padding">
   <div class="wrapper slide-element">
     <div class="my-wrapper gutter-2">
-      <h4 class="navy push-1-2">Colours</h4>
-      <p class="gray light">Since illustrations would be found in every aspect of the project, I established a vast, bright colour palette to make sure that we never ran out of options.</p>
+      <h4 class="navy regular push-1-2">Colours</h4>
+      <p class="gray third milli">Since illustrations would be found in every aspect of the project, I established a vast, bright colour palette to make sure that we never ran out of options.</p>
     </div>
     <div class="island gutter-2">
       <img class="img-flex" src="{{site.baseurl}}/images/pbl/colour-swatches.png" alt="">
@@ -69,8 +56,8 @@ meta: A look at the process of creating Project Big Life's illustration style.
 <section class="my-padding gray-background">
   <div class="wrapper slide-element grid grid-middle">
     <div class="unit s-1 m-1 l-1-3 my-wrapper gutter-2">
-      <h4 class="navy push-1-2">Icons</h4>
-      <p class="gray light">I decided to start off with the more simpler items to establish a cohesive style and explore the colours I had chosen. These are the icons developed that are used in the questionnaire.</p>
+      <h4 class="navy regular push-1-2">Icons</h4>
+      <p class="gray third milli">I decided to start off with the more simpler items to establish a cohesive style and explore the colours I had chosen. These are the icons developed that are used in the questionnaire.</p>
     </div>
     <div class="island gutter-2 unit s-1 m-1 l-2-3">
       <img class="img-flex" src="{{site.baseurl}}/images/pbl/pbl-icons.png" alt="">
@@ -78,14 +65,14 @@ meta: A look at the process of creating Project Big Life's illustration style.
   </div>
 </section>
 
-<section class="pbl-background my-padding">
+<section class="pbl-dark-background my-padding">
   <div class="grid grid-middle wrapper slide-element">
     <div class="unit xs-1 s-1 m-1-2 l-2-3 island gutter-2">
       <img class="img-flex blue-drop-shadow" src="{{site.baseurl}}/images/pbl/navigation.png" alt="">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-2">
-      <h4 class="white push-1-2">Navigation Icons</h4>
-      <p class="white push-0">I then moved on to the navigation icons which helped visualize the brand.</p>
+      <h4 class="navy regular push-1-2">Navigation Icons</h4>
+      <p class="navy third milli push-0">I then moved on to the navigation icons which helped visualize the brand.</p>
     </div>
   </div>
 </section>
@@ -94,8 +81,8 @@ meta: A look at the process of creating Project Big Life's illustration style.
   <div class="my-padding wrapper">
     <div class="grid grid-middle slide-element">
       <div class="unit xs-1 s-1 m-1-2 l-1-3 unit-push-m-1-2 unit-push-l-2-3 gutter-2">
-        <h4 class="navy push-1-2">Life Expectancy Splash</h4>
-        <p class="navy light">Each calculator has its own splash landing page where the illustration is the main focus. For the Life Expectancy calculator, we explored the idea of the journey of life and the ups and downs we face.</p>
+        <h4 class="navy regular push-1-2">Life Expectancy Splash</h4>
+        <p class="gray third milli">Each calculator has its own splash landing page where the illustration is the main focus. For the Life Expectancy calculator, we explored the idea of the journey of life and the ups and downs we face.</p>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-2-3 unit-pull-m-1-2 unit-pull-l-1-3 island gutter-2">
         <img class="img-flex gray-drop-shadow" src="{{site.baseurl}}/images/pbl/le-splash.png" alt="">
@@ -104,8 +91,8 @@ meta: A look at the process of creating Project Big Life's illustration style.
 
     <div class="grid grid-middle slide-element">
       <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-2">
-        <h4 class="navy push-1-2">RESPECT Splash</h4>
-        <p class="navy light">The RESPECT calculator calculates your risk of dying if you are in end of life. This is a primary example of making sure the illustration creates a positive experience.</p>
+        <h4 class="navy regular push-1-2">RESPECT Splash</h4>
+        <p class="gray third milli">The RESPECT calculator calculates your risk of dying if you are in end of life. This is a primary example of making sure the illustration creates a positive experience.</p>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-2-3 island gutter-2">
         <img class="img-flex gray-drop-shadow" src="{{site.baseurl}}/images/pbl/respect-splash.png" alt="">
@@ -114,11 +101,11 @@ meta: A look at the process of creating Project Big Life's illustration style.
   </div>
 </section>
 
-<section class="pbl-background pbl-bubbles">
+<section class="pbl-dark-background pbl-bubbles">
   <div class="wrapper my-padding slide-element gutter">
     <div class="text-center my-max-length">
-      <h4 class="white push-1-2">Questionnaire</h4>
-      <p class="white">The actual survey itself was looking pretty bland - we decided to spruce it up by adding some images to guide the user along the way.</p>
+      <h4 class="white regular push-1-2">Questionnaire</h4>
+      <p class="white third milli">The actual survey itself was looking pretty bland - we decided to spruce it up by adding some images to guide the user along the way.</p>
     </div>
     <div class="">
       <img class="img-flex" src="{{site.baseurl}}/images/pbl/questionnaire-layout.png" alt="">
@@ -145,7 +132,7 @@ meta: A look at the process of creating Project Big Life's illustration style.
 
 <section class="my-padding-bottom">
   <div class="my-max-length gutter-2 my-padding-bottom">
-    <p class="gray push-0">The PBL team was really loving where these illustrations were heading. They wanted to incorporate more of them in all aspects of the project so we decided to add colour to the newsletter with branded illustrations.</p>
+    <p class="gray third milli push-0">The PBL team was really loving where these illustrations were heading. They wanted to incorporate more of them in all aspects of the project so we decided to add colour to the newsletter with branded illustrations.</p>
   </div>
   <div class="wrapper slide-element grid grid-middle">
     <div class="unit xs-1 s-1-2 m-1-3 l-1-3 gutter-2 island">
@@ -162,18 +149,18 @@ meta: A look at the process of creating Project Big Life's illustration style.
 
 <section>
   <div class="my-max-length my-padding-bottom gutter-2">
-    <p class="gray push">I remember when I first found out about this project, and the first thing I thought was <i>Wow! I'm so happy I don't have to create all these illustrations, I could never do it</i>. It looked so daunting to me and nearly impossible.</p>
-    <p class="gray push">But then they asked me to do it. I got overwhelmed, but then just seperated the project into smaller tasks and didn't start with the big stuff. Yeah, I deleted and restarted and probably skipped a few steps, but I did it and it became my favourite project I've done.</p>
-    <p class="gray push-0"> Make sure to find out your life expectancy at <a class="no-decoration pbl-color pbl-hover ib" href="https://www.projectbiglife.ca">www.projectbiglife.ca</a></p>
+    <p class="gray third milli push">I remember when I first found out about this project, and the first thing I thought was <i>Wow! I'm so happy I don't have to create all these illustrations, I could never do it</i>. It looked so daunting to me and nearly impossible.</p>
+    <p class="gray third milli push">But then they asked me to do it. I got overwhelmed, but then just seperated the project into smaller tasks and didn't start with the big stuff. Yeah, I deleted and restarted and probably skipped a few steps, but I did it and it became my favourite project I've done.</p>
+    <p class="gray third milli push-0"> Make sure to find out your life expectancy at <a class="no-decoration pbl-color pbl-hover ib" href="https://www.projectbiglife.ca">www.projectbiglife.ca</a></p>
   </div>
 </section>
 
 
 <section>
-  <a class="next-project-section no-decoration pbl-background next-project-pbl ib" href="{{site.baseurl}}/quilt">
+  <a class="next-project-section no-decoration pbl-background next-project-pbl ib" href="{{site.baseurl}}{{data.nextUrl}}">
   <div class="next-project-text pad-t-2 pad-b-2 text-center">
-      <p class="push-0 white light">View Next Project</p>
-      <p class="push-0 white tera">QUILT</p>
+      <p class="push-0 navy view-next micro">View Next Project</p>
+      <p class="push-0 navy tera">{{data.nextProject}}</p>
   </div>
     </a>
 </section>
