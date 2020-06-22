@@ -2,7 +2,7 @@
   projectHeader: case-study-header-canimm
   projectLink: /canimmunize
   projectTitle: CANImmunize
-  projectShortDescription: Marketing materials and user interface and experience design for a digital vaccination record tool for Canadians.
+  projectShortDescription: Marketing materials and UI/UX design for a digital vaccination record tool for Canadians.
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
@@ -26,7 +26,7 @@
   projectHeader: case-study-header-hds
   projectLink: /high-desert-sonnets
   projectTitle: The High Desert Sonnets
-  projectShortDescription: Event Branding and web design for a night of poetry at the National Arts Centre.
+  projectShortDescription: Event branding and web design for a night of poetry at the National Arts Centre.
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
@@ -52,7 +52,7 @@
   projectHeader: case-study-header-quilt
   projectLink: /quilt
   projectTitle: QUILT
-  projectShortDescription: Branding for QUality for Individuals who require Long-Term support.
+  projectShortDescription: Quality for Individuals who require Long-Term support branding.
   headerColor: quilt-header
   previousUrl: /project-big-life
   previousProject: Project Big Life
@@ -104,7 +104,7 @@
   projectHeader: case-study-header-pbl
   projectLink: /project-big-life
   projectTitle: Project Big Life
-  projectShortDescription: Illustrations for online health calculators.
+  projectShortDescription: Illustrations for Big Data online health calculators.
   headerColor: pbl-header
   previousUrl: /canimmunize
   previousProject: CANImmunize
