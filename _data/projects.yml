@@ -176,5 +176,5 @@
   tags: Web Design | UI UX
   textColor: navy
   tagsColor: navy
-  # pushClass: m-2-3 unit-push-m-1-3
-  # pullClass: m-1-3 unit-pull-m-2-3
+  pushClass: m-1-2 unit-push-m-1-2
+  pullClass: m-1-2 unit-pull-m-1-2
