@@ -8,7 +8,7 @@
   --color-light-gray: #F7F7F7;
   --pbl-color: #D8F3FE;
   --quilt-color: #FAD7D6;
-  --parkinsons-color: #3E4D59;
+  --parkinsons-color: #E4F5EF;
   --canimmunize-color: #DDECF5;
   --cangeo-color: #DEF2F5;
   --cm-color: #F3EFFA;
@@ -140,6 +140,10 @@ h2 {
 
 .cm-color {
   color: var(--cm-color);
+}
+
+.parkinsons-color {
+  color: var(--parkinsons-color);
 }
 
 /* Backgrounds */
@@ -821,7 +825,7 @@ nav a:hover {
 }
 
 .next-project-cm {
-  background: linear-gradient(to right, var(--cm-color) 50%, var(--canimmunize-color) 50%);
+  background: linear-gradient(to right, var(--cm-color) 50%, var(--parkinsons-color) 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .6s ease-in-out;
@@ -830,6 +834,26 @@ nav a:hover {
 .next-project-cm:hover {
   background-position: right bottom;
 }
+
+/*Parkinsons Network*/
+
+.parkinsons-background {
+  background-color: var(--parkinsons-color);
+}
+
+.case-study-header-parkinsons:before {
+  background-color: var(--parkinsons-color);
+}
+
+.next-project-parkinsons {
+  background: linear-gradient(to right, var(--parkinsons-color) 50%, var(--canimmunize-color) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-parkinsons:hover {
+  background-position: right bottom;
 
 
 /*Play*/
