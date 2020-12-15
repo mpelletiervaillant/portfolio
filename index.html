@@ -15,10 +15,10 @@ layout: main
         </ul>  
       </nav>
     </div>
-    <div class="grid grid-middle gutter my-padding-bottom">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <h2 class="push-1-2 zetta navy this">Mélany<br>Pelletier-Vaillant</h2>
-        <h3 class="navy giga regular push-2">Graphic Designer & Illustrator</h3>
+    <div class="gutter my-padding-bottom">
+      <div class="">
+        <h2 class="push-1-2 giga light-gray semibold">Hi, I'm Mélany!</h2>
+        <h3 class="navy zetta semibold push-2">Graphic Designer & Illustrator based in Ottawa.</h3>
         <div class="">
           <ul class="list-group-inline push-0">
             <li><a class="micro navy banner-sm first-banner-sm" href="https://www.dribbble.com/melanypelletier">Dribbble</a></li>
@@ -27,17 +27,12 @@ layout: main
           </ul>
         </div>
       </div>
-      <div class="unit xs-0 s-0 m-1-2 l-1-2">
-        <img class="img-flex gutter" src="{{site.baseurl}}/images/main-banner.png" alt="">
-      </div>
     </div>
   </div>
 </section>
 
-<section class="my-padding">
+<section class="my-padding-btm">
   <div class="wrapper gutter-1-2">
-    <h2 class="navy text-center push-1-2">Recent Work</h2>
-    <p class="mega navy home-intro my-padding-bottom push-0 gutter text-center">Take a look at my recent projects and their case studies!</p>
     {% for work in site.data.projects %}
     <div class="gutter push">
       {% include project-buttons.html data=work %}
@@ -60,7 +55,7 @@ layout: main
   </div>
 </section> -->
 
-<section class="my-padding-bottom text-center wrapper gutter">
+<section class="my-padding text-center wrapper gutter">
       <h3 class="push-1-2 regular">There's More!</h3>
       <p class="my-max-length gray third milli">Not every project becomes a case study!<br>Take a look at a few of my favourite side projects. </p>
       <div class="">

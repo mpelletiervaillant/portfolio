@@ -1,27 +1,3 @@
-- projectBackground: canimmunize-background
-  projectHeader: case-study-header-canimm
-  projectLink: /canimmunize
-  projectTitle: CANImmunize
-  projectShortDescription: Marketing materials and UI/UX design for a digital vaccination record tool for Canadians.
-  headerColor: canimm-header
-  previousUrl: /parkinsons-network
-  previousProject: Parkinson's Network
-  nextUrl: /high-desert-sonnets
-  nextProject: The High Desert Sonnets
-  projectType: Web Design
-  projectDate: April 2018 - May 2019
-  projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
-  projectUrl: https://www.canimmunize.ca/
-  projectWebsite: www.canimmunize.ca
-  projectColor: canimmunize-color
-  projectClient: CANImmunize
-  projectBanner: /canimmunize/canimmunize-study-banner.png
-  bannerColor: canimmunize-background
-  projectImage: /canimmunize/canimm-home-banner.png
-  tags: MARKETING MATERIALS | UI UX
-  pushClass: m-1-2 unit-push-m-1-2
-  pullClass: m-1-2 unit-pull-m-1-2
-
 - projectBackground: hds-background
   projectHeader: case-study-header-hds
   projectLink: /high-desert-sonnets
@@ -30,8 +6,8 @@
   headerColor: canimm-header
   previousUrl: /parkinsons-network
   previousProject: Parkinson's Network
-  nextUrl: /quilt
-  nextProject: QUILT
+  nextUrl: /canimmunize
+  nextProject: CANImmunize
   projectType: Web Design
   projectDate: November 2019 - February 2020
   projectLongDescription: I created various event branding materials and the matching website design for The High Desert Sonnets.
@@ -47,6 +23,31 @@
   tagsColor: beige
   # pushClass: m-2-3 unit-push-m-1-3
   # pullClass: m-1-3 unit-pull-m-2-3
+
+- projectBackground: canimmunize-background
+  projectHeader: case-study-header-canimm
+  projectLink: /canimmunize
+  projectTitle: CANImmunize
+  projectShortDescription: Marketing materials and UI/UX design for a digital vaccination record tool for Canadians.
+  headerColor: canimm-header
+  previousUrl: /parkinsons-network
+  previousProject: Parkinson's Network
+  nextUrl: /quilt
+  nextProject: Quilt
+  projectType: Web Design
+  projectDate: April 2018 - May 2019
+  projectLongDescription: CANImmunize is a mobile application that allows Canadians to track their vaccinations.
+  projectUrl: https://www.canimmunize.ca/
+  projectWebsite: www.canimmunize.ca
+  projectColor: canimmunize-color
+  projectClient: CANImmunize
+  projectBanner: /canimmunize/canimmunize-study-banner.png
+  bannerColor: canimmunize-background
+  projectImage: /canimmunize/canimm-home-banner.png
+  tags: MARKETING MATERIALS | UI UX
+  pushClass: m-1-2 unit-push-m-1-2
+  pullClass: m-1-2 unit-pull-m-1-2
+
 
 - projectBackground: quilt-background
   projectHeader: case-study-header-quilt
@@ -71,8 +72,8 @@
   tags: Branding
   textColor: beige
   tagsColor: navy
-  pushClass: m-1-2 unit-push-m-1-2
-  pullClass: m-1-2 unit-pull-m-1-2
+  # pushClass: m-1-2 unit-push-m-1-2
+  # pullClass: m-1-2 unit-pull-m-1-2
 
 - projectBackground: cangeo-background
   projectHeader: case-study-header-cangeo
@@ -83,8 +84,8 @@
   headerColor: cangeo-header
   previousUrl: /canimmunize
   previousProject: CANImmunize
-  nextUrl: /project-big-life
-  nextProject: Project Big Life
+  nextUrl: /videos
+  nextProject: Video Illustrations
   projectType: Illustration
   projectDate: May 2019 - March 2020
   projectLongDescription: I developed a series of illustrations for infographics and animated videos to raise awareness about plastics in Canada.
@@ -97,33 +98,60 @@
   tags: Editorial | Illustration
   textColor: beige
   tagsColor: beige
-  # pushClass: m-2-3 unit-push-m-1-3
-  # pullClass: m-1-3 unit-pull-m-2-3
+  pushClass: m-2-3 unit-push-m-1-3
+  pullClass: m-1-3 unit-pull-m-2-3
 
-- projectBackground: pbl-background
-  projectHeader: case-study-header-pbl
-  projectLink: /project-big-life
-  projectTitle: Project Big Life
-  projectShortDescription: Illustrations for Big Data online health calculators.
-  headerColor: pbl-header
-  previousUrl: /canimmunize
-  previousProject: CANImmunize
-  nextUrl: /creative-mornings-ottawa
-  nextProject: Creative Mornings Ottawa
+# - projectBackground: pbl-background
+#   projectHeader: case-study-header-pbl
+#   projectLink: /project-big-life
+#   projectTitle: Project Big Life
+#   projectShortDescription: Illustrations for Big Data online health calculators.
+#   headerColor: pbl-header
+#   previousUrl: /canimmunize
+#   previousProject: CANImmunize
+#   nextUrl: /creative-mornings-ottawa
+#   nextProject: Creative Mornings Ottawa
+#   projectType: Illustration
+#   projectDate: July 2018 - March 2019
+#   projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes.
+#   projectUrl: https://www.projectbiglife.ca
+#   projectWebsite: www.projectbiglife.ca
+#   projectColor: pbl-color
+#   projectClient: Project Big Life
+#   projectBanner: /pbl/pbl-study-banner.png
+#   projectImage: /pbl/pbl-home-banner.png
+#   tags: Illustration | UI UX
+#   textColor: beige
+#   tagsColor: navy
+#   pushClass: m-1-2 unit-push-m-1-2
+#   pullClass: m-1-2 unit-pull-m-1-2
+
+- projectBackground: parkinsons-background
+  projectHeader: case-study-header-parkinsons
+  projectLink: /videos
+  projectTitle: Video Illustrations
+  projectShortDescription: Various illustrations for video marketing projects.
+  headerColor: parkinsons-header
+  previousUrl: /quilt
+  previousProject: QUILT
+  nextUrl: /canimmunize
+  nextProject: CANImmunize
   projectType: Illustration
-  projectDate: July 2018 - March 2019
-  projectLongDescription: I developed illustrations for the Project Big Life website. Ranging from icons, small graphics and large scenes.
-  projectUrl: https://www.projectbiglife.ca
-  projectWebsite: www.projectbiglife.ca
-  projectColor: pbl-color
-  projectClient: Project Big Life
-  projectBanner: /pbl/pbl-study-banner.png
-  projectImage: /pbl/pbl-home-banner.png
-  tags: Illustration | UI UX
-  textColor: beige
+  projectDate: May 2019 - Present
+  projectLongDescription: Here is a look at many illustrated frames I have completed for various video marketing projects.
+  projectUrl:
+  projectWebsite:
+  projectBanner: video/venison-main.jpg
+  projectColor: parkinsons-color
+  projectClient: 
+  projectBanner: /video/venison-main.jpg
+  bannerColor: parkinsons-background
+  projectImage: /videos/venison-main.png
+  tags: Illustration
+  textColor: navy
   tagsColor: navy
-  pushClass: m-1-2 unit-push-m-1-2
-  pullClass: m-1-2 unit-pull-m-1-2
+  # pushClass: m-1-2 unit-push-m-1-2
+  # pullClass: m-1-2 unit-pull-m-1-2
 
 - projectBackground: cm-background
   projectHeader: case-study-header-cm
@@ -133,8 +161,8 @@
   headerColor: cm-header
   previousUrl: /canadian-geographic
   previousProject: Canadian Geographic 10000 Changes
-  nextUrl: /parkinsons-network
-  nextProject: Parkinsons Network
+  nextUrl: /high-desert-sonnets
+  nextProject: The High Desert Sonnets
   projectType: Lettering
   projectDate: April 2019
   projectLongDescription: Creative Mornings Ottawa asked me to create a simple design to promote their slogan <i>Ottawa is Creative</i>.
@@ -148,33 +176,33 @@
   tags: Lettering
   textColor: beige
   tagsColor: beige
-  # pushClass: m-2-3
-  # pullClass: m-1-3
-
-
-- projectBackground: parkinsons-background
-  projectHeader: case-study-header-parkinsons
-  projectLink: /parkinsons-network
-  projectTitle: Parkinson's Network
-  projectShortDescription: A digital platform for Parkinsons patients and physicians.
-  headerColor: parkinsons-header
-  previousUrl: /quilt
-  previousProject: QUILT
-  nextUrl: /canimmunize
-  nextProject: CANImmunize
-  projectType: Web Design
-  projectDate: July 2018
-  projectLongDescription: Parkinson's Network is a side project where I designed a website and application Parkinson's patients and physicians.
-  projectUrl:
-  projectWebsite:
-  projectBanner: /parkinsons-header-banner
-  projectColor: parkinsons-color
-  projectClient: Personal Project
-  projectBanner: /parkinsons/parkinsons-banner.png
-  bannerColor: parkinsons-background
-  projectImage: /parkinsons/parkinsons-banner.png
-  tags: Web Design | UI UX
-  textColor: navy
-  tagsColor: navy
   pushClass: m-1-2 unit-push-m-1-2
   pullClass: m-1-2 unit-pull-m-1-2
+
+
+# - projectBackground: parkinsons-background
+#   projectHeader: case-study-header-parkinsons
+#   projectLink: /parkinsons-network
+#   projectTitle: Parkinson's Network
+#   projectShortDescription: A digital platform for Parkinsons patients and physicians.
+#   headerColor: parkinsons-header
+#   previousUrl: /quilt
+#   previousProject: QUILT
+#   nextUrl: /canimmunize
+#   nextProject: CANImmunize
+#   projectType: Web Design
+#   projectDate: July 2018
+#   projectLongDescription: Parkinson's Network is a side project where I designed a website and application Parkinson's patients and physicians.
+#   projectUrl:
+#   projectWebsite:
+#   projectBanner: /parkinsons-header-banner
+#   projectColor: parkinsons-color
+#   projectClient: Personal Project
+#   projectBanner: /parkinsons/parkinsons-banner.png
+#   bannerColor: parkinsons-background
+#   projectImage: /parkinsons/parkinsons-banner.png
+#   tags: Web Design | UI UX
+#   textColor: navy
+#   tagsColor: navy
+#   pushClass: m-1-2 unit-push-m-1-2
+#   pullClass: m-1-2 unit-pull-m-1-2
