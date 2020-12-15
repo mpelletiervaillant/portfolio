@@ -133,8 +133,8 @@
   headerColor: cm-header
   previousUrl: /canadian-geographic
   previousProject: Canadian Geographic 10000 Changes
-  nextUrl: /parkinsons-network
-  nextProject: Parkinsons Network
+  nextUrl: /canimmunize
+  nextProject: CANImmunize
   projectType: Lettering
   projectDate: April 2019
   projectLongDescription: Creative Mornings Ottawa asked me to create a simple design to promote their slogan <i>Ottawa is Creative</i>.
@@ -152,29 +152,29 @@
   # pullClass: m-1-3
 
 
-- projectBackground: parkinsons-background
-  projectHeader: case-study-header-parkinsons
-  projectLink: /parkinsons-network
-  projectTitle: Parkinson's Network
-  projectShortDescription: A digital platform for Parkinsons patients and physicians.
-  headerColor: parkinsons-header
-  previousUrl: /quilt
-  previousProject: QUILT
-  nextUrl: /canimmunize
-  nextProject: CANImmunize
-  projectType: Web Design
-  projectDate: July 2018
-  projectLongDescription: Parkinson's Network is a side project where I designed a website and application Parkinson's patients and physicians.
-  projectUrl:
-  projectWebsite:
-  projectBanner: /parkinsons-header-banner
-  projectColor: parkinsons-color
-  projectClient: Personal Project
-  projectBanner: /parkinsons/parkinsons-banner.png
-  bannerColor: parkinsons-background
-  projectImage: /parkinsons/parkinsons-banner.png
-  tags: Web Design | UI UX
-  textColor: navy
-  tagsColor: navy
-  pushClass: m-1-2 unit-push-m-1-2
-  pullClass: m-1-2 unit-pull-m-1-2
+# - projectBackground: parkinsons-background
+#   projectHeader: case-study-header-parkinsons
+#   projectLink: /parkinsons-network
+#   projectTitle: Parkinson's Network
+#   projectShortDescription: A digital platform for Parkinsons patients and physicians.
+#   headerColor: parkinsons-header
+#   previousUrl: /quilt
+#   previousProject: QUILT
+#   nextUrl: /canimmunize
+#   nextProject: CANImmunize
+#   projectType: Web Design
+#   projectDate: July 2018
+#   projectLongDescription: Parkinson's Network is a side project where I designed a website and application Parkinson's patients and physicians.
+#   projectUrl:
+#   projectWebsite:
+#   projectBanner: /parkinsons-header-banner
+#   projectColor: parkinsons-color
+#   projectClient: Personal Project
+#   projectBanner: /parkinsons/parkinsons-banner.png
+#   bannerColor: parkinsons-background
+#   projectImage: /parkinsons/parkinsons-banner.png
+#   tags: Web Design | UI UX
+#   textColor: navy
+#   tagsColor: navy
+#   pushClass: m-1-2 unit-push-m-1-2
+#   pullClass: m-1-2 unit-pull-m-1-2
